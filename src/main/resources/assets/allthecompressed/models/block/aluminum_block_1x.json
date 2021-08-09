@@ -17,6 +17,7 @@
       "textures": {
         "all": "allthecompressed:layers/layer_1"
       }
-    }
+    },
+    "textures": { "particle": "block/andesite" }
   }
 }
