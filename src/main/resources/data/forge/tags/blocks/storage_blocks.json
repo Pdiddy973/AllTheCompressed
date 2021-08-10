@@ -49,6 +49,16 @@
     "allthecompressed:osmium_block_6x",
     "allthecompressed:osmium_block_7x",
     "allthecompressed:osmium_block_8x",
-    "allthecompressed:osmium_block_9x"
+    "allthecompressed:osmium_block_9x",
+
+    "allthecompressed:platinum_block_1x",
+    "allthecompressed:platinum_block_2x",
+    "allthecompressed:platinum_block_3x",
+    "allthecompressed:platinum_block_4x",
+    "allthecompressed:platinum_block_5x",
+    "allthecompressed:platinum_block_6x",
+    "allthecompressed:platinum_block_7x",
+    "allthecompressed:platinum_block_8x",
+    "allthecompressed:platinum_block_9x"
   ]
 }
