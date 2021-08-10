@@ -79,7 +79,7 @@ public class block {
     public static final RegistryObject<Block> PLATINUM_BLOCK_7X = BLOCKS.register("platinum_block_7x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> PLATINUM_BLOCK_8X = BLOCKS.register("platinum_block_8x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> PLATINUM_BLOCK_9X = BLOCKS.register("platinum_block_9x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
-    
+
     //Silver Blocks
     public static final RegistryObject<Block> SILVER_BLOCK_1X = BLOCKS.register("silver_block_1x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> SILVER_BLOCK_2X = BLOCKS.register("silver_block_2x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
@@ -90,7 +90,7 @@ public class block {
     public static final RegistryObject<Block> SILVER_BLOCK_7X = BLOCKS.register("silver_block_7x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> SILVER_BLOCK_8X = BLOCKS.register("silver_block_8x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> SILVER_BLOCK_9X = BLOCKS.register("silver_block_9x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
-    
+
     //Tin Blocks
     public static final RegistryObject<Block> TIN_BLOCK_1X = BLOCKS.register("tin_block_1x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TIN_BLOCK_2X = BLOCKS.register("tin_block_2x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
@@ -101,5 +101,16 @@ public class block {
     public static final RegistryObject<Block> TIN_BLOCK_7X = BLOCKS.register("tin_block_7x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TIN_BLOCK_8X = BLOCKS.register("tin_block_8x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TIN_BLOCK_9X = BLOCKS.register("tin_block_9x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+
+    //Uranium Blocks
+    public static final RegistryObject<Block> URANIUM_BLOCK_1X = BLOCKS.register("uranium_block_1x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_2X = BLOCKS.register("uranium_block_2x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_3X = BLOCKS.register("uranium_block_3x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_4X = BLOCKS.register("uranium_block_4x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_5X = BLOCKS.register("uranium_block_5x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_6X = BLOCKS.register("uranium_block_6x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_7X = BLOCKS.register("uranium_block_7x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_8X = BLOCKS.register("uranium_block_8x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> URANIUM_BLOCK_9X = BLOCKS.register("uranium_block_9x", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
 }
