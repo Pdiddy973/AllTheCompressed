@@ -15,11 +15,11 @@
     "translucent": {
       "parent": "block/cube_all",
       "textures": {
-        "all": "allthecompressed:layer/layer_1"
+        "all": "allthecompressed:layer/layer_4"
       }
+    },
+    "textures": {
+      "particle": "block/iron_block"
     }
-  },
-  "textures": {
-    "particle": "block/iron_block"
   }
 }
