@@ -17,9 +17,9 @@
       "textures": {
         "all": "allthecompressed:layer/layer_5"
       }
-    },
-    "textures": {
-      "particle": "block/iron_block"
     }
+  },
+  "textures": {
+    "particle": "block/iron_block"
   }
 }
