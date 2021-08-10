@@ -1,4 +1,5 @@
 # AllTheCompressed
+Note - this Mod is primarily made for the [ATM Mod Packs](https://github.com/AllTheMods)
 
 Blocks Added:
  - Aluminum ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/aluminum_block.png)
