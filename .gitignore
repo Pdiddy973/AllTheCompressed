@@ -21,9 +21,9 @@ build
 eclipse
 run
 renamefolder
+toadd.txt
 
 # Files from Forge MDK
 forge*changelog.txt
 *.log
 src/generated/resources/.cache/*
-toadd.txt
