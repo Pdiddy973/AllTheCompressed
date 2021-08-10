@@ -1,4 +1,8 @@
 # AllTheCompressed
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/allthecompressed)
+
+adds 1-9x compressed versions of blocks
+
 Note - this Mod is primarily made for the [ATM Mod Packs](https://github.com/AllTheMods)
 
 Blocks Added:
