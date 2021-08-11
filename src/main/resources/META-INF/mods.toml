@@ -46,3 +46,9 @@ a good description
     versionRange="[1.3.6,)"
     ordering="BEFORE"
     side="BOTH"
+[[dependencies.allthecompressed]]
+    modId="allthemodium"
+    mandatory=true
+    versionRange="[1.5.10,)"
+    ordering="BEFORE"
+    side="BOTH"
