@@ -15,7 +15,7 @@
     "translucent": {
       "parent": "block/cube_all",
       "textures": {
-        "all": "allthecompressed:layer/layer_9"
+        "all": "allthecompressed:block/layer_9"
       }
     }
   },

@@ -5,7 +5,7 @@
     "solid": {
       "parent": "block/cube_all",
       "textures": {
-        "all": "allthecompressed:block/silver_block"
+        "all": "alltheores:block/silver_block"
       },
       "transform": {
         "origin": "center",
@@ -15,7 +15,7 @@
     "translucent": {
       "parent": "block/cube_all",
       "textures": {
-        "all": "allthecompressed:layer/layer_4"
+        "all": "allthecompressed:block/layer_4"
       }
     }
   },
