@@ -8,7 +8,7 @@ Note - this Mod is primarily made for the [ATM Mod Packs](https://github.com/All
 Blocks Added:
 
 ATO
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/aluminum_block.png) Aluminum
+ - ![](https://github.com/AllTheMods/AllTheOres/blob/main/src/main/resources/assets/alltheores/textures/block/aluminum_block.png) Aluminum
  - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/copper_block.png) Copper
  - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/lead_block.png) Lead
  - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/nickel_block.png) Nickel
