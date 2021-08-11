@@ -7,17 +7,23 @@ Note - this Mod is primarily made for the [ATM Mod Packs](https://github.com/All
 
 Blocks Added:
 
+ATM
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/allthemodium_block.png) AllTheModium
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/vibranium_block.png) Vibranium
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/unobtainium_block.png) Unobtainum
+
 ATO
- - ![](https://github.com/AllTheMods/AllTheOres/blob/main/src/main/resources/assets/alltheores/textures/block/aluminum_block.png) Aluminum
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/copper_block.png) Copper
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/lead_block.png) Lead
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/nickel_block.png) Nickel
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/osmium_block.png) Osmium
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/platinum_block.png) Platinum
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/silver_block.png) Silver
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/tin_block.png) Tin
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/uranium_block.png) Uranium
- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/src/main/resources/assets/allthecompressed/textures/block/zinc_block.png) Zinc
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/aluminum_block.png) Aluminum
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/copper_block.png) Copper
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/lead_block.png) Lead
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/nickel_block.png) Nickel
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/osmium_block.png) Osmium
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/platinum_block.png) Platinum
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/silver_block.png) Silver
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/tin_block.png) Tin
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/uranium_block.png) Uranium
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/zinc_block.png) Zinc
 
 Vanilla
-
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/sand.png) Sand
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/glass.png) Glass
