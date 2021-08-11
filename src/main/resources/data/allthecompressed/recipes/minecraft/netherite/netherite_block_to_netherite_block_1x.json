@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:netherite_block_1x",
+    "count": 1
+  }
+}
