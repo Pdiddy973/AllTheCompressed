@@ -27,3 +27,9 @@ ATO
 Vanilla
  - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/sand.png) Sand
  - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/glass.png) Glass
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/coal_block.png) Coal
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/iron_block.png) Iron
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/gold_block.png) Gold
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/diamond_block.png) Diamond
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/emerald_block.png) Emerald
+ - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/netherite_block.png) Netherite
