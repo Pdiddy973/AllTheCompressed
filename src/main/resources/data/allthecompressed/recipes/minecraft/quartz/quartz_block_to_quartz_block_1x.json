@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:quartz_block_1x",
+    "count": 1
+  }
+}

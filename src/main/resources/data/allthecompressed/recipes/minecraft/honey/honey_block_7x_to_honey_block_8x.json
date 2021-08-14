@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:honey_block_7x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:honey_block_8x",
+    "count": 1
+  }
+}
