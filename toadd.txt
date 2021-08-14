@@ -1,0 +1,25 @@
+//Minecraft
+Clay
+Dirt
+Endstone
+Gravel
+Netherrack
+Obsidian
+Red Sand
+Snow
+Soul Sand
+Glowstone
+
+
+//Thermal
+apatite
+cinnabar
+niter
+sulfur
+bronze
+electrum
+invar
+constantan
+signalum
+lumium
+enderium
