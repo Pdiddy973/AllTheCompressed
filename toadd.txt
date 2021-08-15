@@ -1,16 +1,12 @@
 //Minecraft
-Clay
-Dirt
-Endstone
-Gravel
-Netherrack
-Obsidian
-Red Sand
-Snow
-Soul Sand
-Glowstone
 
+---------------------|
+//ATM
 
+---------------------|
+//ATO
+
+---------------------|
 //Thermal
 apatite
 cinnabar
@@ -23,3 +19,4 @@ constantan
 signalum
 lumium
 enderium
+---------------------|
