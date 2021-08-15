@@ -42,3 +42,5 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/honey_block.png) Honey
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/cobblestone.png) Cobblestone
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/stone.png) Stone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/glowstone.png) Glowstone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/obsidian.png) Obsidian
