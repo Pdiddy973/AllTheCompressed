@@ -10,9 +10,12 @@ Blocks Added:
 
 ATM
 
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/allthemodium_block.png) AllTheModium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/allthemodium_block.png) Allthemodium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/vibranium_block.png) Vibranium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/unobtainium_block.png) Unobtainum
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/va_alloy_block.png) Vibranium - Allthemodium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/ua_alloy_block.png) Unobtainum - Allthemodium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/uv_alloy_block.png) Unobtainum - Vibranium Alloy
 
 ATO
 
