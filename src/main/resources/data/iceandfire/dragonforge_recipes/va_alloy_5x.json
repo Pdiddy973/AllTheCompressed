@@ -1,0 +1,12 @@
+{
+  "dragon_type": "fire",
+  "input_left": {
+    "item": "allthecompressed:vibranium_block_5x"
+  },
+  "input_right": {
+    "item": "allthecompressed:allthemodium_block_5x"
+  },
+  "result": {
+    "item": "allthecompressed:va_alloy_block_5x"
+  }
+}

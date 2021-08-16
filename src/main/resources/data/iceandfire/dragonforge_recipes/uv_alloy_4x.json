@@ -1,0 +1,12 @@
+{
+  "dragon_type": "ice",
+  "input_left": {
+    "item": "allthecompressed:unobtainium_block_4x"
+  },
+  "input_right": {
+    "item": "allthecompressed:vibranium_block_4x"
+  },
+  "result": {
+    "item": "allthecompressed:uv_alloy_block_4x"
+  }
+}

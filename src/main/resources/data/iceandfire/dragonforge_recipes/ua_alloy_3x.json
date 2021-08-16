@@ -1,0 +1,12 @@
+{
+  "dragon_type": "lightning",
+  "input_left": {
+    "item": "allthecompressed:unobtainium_block_3x"
+  },
+  "input_right": {
+    "item": "allthecompressed:allthemodium_block_3x"
+  },
+  "result": {
+    "item": "allthecompressed:ua_alloy_block_3x"
+  }
+}
