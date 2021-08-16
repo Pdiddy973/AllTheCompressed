@@ -12,11 +12,4 @@ apatite
 cinnabar
 niter
 sulfur
-bronze
-electrum
-invar
-constantan
-signalum
-lumium
-enderium
 ---------------------|
