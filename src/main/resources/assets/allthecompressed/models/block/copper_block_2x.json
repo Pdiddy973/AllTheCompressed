@@ -19,7 +19,7 @@
       }
     },
     "textures": {
-      "particle": "block/iron_block"
+      "particle": "alltheores:block/copper_block"
     }
   }
 }

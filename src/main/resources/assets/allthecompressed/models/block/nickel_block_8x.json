@@ -20,6 +20,6 @@
     }
   },
   "textures": {
-    "particle": "block/iron_block"
+    "particle": "alltheores:block/nickel_block"
   }
 }
