@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "allthecompressed:sand_block_3x"
+  },
+  "input": {
+    "item": "allthecompressed:glass_block_3x"
+  },
+  "energy": 3200
+}
