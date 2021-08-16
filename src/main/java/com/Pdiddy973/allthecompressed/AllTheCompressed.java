@@ -1,50 +1,50 @@
 package com.Pdiddy973.allthecompressed;
 
-import com.Pdiddy973.allthecompressed.blocks.block;
+import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.IForgeRegistry;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import java.util.Objects;
+import net.minecraftforge.registries.ForgeRegistries;
 
 
 @Mod("allthecompressed")
-public class AllTheCompressed<iEventBus>
-{
-    public static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "allthecompressed";
+public class AllTheCompressed {
+    public static final ItemGroup creativeTab = new ItemGroup("AllTheCompressed") {
+        @Override
+        // @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_1x")));
+        }
+    };
 
     public AllTheCompressed() {
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
+        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItems);
 
-        block.BLOCKS.register(bus);
-
-        MinecraftForge.EVENT_BUS.register(this);
+        DistExecutor.runForDist(() -> () -> new AllTheCompressedClient(), () -> () -> new AllTheCompressedCommon()).init();
     }
-}
 
-@Mod.EventBusSubscriber(modid = AllTheCompressed.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-class ModEventBusSubscriber {
+    private void registerBlocks(RegistryEvent.Register<Block> event) {
+        for (AllTheCompressedType type : AllTheCompressedType.VALUES) {
+            for (int i = 0; i < 9; i++) {
+                Block block = type.factory.get();
+                event.getRegistry().register(block.setRegistryName(type.name + "_block_" + (i + 1) + "x"));
+                type.blocks.add(block);
+            }
+        }
+    }
 
-    @SubscribeEvent
-    public static void registerItems(RegistryEvent.Register<Item> event) {
-        final IForgeRegistry<Item> registry = event.getRegistry();
-        block.BLOCKS.getEntries().stream().map(RegistryObject::get)
-                .forEach(block -> {
-                    final Item.Properties properties = new Item.Properties().tab(ItemGroup.TAB_MATERIALS);
-                    final BlockItem blockItem = new BlockItem(block, properties);
-                    blockItem.setRegistryName(Objects.requireNonNull(block.getRegistryName()));
-                    registry.register(blockItem);
-                });
+    private void registerItems(RegistryEvent.Register<Item> event) {
+        for (AllTheCompressedType type : AllTheCompressedType.VALUES) {
+            for (Block block : type.blocks) {
+                event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
+            }
+        }
     }
 }
