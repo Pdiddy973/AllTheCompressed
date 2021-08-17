@@ -21,12 +21,14 @@ displayName="AllTheCompressed" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://github.com/Pdiddy973/AllTheCompressed" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="AllTheCompressed.png" #optional
 # A text field displayed in the mod UI
 authors="Pdiddy973" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-a good description
+adds 1-9x compressed versions of blocks, and recipes.
+
+Note - this Mod is primarily made for the ATM Mod Packs
 '''
 [[dependencies.allthecompressed]]
     modId="forge"
