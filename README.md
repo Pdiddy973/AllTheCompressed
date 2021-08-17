@@ -11,9 +11,9 @@ Blocks Added:
 Vanilla
 
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/clay.png) Clay
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/coal.png) Coal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/coal_block.png) Coal
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/cobblestone.png) Cobblestone
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/diamond.png) Diamond
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/diamond_block.png) Diamond
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/dirt.png) Dirt
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/emerald_block.png) Emerald
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/main/images/end_stone.png) End Stone
