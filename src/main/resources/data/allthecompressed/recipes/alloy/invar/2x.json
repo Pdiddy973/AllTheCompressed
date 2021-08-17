@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "11 ",
+    "2  ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "allthecompressed:iron_block_2x"
+    },
+    "2": {
+      "item": "allthecompressed:nickel_block_2x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:invar_block_2x",
+    "count": 3
+  }
+}

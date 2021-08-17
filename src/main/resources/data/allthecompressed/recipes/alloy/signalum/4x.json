@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "233",
+    "33 "
+  ],
+  "key": {
+    "1": {
+      "item": "allthecompressed:copper_block_4x"
+    },
+    "2": {
+      "item": "allthecompressed:silver_block_4x"
+    },
+    "3": {
+      "item": "allthecompressed:redstone_block_4x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:signalum_block_4x",
+    "count": 4
+  }
+}

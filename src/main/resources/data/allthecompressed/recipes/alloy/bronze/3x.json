@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "11 ",
+    "12 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "allthecompressed:copper_block_3x"
+    },
+    "2": {
+      "item": "allthecompressed:tin_block_3x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:bronze_block_3x",
+    "count": 4
+  }
+}

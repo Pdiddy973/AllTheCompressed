@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "12 ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "allthecompressed:copper_block_8x"
+    },
+    "2": {
+      "item": "allthecompressed:nickel_block_8x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:electrum_block_8x",
+    "count": 2
+  }
+}
