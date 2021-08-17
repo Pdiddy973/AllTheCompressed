@@ -19,7 +19,7 @@ public class AllTheCompressed {
         @Override
         // @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_1x")));
+            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_1x")));
         }
     };
 
