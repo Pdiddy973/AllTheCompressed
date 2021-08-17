@@ -1,11 +1,11 @@
 {
   "type": "immersiveengineering:crusher",
-  "input": {
-    "ingredient": {
-      "item": "allthecompressed:gravel_block_7x"
-    }
+  "secondaries": [],
+  "result": {
+    "item": "allthecompressed:gravel_block_7x"
   },
-  "output": {
+  "input": {
     "item": "allthecompressed:sand_block_7x"
-  }
+  },
+  "energy": 3200
 }
