@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "allthecompressed:sand_block_5x"
+    }
+  },
+  "output": {
+    "item": "allthecompressed:gravel_block_5x"
+  }
+}

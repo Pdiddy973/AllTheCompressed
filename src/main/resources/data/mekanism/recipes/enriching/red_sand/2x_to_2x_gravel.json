@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "allthecompressed:red_sand_block_2x"
+    }
+  },
+  "output": {
+    "item": "allthecompressed:gravel_block_2x"
+  }
+}

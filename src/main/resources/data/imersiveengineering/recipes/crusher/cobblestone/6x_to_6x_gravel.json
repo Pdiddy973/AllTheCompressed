@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "input": {
+    "ingredient": {
+      "item": "allthecompressed:cobblestone_block_6x"
+    }
+  },
+  "output": {
+    "item": "allthecompressed:gravel_block_6x"
+  }
+}

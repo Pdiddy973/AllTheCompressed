@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "input": {
+    "ingredient": {
+      "item": "allthecompressed:gravel_block_2x"
+    }
+  },
+  "output": {
+    "item": "allthecompressed:sand_block_2x"
+  }
+}
