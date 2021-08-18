@@ -1,23 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "111",
-    "233",
-    "33 "
-  ],
-  "key": {
-    "1": {
-      "item": "allthecompressed:copper_block_4x"
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:copper_block_4x"
+      }],
+      "count": 3
     },
-    "2": {
-      "item": "allthecompressed:silver_block_4x"
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_4x"
+      }],
+      "count": 1
     },
-    "3": {
-      "item": "compressium:redstone_4"
+    {
+      "value": [{
+        "item": "compressium:redstone_4"
+      }],
+      "count": 4
+
     }
-  },
-  "result": {
+  ],
+  "result": [{
     "item": "allthecompressed:signalum_block_4x",
     "count": 4
-  }
+  }],
+  "energy": 6400
 }

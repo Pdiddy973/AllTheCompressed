@@ -1,23 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "111",
-    "233",
-    "   "
-  ],
-  "key": {
-    "1": {
-      "item": "allthecompressed:tin_block_3x"
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:tin_block_3x"
+      }],
+      "count": 3
     },
-    "2": {
-      "item": "allthecompressed:silver_block_3x"
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_3x"
+      }],
+      "count": 3
     },
-    "3": {
-      "item": "allthecompressed:glowstone_block_3x"
+    {
+      "value": [{
+        "item": "allthecompressed:glowstone_block_3x"
+      }],
+      "count": 2
+
     }
-  },
-  "result": {
+  ],
+  "result": [{
     "item": "allthecompressed:lumium_block_3x",
     "count": 4
-  }
+  }],
+  "energy": 6400
 }

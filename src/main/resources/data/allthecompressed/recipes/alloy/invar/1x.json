@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "11 ",
-    "2  ",
-    "   "
-  ],
-  "key": {
-    "1": {
-      "item": "compressium:iron_1"
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "compressium:iron_1"
+      }],
+      "count": 2
     },
-    "2": {
-      "item": "allthecompressed:nickel_block_1x"
+    {
+      "value": [{
+        "item": "allthecompressed:nickel_block_1x"
+      }],
+      "count": 1
     }
-  },
-  "result": {
+  ],
+  "result": [{
     "item": "allthecompressed:invar_block_1x",
     "count": 3
-  }
+  }],
+  "energy": 6400
 }

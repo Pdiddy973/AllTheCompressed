@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "12 ",
-    "   ",
-    "   "
-  ],
-  "key": {
-    "1": {
-      "item": "compressium:gold_1"
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "compressium:gold_1"
+      }],
+      "count": 1
     },
-    "2": {
-      "item": "allthecompressed:silver_block_1x"
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_1x"
+      }],
+      "count": 1
     }
-  },
-  "result": {
+  ],
+  "result": [{
     "item": "allthecompressed:electrum_block_1x",
     "count": 2
-  }
+  }],
+  "energy": 6400
 }

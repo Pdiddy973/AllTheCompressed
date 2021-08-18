@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "12 ",
-    "   ",
-    "   "
-  ],
-  "key": {
-    "1": {
-      "item": "allthecompressed:copper_block_7x"
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:copper_block_7x"
+      }],
+      "count": 1
     },
-    "2": {
-      "item": "allthecompressed:nickel_block_7x"
+    {
+      "value": [{
+        "item": "allthecompressed:nickel_block_7x"
+      }],
+      "count": 1
     }
-  },
-  "result": {
+  ],
+  "result": [{
     "item": "allthecompressed:constantan_block_7x",
     "count": 2
-  }
+  }],
+  "energy": 6400
 }
