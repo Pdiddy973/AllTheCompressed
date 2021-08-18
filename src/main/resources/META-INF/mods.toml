@@ -54,3 +54,9 @@ Note - this Mod is primarily made for the ATM Mod Packs
     versionRange="[1.5.10,)"
     ordering="BEFORE"
     side="BOTH"
+[[dependencies.allthecompressed]]
+    modId="compressium"
+    mandatory=true
+    versionRange="[1.2,)"
+    ordering="BEFORE"
+    side="BOTH"

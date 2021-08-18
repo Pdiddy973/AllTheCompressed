@@ -2,10 +2,10 @@
   "type": "mekanism:enriching",
   "input": {
     "ingredient": {
-      "item": "allthecompressed:red_sand_block_5x"
+      "item": "compressium:redsand_5"
     }
   },
   "output": {
-    "item": "allthecompressed:gravel_block_5x"
+    "item": "compressium:gravel_5"
   }
 }

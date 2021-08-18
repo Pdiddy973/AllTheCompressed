@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "allthecompressed:cobblestone_block_3x"
+    "item": "compressium:cobblestone_3"
   },
-  "result": "allthecompressed:stone_block_3x",
+  "result": "compressium:stone_3",
   "experience": 0.1,
   "cookingtime": 200
 }

@@ -2,7 +2,7 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-    "item": "allthecompressed:sand_block_4x"
+    "item": "compressium:sand_4"
   },
   "input": {
     "item": "allthecompressed:glass_block_4x"
