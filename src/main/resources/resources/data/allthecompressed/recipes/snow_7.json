@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "allthecompressed:snow_6"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:snow_7"
+  }
+}

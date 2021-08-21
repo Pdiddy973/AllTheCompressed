@@ -1,0 +1,56 @@
+{
+  "replace": false,
+  "values": [
+
+    "allthecompressed:iron_1",
+    "allthecompressed:iron_2",
+    "allthecompressed:iron_3",
+    "allthecompressed:iron_4",
+    "allthecompressed:iron_5",
+    "allthecompressed:iron_6",
+    "allthecompressed:iron_7",
+    "allthecompressed:iron_8",
+    "allthecompressed:iron_9",
+
+    "allthecompressed:gold_1",
+    "allthecompressed:gold_2",
+    "allthecompressed:gold_3",
+    "allthecompressed:gold_4",
+    "allthecompressed:gold_5",
+    "allthecompressed:gold_6",
+    "allthecompressed:gold_7",
+    "allthecompressed:gold_8",
+    "allthecompressed:gold_9",
+
+    "allthecompressed:diamond_1",
+    "allthecompressed:diamond_2",
+    "allthecompressed:diamond_3",
+    "allthecompressed:diamond_4",
+    "allthecompressed:diamond_5",
+    "allthecompressed:diamond_6",
+    "allthecompressed:diamond_7",
+    "allthecompressed:diamond_8",
+    "allthecompressed:diamond_9",
+
+    "allthecompressed:emerald_1",
+    "allthecompressed:emerald_2",
+    "allthecompressed:emerald_3",
+    "allthecompressed:emerald_4",
+    "allthecompressed:emerald_5",
+    "allthecompressed:emerald_6",
+    "allthecompressed:emerald_7",
+    "allthecompressed:emerald_8",
+    "allthecompressed:emerald_9",
+
+    "allthecompressed:netherite_1",
+    "allthecompressed:netherite_2",
+    "allthecompressed:netherite_3",
+    "allthecompressed:netherite_4",
+    "allthecompressed:netherite_5",
+    "allthecompressed:netherite_6",
+    "allthecompressed:netherite_7",
+    "allthecompressed:netherite_8",
+    "allthecompressed:netherite_9"
+
+  ]
+}

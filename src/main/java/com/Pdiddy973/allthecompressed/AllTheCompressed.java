@@ -1,40 +1,54 @@
-package com.Pdiddy973.allthecompressed;
+package com.Pdiddy973.AllTheCompressed;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.HashMap;
+import java.util.Map;
 
-@Mod("allthecompressed")
+@Mod(AllTheCompressed.MODID)
 public class AllTheCompressed {
-    public static final ItemGroup creativeTab = new ItemGroup("AllTheCompressed") {
+    public static final String MODID = "allthecompressed";
+    public static final Map<String, Block[]> BLOCKS = new HashMap<>();
+
+    public static final CreativeModeTab creativeTab = new CreativeModeTab(AllTheCompressed.MODID) {
+
         @Override
-        // @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_1x")));
         }
     };
 
     public AllTheCompressed() {
-        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
-        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItems);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        DistExecutor.runForDist(() -> () -> new AllTheCompressedClient(), () -> () -> new AllTheCompressedCommon()).init();
+        eventBus.addGenericListener(Block.class, this::registerBlocks);
+        eventBus.addGenericListener(Item.class, this::registerItems);
+        eventBus.addListener(this::clientSetup);
+    }
+
+    private void clientSetup(FMLClientSetupEvent event) {
+        AllTheCompressedClient.setupItemVar();
     }
 
     private void registerBlocks(RegistryEvent.Register<Block> event) {
         for (AllTheCompressedType type : AllTheCompressedType.VALUES) {
+            Block[] compressedList = new Block[9];
+            BLOCKS.put(type.name, compressedList);
             for (int i = 0; i < 9; i++) {
-                Block block = type.factory.get();
-                event.getRegistry().register(block.setRegistryName(type.name + "_block_" + (i + 1) + "x"));
+                Block block = type.getBlock();
+                event.getRegistry().register(block.setRegistryName(type.name + "_" + (i + 1)));
+                compressedList[i] = block;
                 type.blocks.add(block);
             }
         }
@@ -48,3 +62,4 @@ public class AllTheCompressed {
         }
     }
 }
+

@@ -1,0 +1,22 @@
+{  "parent": "block/block",
+  "loader": "forge:multi-layer",
+  "layers": {
+    "solid": {
+      "parent": "block/cube_all",
+      "textures": {
+        "down": "block/honey_block_bottom",
+        "up": "block/honey_block_top",
+        "north": "block/honey_block_side",
+        "south": "block/honey_block_side",
+        "east": "block/honey_block_side",
+        "west": "block/honey_block_side"
+      },
+      "transform": { "origin":"center", "scale": 1 }
+    },
+    "translucent": {
+      "parent": "block/cube_all",
+      "textures": { "all": "allthecompressed:block/layer_8" }
+    }
+  },
+  "textures": { "particle": "block/honey_block_side" }
+}

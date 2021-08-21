@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:diamond_4"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:diamond_3",
+    "count": 9
+  }
+}

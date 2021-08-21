@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:netherite_9"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:netherite_8",
+    "count": 9
+  }
+}

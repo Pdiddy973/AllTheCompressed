@@ -19,10 +19,7 @@ build
 
 # other
 eclipse
-run
 renamefolder
 
 # Files from Forge MDK
 forge*changelog.txt
-*.log
-src/generated/resources/.cache/*

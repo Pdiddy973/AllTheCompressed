@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:iron_7"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:iron_6",
+    "count": 9
+  }
+}

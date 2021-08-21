@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "allthecompressed:cobblestone_2"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:cobblestone_3"
+  }
+}

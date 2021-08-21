@@ -1,21 +1,14 @@
-package com.Pdiddy973.allthecompressed;
+package com.Pdiddy973.AllTheCompressed;
 
-import net.minecraft.block.Block;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-
+import net.minecraft.world.level.block.Block;
 
 public class AllTheCompressedClient extends AllTheCompressedCommon {
-    public void init() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener((this::clientSetup));
-    }
-
-    private void clientSetup(FMLClientSetupEvent event) {
+    public static void setupItemVar() {
         for (AllTheCompressedType type : AllTheCompressedType.VALUES) {
             for (Block block : type.blocks) {
-                RenderTypeLookup.setRenderLayer(block, renderType -> renderType == RenderType.solid() || renderType == RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(block, renderType -> renderType == RenderType.solid() || renderType == RenderType.translucent());
             }
         }
     }
