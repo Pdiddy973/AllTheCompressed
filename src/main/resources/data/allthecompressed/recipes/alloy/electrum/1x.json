@@ -1,0 +1,21 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "compressium:gold_1"
+      }],
+      "count": 1
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_1x"
+      }],
+      "count": 1
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:electrum_block_1x",
+    "count": 2
+  }],
+  "energy": 6400
+}

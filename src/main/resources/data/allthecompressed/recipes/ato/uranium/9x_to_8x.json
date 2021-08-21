@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:uranium_block_9x"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:uranium_block_8x",
+    "count": 9
+  }
+}

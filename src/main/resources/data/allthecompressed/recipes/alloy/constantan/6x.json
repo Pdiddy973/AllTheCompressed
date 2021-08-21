@@ -1,0 +1,21 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:copper_block_6x"
+      }],
+      "count": 1
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:nickel_block_6x"
+      }],
+      "count": 1
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:constantan_block_6x",
+    "count": 2
+  }],
+  "energy": 6400
+}

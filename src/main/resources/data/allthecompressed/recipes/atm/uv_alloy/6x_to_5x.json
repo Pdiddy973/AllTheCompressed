@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:uv_alloy_block_6x"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:uv_alloy_block_5x",
+    "count": 9
+  }
+}

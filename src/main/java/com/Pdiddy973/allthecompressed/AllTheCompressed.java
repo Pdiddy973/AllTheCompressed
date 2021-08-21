@@ -47,7 +47,7 @@ public class AllTheCompressed {
             BLOCKS.put(type.name, compressedList);
             for (int i = 0; i < 9; i++) {
                 Block block = type.getBlock();
-                event.getRegistry().register(block.setRegistryName(type.name + "_" + (i + 1)));
+                event.getRegistry().register(block.setRegistryName(type.name + "_block_" + (i + 1) + "x"));
                 compressedList[i] = block;
                 type.blocks.add(block);
             }

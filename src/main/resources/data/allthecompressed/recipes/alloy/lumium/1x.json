@@ -1,0 +1,28 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:tin_block_1x"
+      }],
+      "count": 3
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_1x"
+      }],
+      "count": 1
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:glowstone_block_1x"
+      }],
+      "count": 2
+
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:lumium_block_1x",
+    "count": 4
+  }],
+  "energy": 6400
+}

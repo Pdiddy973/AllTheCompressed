@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:constantan_block_6x"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:constantan_block_5x",
+    "count": 9
+  }
+}

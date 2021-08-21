@@ -1,0 +1,21 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:copper_block_7x"
+      }],
+      "count": 3
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:tin_block_7x"
+      }],
+      "count": 1
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:bronze_block_7x",
+    "count": 4
+  }],
+  "energy": 6400
+}

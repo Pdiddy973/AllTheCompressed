@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:signalum_block_6x"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:signalum_block_5x",
+    "count": 9
+  }
+}
