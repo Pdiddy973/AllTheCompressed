@@ -2,6 +2,7 @@ package com.Pdiddy973.allthecompressed;
 
 import com.Pdiddy973.allthecompressed.blocks.atm.*;
 import com.Pdiddy973.allthecompressed.blocks.ato.*;
+import com.Pdiddy973.allthecompressed.blocks.mekanism.*;
 import com.Pdiddy973.allthecompressed.blocks.minecraft.*;
 import com.Pdiddy973.allthecompressed.blocks.thermal.*;
 import net.minecraft.block.Block;
@@ -35,6 +36,9 @@ public enum AllTheCompressedType {
     TIN("tin", Tin::new),
     URANIUM("uranium", Uranium::new),
     ZINC("zinc", Zinc::new),
+
+    //Mekanism
+    STEEL("steel", Steel::new),
 
     //Thermal
     BRONZE("bronze", Bronze::new),

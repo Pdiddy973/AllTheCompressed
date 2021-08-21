@@ -249,6 +249,16 @@
     "allthecompressed:enderium_block_6x",
     "allthecompressed:enderium_block_7x",
     "allthecompressed:enderium_block_8x",
-    "allthecompressed:enderium_block_9x"
+    "allthecompressed:enderium_block_9x",
+
+    "allthecompressed:steel_block_1x",
+    "allthecompressed:steel_block_2x",
+    "allthecompressed:steel_block_3x",
+    "allthecompressed:steel_block_4x",
+    "allthecompressed:steel_block_5x",
+    "allthecompressed:steel_block_6x",
+    "allthecompressed:steel_block_7x",
+    "allthecompressed:steel_block_8x",
+    "allthecompressed:steel_block_9x"
   ]
 }

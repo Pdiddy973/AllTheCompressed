@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "results": [
+      {
+        "item": "allthecompressed:steel_block_6x"
+      }
+    ],
+    "additives": [
+      {
+        "item": "compressium:coal_6"
+      },
+      {
+        "item": "compressium:coal_6"
+      }
+    ],
+    "input": {
+      "item": "compressium:iron_6"
+    },
+    "time": 400,
+    "energy": 204800
+  }
