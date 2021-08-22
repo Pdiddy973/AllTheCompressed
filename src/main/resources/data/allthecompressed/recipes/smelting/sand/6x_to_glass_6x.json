@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "compressium:sand_6"
+    "item": "allthecompressed:sand_block_6x"
   },
   "result": "allthecompressed:glass_block_6x",
   "experience": 0.1,

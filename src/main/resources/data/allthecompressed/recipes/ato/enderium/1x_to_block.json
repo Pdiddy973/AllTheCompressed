@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:enderium_block_1x"
+    }
+  ],
+  "result": {
+    "item": "alltheores:enderium_block",
+    "count": 9
+  }
+}

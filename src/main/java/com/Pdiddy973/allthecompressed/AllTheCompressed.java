@@ -43,12 +43,9 @@ public class AllTheCompressed {
 
     private void registerBlocks(RegistryEvent.Register<Block> event) {
         for (AllTheCompressedType type : AllTheCompressedType.VALUES) {
-            Block[] compressedList = new Block[9];
-            BLOCKS.put(type.name, compressedList);
             for (int i = 0; i < 9; i++) {
-                Block block = type.getBlock();
+                Block block = type.factory.get();
                 event.getRegistry().register(block.setRegistryName(type.name + "_block_" + (i + 1) + "x"));
-                compressedList[i] = block;
                 type.blocks.add(block);
             }
         }

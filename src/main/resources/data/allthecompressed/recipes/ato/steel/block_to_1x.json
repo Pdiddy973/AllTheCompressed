@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "alltheores:steel_block"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:steel_block_1x",
+    "count": 1
+  }
+}
