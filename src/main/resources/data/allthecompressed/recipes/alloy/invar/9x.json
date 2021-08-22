@@ -2,7 +2,7 @@
   "type": "thermal:smelter",
   "ingredients": [{
       "value": [{
-        "item": "compressium:iron_9"
+        "item": "allthecompressed:iron_block_9x"
       }],
       "count": 2
     },

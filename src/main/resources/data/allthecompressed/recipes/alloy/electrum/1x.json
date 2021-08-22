@@ -2,7 +2,7 @@
   "type": "thermal:smelter",
   "ingredients": [{
       "value": [{
-        "item": "compressium:gold_1"
+        "item": "allthecompressed:gold_block_1x"
       }],
       "count": 1
     },

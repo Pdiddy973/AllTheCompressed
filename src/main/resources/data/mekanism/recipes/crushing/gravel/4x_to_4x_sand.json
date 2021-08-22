@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "item": "compressium:gravel_4"
+      "item": "allthecompressed:gravel_block_4x"
     }
   },
   "output": {
-    "item": "compressium:sand_4"
+    "item": "allthecompressed:sand_block_4x"
   }
 }

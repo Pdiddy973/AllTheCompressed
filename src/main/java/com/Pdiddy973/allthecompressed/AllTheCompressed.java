@@ -1,4 +1,4 @@
-package com.Pdiddy973.allthecompressed;
+package com.Pdiddy973.AllTheCompressed;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;

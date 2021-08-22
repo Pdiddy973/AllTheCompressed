@@ -2,10 +2,10 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-    "item": "compressium:gravel_8"
+    "item": "allthecompressed:gravel_block_8x"
   },
   "input": {
-    "item": "compressium:sand_8"
+    "item": "allthecompressed:sand_block_8x"
   },
   "energy": 3200
 }

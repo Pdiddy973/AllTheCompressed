@@ -1,4 +1,4 @@
-package com.Pdiddy973.allthecompressed.blocks.atm;
+package com.Pdiddy973.AllTheCompressed.blocks.atm;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

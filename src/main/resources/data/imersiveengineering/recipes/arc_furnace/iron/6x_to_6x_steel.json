@@ -7,14 +7,14 @@
     ],
     "additives": [
       {
-        "item": "compressium:coal_6"
+        "item": "allthecompressed:coal_block_6x"
       },
       {
-        "item": "compressium:coal_6"
+        "item": "allthecompressed:coal_block_6x"
       }
     ],
     "input": {
-      "item": "compressium:iron_6"
+      "item": "allthecompressed:iron_block_6x"
     },
     "time": 400,
     "energy": 204800

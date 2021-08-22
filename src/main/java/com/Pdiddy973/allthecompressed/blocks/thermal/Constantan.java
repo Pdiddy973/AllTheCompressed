@@ -1,4 +1,4 @@
-package com.Pdiddy973.allthecompressed.blocks.thermal;
+package com.Pdiddy973.AllTheCompressed.blocks.thermal;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

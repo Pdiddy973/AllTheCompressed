@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "item": "compressium:stone_5"
+      "item": "allthecompressed:stone_block_5x"
     }
   },
   "output": {
-    "item": "compressium:cobblestone_5"
+    "item": "allthecompressed:cobblestone_block_5x"
   }
 }
