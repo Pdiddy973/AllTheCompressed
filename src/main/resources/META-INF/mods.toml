@@ -1,14 +1,31 @@
+
 modLoader="javafml"
 loaderVersion="[37,)"
-license="MIT License"
-issueTrackerURL="https://github.com/Pdiddy973/allthecompressed"
-
+license="All rights reserved"
+issueTrackerURL="https://github.com/Pdiddy973/AllTheCompressed/issues"
 [[mods]]
 modId="allthecompressed"
 version="${file.jarVersion}"
-displayName="allthecompressed"
-displayURL="http://dinnerbeef.com"
-logoFile=""
-credits=" "
-authors=" "
-description='''  '''
+displayName="AllTheCompressed"
+displayURL="https://github.com/Pdiddy973/AllTheCompressed"
+logoFile="AllTheCompressed.png"
+authors="Pdiddy973"
+description='''
+adds 1-9x compressed versions of blocks, and recipes.
+
+Note - this Mod is primarily made for the ATM Mod Packs
+'''
+
+[[dependencies.allthecompressed]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.allthecompressed]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,)"
+    ordering="NONE"
+    side="BOTH"
+
