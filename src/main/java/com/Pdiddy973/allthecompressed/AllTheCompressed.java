@@ -13,14 +13,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import java.util.HashMap;
-import java.util.Map;
-
 @Mod(AllTheCompressed.MODID)
 public class AllTheCompressed {
     public static final String MODID = "allthecompressed";
-    public static final Map<String, Block[]> BLOCKS = new HashMap<>();
-
     public static final CreativeModeTab creativeTab = new CreativeModeTab(AllTheCompressed.MODID) {
 
         @Override
