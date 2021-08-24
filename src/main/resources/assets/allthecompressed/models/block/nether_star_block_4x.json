@@ -1,0 +1,25 @@
+{
+  "parent": "block/block",
+  "loader": "forge:multi-layer",
+  "layers": {
+    "solid": {
+      "parent": "block/cube_all",
+      "textures": {
+        "all": "allthecompressed:block/nether_star_block"
+      },
+      "transform": {
+        "origin": "center",
+        "scale": 1
+      }
+    },
+    "translucent": {
+      "parent": "block/cube_all",
+      "textures": {
+        "all": "allthecompressed:block/layer_4"
+      }
+    }
+  },
+  "textures": {
+    "particle": "allthecompressed:block/nether_star_block"
+  }
+}

@@ -1,5 +1,6 @@
 package com.Pdiddy973.AllTheCompressed;
 
+import com.Pdiddy973.AllTheCompressed.blocks.atc.*;
 import com.Pdiddy973.AllTheCompressed.blocks.atm.*;
 import com.Pdiddy973.AllTheCompressed.blocks.ato.*;
 import com.Pdiddy973.AllTheCompressed.blocks.mekanism.*;
@@ -37,6 +38,9 @@ public enum AllTheCompressedType {
     SNOW("snow", Snow::new),
     SOUL_SAND("soul_sand", Soul_Sand::new),
     STONE("stone", Stone::new),
+
+    //ATC
+    NETHER_STAR("nether_star", Nether_Star::new),
 
     //ATM
     ALLTHEMODIUM("allthemodium", Allthemodium::new),

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:nether_star_block_4x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:nether_star_block_5x",
+    "count": 1
+  }
+}
