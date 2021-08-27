@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public enum AllTheType {
-    NETHER_STAR("nether_star", Nether_Star::new);
-
+    NETHER_STAR("nether_star", Nether_Star::new),
+    ENDER_PEARL("ender_pearl", Ender_Pearl::new);
 
     public static final AllTheType[] VALUES = values();
 

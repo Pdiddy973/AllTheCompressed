@@ -1,0 +1,28 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:copper_block_1x"
+      }],
+      "count": 3
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_1x"
+      }],
+      "count": 1
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:redstone_block_1x"
+      }],
+      "count": 4
+
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:signalum_block_1x",
+    "count": 4
+  }],
+  "energy": 6400
+}

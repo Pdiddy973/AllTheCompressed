@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:ender_pearl_block_5x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:ender_pearl_block_6x",
+    "count": 1
+  }
+}

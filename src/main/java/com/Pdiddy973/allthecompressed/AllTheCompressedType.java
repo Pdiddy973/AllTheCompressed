@@ -41,6 +41,7 @@ public enum AllTheCompressedType {
 
     //ATC
     NETHER_STAR("nether_star", Nether_Star::new),
+    ENDER_PEARL("ender_pearl", Ender_Pearl::new),
 
     //ATM
     ALLTHEMODIUM("allthemodium", Allthemodium::new),

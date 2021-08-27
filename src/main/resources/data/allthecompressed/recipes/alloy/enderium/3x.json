@@ -2,26 +2,26 @@
   "type": "thermal:smelter",
   "ingredients": [{
       "value": [{
-        "item": "allthecompressed:diamond_block_1x"
+        "item": "allthecompressed:diamond_block_3x"
       }],
       "count": 1
     },
     {
       "value": [{
-        "item": "allthecompressed:lead_block_1x"
+        "item": "allthecompressed:lead_block_3x"
       }],
       "count": 3
     },
     {
       "value": [{
-        "item": "allthecompressed:ender_pearl_block_1x"
+        "item": "allthecompressed:ender_pearl_block_3x"
       }],
       "count": 2
 
     }
   ],
   "result": [{
-    "item": "allthecompressed:enderium_block_1x",
+    "item": "allthecompressed:enderium_block_3x",
     "count": 2
   }],
   "energy": 6400
