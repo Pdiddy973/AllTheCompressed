@@ -6,16 +6,20 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.ModList;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLPaths;
 import net.minecraftforge.registries.ForgeRegistries;
 
 
 @Mod("allthecompressed")
 public class AllTheCompressed {
-    public static final String MOD_ID = "allthecompressed";
     public static final ItemGroup creativeTab = new ItemGroup("AllTheCompressed") {
         @Override
         // @OnlyIn(Dist.CLIENT)
@@ -25,6 +29,8 @@ public class AllTheCompressed {
     };
 
     public AllTheCompressed() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, AllTheCompressedConfig.SPEC, "allthecompressed-common.toml");
+
         FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlock);
         FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItem);
         FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
