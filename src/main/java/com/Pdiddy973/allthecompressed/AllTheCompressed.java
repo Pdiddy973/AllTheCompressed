@@ -58,14 +58,12 @@ public class AllTheCompressed {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::mekanismItems);
             }
         }
-        if (Config.COMMON.compressium.get()) {
-            if (ModList.get().isLoaded("compressium")) {
 
-            } else {
-                FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::minecraftBlocks);
-                FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::minecraftItems);
-            }
+        if (!ModList.get().isLoaded("compressium")) {
+            FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::minecraftBlocks);
+            FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::minecraftItems);
         }
+
         if (Config.COMMON.thermal.get()) {
             if (ModList.get().isLoaded("thermal_foundation")) {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::thermalBlocks);
