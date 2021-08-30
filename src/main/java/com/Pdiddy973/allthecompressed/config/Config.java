@@ -1,11 +1,13 @@
 package com.Pdiddy973.AllTheCompressed.config;
 
 
+import com.electronwill.nightconfig.core.file.CommentedFileConfig;
+import com.electronwill.nightconfig.core.io.WritingMode;
 import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import org.apache.commons.lang3.tuple.Pair;
+
+import java.io.File;
 
 
 @Mod.EventBusSubscriber(modid = "allthecompressed", bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -25,18 +27,10 @@ public class Config {
         COMMON = specPair.getLeft();
     }
 
-    @SubscribeEvent
-    public static void onModConfigEvent(final ModConfig.ModConfigEvent configEvent) {
-        bakeConfigs();
-    }
-
-    private static void bakeConfigs() {
-        allthemodium = Config.COMMON.allthemodium.get();
-        alltheores = Config.COMMON.alltheores.get();
-        mekanism = Config.COMMON.mekanism.get();
-        compressium = Config.COMMON.compressium.get();
-        thermal = Config.COMMON.thermal.get();
-
+    public static void loadConfig(ForgeConfigSpec config, String path) {
+        CommentedFileConfig file = CommentedFileConfig.builder(new File(path)).sync().autosave().writingMode(WritingMode.REPLACE).build();
+        file.load();
+        config.setConfig(file);
     }
 
     public static class Common {
@@ -45,7 +39,6 @@ public class Config {
         public final ForgeConfigSpec.BooleanValue mekanism;
         public final ForgeConfigSpec.BooleanValue compressium;
         public final ForgeConfigSpec.BooleanValue thermal;
-
 
         public Common(ForgeConfigSpec.Builder BUILDER) {
 

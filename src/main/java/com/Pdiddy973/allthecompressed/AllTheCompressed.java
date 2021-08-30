@@ -21,6 +21,7 @@ import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLPaths;
 import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod("allthecompressed")
@@ -35,30 +36,29 @@ public class AllTheCompressed {
 
     public AllTheCompressed() {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_SPEC);
-        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
-        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItems);
+        Config.loadConfig(Config.COMMON_SPEC, FMLPaths.CONFIGDIR.get().resolve("allthecompressed-common.toml").toString());
 
-        if (Config.allthemodium) {
+        if (Config.COMMON.allthemodium.get()) {
             if (ModList.get().isLoaded("allthemodium")) {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::allthemodiumBlocks);
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::allthemodiumItems);
             }
         }
 
-        if (Config.alltheores) {
+        if (Config.COMMON.alltheores.get()) {
             if (ModList.get().isLoaded("alltheores")) {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::alltheoresBlocks);
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::alltheoresItems);
             }
         }
 
-        if (Config.mekanism) {
+        if (Config.COMMON.mekanism.get()) {
             if (ModList.get().isLoaded("mekanism")) {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::mekanismBlocks);
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::mekanismItems);
             }
         }
-        if (Config.compressium) {
+        if (Config.COMMON.compressium.get()) {
             if (ModList.get().isLoaded("compressium")) {
 
             } else {
@@ -66,12 +66,14 @@ public class AllTheCompressed {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::minecraftItems);
             }
         }
-        if (Config.thermal) {
+        if (Config.COMMON.thermal.get()) {
             if (ModList.get().isLoaded("thermal_foundation")) {
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::thermalBlocks);
                 FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::thermalItems);
             }
         }
+        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
+        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItems);
         FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlock);
         FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItem);
 
