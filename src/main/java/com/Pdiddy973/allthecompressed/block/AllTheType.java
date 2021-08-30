@@ -1,7 +1,7 @@
-package com.Pdiddy973.AllTheCompressed;
+package com.Pdiddy973.AllTheCompressed.block;
 
-import com.Pdiddy973.AllTheCompressed.block.*;
 import net.minecraft.block.Block;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
