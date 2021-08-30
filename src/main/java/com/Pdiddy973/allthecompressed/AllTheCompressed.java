@@ -63,10 +63,10 @@ public class AllTheCompressed {
             }
         }
         if (AllTheCompressedConfig.compressium.get()) {
+
+        } else {
             FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::minecraftBlocks);
             FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::minecraftItems);
-        } else {
-
         }
         if (AllTheCompressedConfig.thermal.get()) {
             if (ModList.get().isLoaded("thermal_foundation")) {
