@@ -8,5 +8,11 @@
   "result": {
     "item": "allthecompressed:ua_alloy_block_1x",
     "count": 9
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

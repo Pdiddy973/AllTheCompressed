@@ -13,5 +13,11 @@
   "result": {
     "item": "allthecompressed:electrum_block_7x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

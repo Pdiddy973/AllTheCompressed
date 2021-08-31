@@ -20,8 +20,17 @@
   "energy": 204800,  
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
     }
   ]
 }

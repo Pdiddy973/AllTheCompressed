@@ -13,5 +13,14 @@
   "result": {
     "item": "allthecompressed:glowstone_block_3x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
 }

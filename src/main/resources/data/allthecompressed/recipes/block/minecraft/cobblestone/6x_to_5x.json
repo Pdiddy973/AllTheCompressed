@@ -8,5 +8,14 @@
   "result": {
     "item": "allthecompressed:cobblestone_block_5x",
     "count": 9
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
 }

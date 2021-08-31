@@ -13,5 +13,14 @@
   "result": {
     "item": "allthecompressed:diamond_block_7x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
 }

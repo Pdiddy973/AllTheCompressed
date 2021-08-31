@@ -8,5 +8,14 @@
   "result": {
     "item": "allthecompressed:clay_block_3x",
     "count": 4
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
 }

@@ -13,5 +13,11 @@
   "result": {
     "item": "allthecompressed:constantan_block_1x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

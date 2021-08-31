@@ -13,5 +13,11 @@
   "result": {
     "item": "allthecompressed:ua_alloy_block_9x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

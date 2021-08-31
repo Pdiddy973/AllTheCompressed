@@ -24,5 +24,23 @@
     "item": "allthecompressed:lumium_block_7x",
     "count": 4
   }],
-  "energy": 6400
+  "energy": 6400,  
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+              "type": "forge:mod_loaded",
+              "modid": "compressium"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alltheores"
+        }
+      ]
+    }
+  ]
 }

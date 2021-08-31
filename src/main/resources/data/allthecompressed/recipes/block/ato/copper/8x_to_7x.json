@@ -8,5 +8,11 @@
   "result": {
     "item": "allthecompressed:copper_block_7x",
     "count": 9
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

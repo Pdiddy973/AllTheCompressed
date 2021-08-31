@@ -8,5 +8,11 @@
   "result": {
     "item": "allthecompressed:nickel_block_3x",
     "count": 9
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

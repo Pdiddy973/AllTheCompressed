@@ -13,5 +13,14 @@
   "result": {
     "item": "allthecompressed:coal_block_4x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
 }

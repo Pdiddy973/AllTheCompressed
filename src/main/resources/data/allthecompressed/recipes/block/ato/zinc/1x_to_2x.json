@@ -13,5 +13,11 @@
   "result": {
     "item": "allthecompressed:zinc_block_2x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

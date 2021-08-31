@@ -13,5 +13,14 @@
   "result": {
     "item": "allthecompressed:soul_sand_block_1x",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
 }

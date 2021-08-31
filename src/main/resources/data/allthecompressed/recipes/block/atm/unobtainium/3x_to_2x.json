@@ -8,5 +8,11 @@
   "result": {
     "item": "allthecompressed:unobtainium_block_2x",
     "count": 9
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }
