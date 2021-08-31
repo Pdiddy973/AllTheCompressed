@@ -1,0 +1,27 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "compressium:iron_9"
+      }],
+      "count": 2
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:nickel_block_9x"
+      }],
+      "count": 1
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:invar_block_9x",
+    "count": 3
+  }],
+  "energy": 6400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

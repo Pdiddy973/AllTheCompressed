@@ -1,0 +1,34 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "compressium:diamond_9"
+      }],
+      "count": 1
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:lead_block_9x"
+      }],
+      "count": 3
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:ender_pearl_block_9x"
+      }],
+      "count": 2
+
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:enderium_block_9x",
+    "count": 2
+  }],
+  "energy": 6400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

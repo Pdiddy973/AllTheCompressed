@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "compressium:gravel_7"
+  },
+  "input": {
+    "item": "compressium:cobblestone_7"
+  },
+  "energy": 3200,  
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

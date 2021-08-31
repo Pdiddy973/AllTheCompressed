@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "allthecompressed:sand_block_6x"
+  },
+  "input": {
+    "item": "allthecompressed:gravel_block_6x"
+  },
+  "energy": 3200,  
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
+}

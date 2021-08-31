@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "compressium:stone_9"
+    }
+  },
+  "output": {
+    "item": "compressium:cobblestone_9"
+  },  
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

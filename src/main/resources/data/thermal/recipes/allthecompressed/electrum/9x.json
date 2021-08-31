@@ -1,0 +1,30 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+      "value": [{
+        "item": "allthecompressed:gold_block_9x"
+      }],
+      "count": 1
+    },
+    {
+      "value": [{
+        "item": "allthecompressed:silver_block_9x"
+      }],
+      "count": 1
+    }
+  ],
+  "result": [{
+    "item": "allthecompressed:electrum_block_9x",
+    "count": 2
+  }],
+  "energy": 6400,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+      }
+    }
+]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "compressium:sand_9"
+  },
+  "input": {
+    "item": "allthecompressed:glass_block_9x"
+  },
+  "energy": 3200,  
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

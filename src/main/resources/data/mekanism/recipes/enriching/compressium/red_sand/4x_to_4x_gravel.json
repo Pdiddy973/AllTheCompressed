@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "compressium:redsand_4"
+    }
+  },
+  "output": {
+    "item": "compressium:gravel_4"
+  },  
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}
