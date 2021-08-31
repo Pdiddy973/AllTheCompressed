@@ -25,6 +25,7 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/gravel.png) Gravel
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/honey_block.png) Honey
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/iron_block.png) Iron
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/lapis_block.png) Lapis
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/netherite_block.png) Netherite
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/netherrack.png) Netherrack
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/obsidian.png) Obsidian
