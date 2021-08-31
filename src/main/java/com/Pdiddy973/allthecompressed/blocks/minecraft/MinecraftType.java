@@ -18,6 +18,7 @@ public enum MinecraftType {
     GRAVEL("gravel", Gravel::new),
     HONEY("honey", Honey::new),
     IRON("iron", Iron::new),
+    LAPIS("lapis", Lapis::new),
     NETHERITE("netherite", Netherite::new),
     NETHERRACK("netherrack", Netherrack::new),
     OBSIDIAN("obsidian", Obsidian::new),

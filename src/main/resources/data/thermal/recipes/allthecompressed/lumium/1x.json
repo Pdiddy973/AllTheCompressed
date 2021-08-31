@@ -27,20 +27,8 @@
   "energy": 6400,  
   "conditions": [
     {
-      "type": "forge:and",
-      "values": [
-        {
-          "type": "forge:not",
-          "value": {
-              "type": "forge:mod_loaded",
-              "modid": "compressium"
-          }
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "alltheores"
-        }
-      ]
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
     }
   ]
 }

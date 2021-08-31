@@ -8,14 +8,5 @@
   "result": {
     "item": "allthecompressed:glowstone_block_8x",
     "count": 4
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-          "type": "forge:mod_loaded",
-          "modid": "compressium"
-      }
-    }
-]
+  }
 }

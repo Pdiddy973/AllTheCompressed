@@ -13,14 +13,5 @@
   "result": {
     "item": "allthecompressed:glass_block_9x",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-          "type": "forge:mod_loaded",
-          "modid": "compressium"
-      }
-    }
-]
+  }
 }
