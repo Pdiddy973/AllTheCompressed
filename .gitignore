@@ -26,3 +26,4 @@ renamefolder
 forge*changelog.txt
 *.log
 src/generated/resources/.cache/*
+.vscode/settings.json
