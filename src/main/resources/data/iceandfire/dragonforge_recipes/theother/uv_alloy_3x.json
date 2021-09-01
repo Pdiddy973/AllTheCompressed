@@ -1,0 +1,27 @@
+{
+  "dragon_type": "ice",
+  "input_left": {
+    "item": "allthecompressed:vibranium_block_3x"
+  },
+  "input_right": {
+    "item": "allthecompressed:unobtainium_block_3x"
+  },
+  "result": {
+    "item": "allthecompressed:uv_alloy_block_3x"
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "iceandfire"
+        }
+      ]
+    }
+  ]
+}
