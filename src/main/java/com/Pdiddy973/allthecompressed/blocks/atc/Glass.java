@@ -7,8 +7,8 @@ import net.minecraftforge.common.ToolType;
 
 public class Glass extends Block {
     public Glass() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
+        super(Properties.of(Material.GLASS)
+                .sound(SoundType.GLASS)
                 .strength(30f, 15F)
                 .harvestTool(ToolType.PICKAXE)
                 .requiresCorrectToolForDrops());

@@ -8,7 +8,7 @@ import net.minecraftforge.common.ToolType;
 public class Netherrack extends Block {
     public Netherrack() {
         super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
+                .sound(SoundType.NETHERRACK)
                 .strength(30f, 15F)
                 .harvestTool(ToolType.PICKAXE)
                 .requiresCorrectToolForDrops());

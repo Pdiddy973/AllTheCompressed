@@ -9,7 +9,7 @@ import net.minecraftforge.common.ToolType;
 public class Gravel extends FallingBlock {
     public Gravel() {
         super(Properties.of(Material.SAND)
-                .sound(SoundType.SAND)
+                .sound(SoundType.GRAVEL)
                 .strength(30f, 15F)
                 .harvestTool(ToolType.SHOVEL)
                 .requiresCorrectToolForDrops());

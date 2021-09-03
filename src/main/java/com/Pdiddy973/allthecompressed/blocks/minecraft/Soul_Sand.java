@@ -7,10 +7,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Soul_Sand extends Block {
     public Soul_Sand() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
+        super(Properties.of(Material.SAND)
+                .sound(SoundType.SOUL_SAND)
                 .strength(30f, 15F)
-                .harvestTool(ToolType.PICKAXE)
+                .harvestTool(ToolType.SHOVEL)
                 .requiresCorrectToolForDrops());
     }
 }

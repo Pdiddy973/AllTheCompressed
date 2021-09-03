@@ -7,8 +7,8 @@ import net.minecraftforge.common.ToolType;
 
 public class Honey extends Block {
     public Honey() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
+        super(Properties.of(Material.SAND)
+                .sound(SoundType.HONEY_BLOCK)
                 .strength(30f, 15F)
                 .harvestTool(ToolType.PICKAXE)
                 .requiresCorrectToolForDrops());

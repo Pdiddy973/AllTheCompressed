@@ -7,10 +7,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Snow extends Block {
     public Snow() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
+        super(Properties.of(Material.SNOW)
+                .sound(SoundType.SNOW)
                 .strength(30f, 15F)
-                .harvestTool(ToolType.PICKAXE)
+                .harvestTool(ToolType.SHOVEL)
                 .requiresCorrectToolForDrops());
     }
 }
