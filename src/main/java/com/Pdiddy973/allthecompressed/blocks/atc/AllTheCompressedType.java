@@ -1,8 +1,5 @@
 package com.Pdiddy973.AllTheCompressed.blocks.atc;
 
-import com.Pdiddy973.AllTheCompressed.block.ATM_Star;
-import com.Pdiddy973.AllTheCompressed.block.Ender_Pearl;
-import com.Pdiddy973.AllTheCompressed.block.Nether_Star;
 import net.minecraft.block.Block;
 
 import java.util.ArrayList;

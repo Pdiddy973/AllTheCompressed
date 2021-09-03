@@ -1,7 +1,8 @@
 package com.Pdiddy973.AllTheCompressed;
 
-import com.Pdiddy973.AllTheCompressed.block.AllTheType;
+
 import com.Pdiddy973.AllTheCompressed.blocks.atc.AllTheCompressedType;
+import com.Pdiddy973.AllTheCompressed.blocks.atc.AllTheType;
 import com.Pdiddy973.AllTheCompressed.blocks.atm.AllTheModiumType;
 import com.Pdiddy973.AllTheCompressed.blocks.ato.AllTheOresType;
 import com.Pdiddy973.AllTheCompressed.blocks.mekanism.MekanismType;
