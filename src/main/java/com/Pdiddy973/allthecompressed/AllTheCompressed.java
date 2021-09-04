@@ -7,6 +7,7 @@ import com.Pdiddy973.AllTheCompressed.blocks.atm.AllTheModiumType;
 import com.Pdiddy973.AllTheCompressed.blocks.ato.AllTheOresType;
 import com.Pdiddy973.AllTheCompressed.blocks.mekanism.MekanismType;
 import com.Pdiddy973.AllTheCompressed.blocks.minecraft.MinecraftType;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.PowahType;
 import com.Pdiddy973.AllTheCompressed.blocks.thermal.ThermalType;
 import com.Pdiddy973.AllTheCompressed.config.Config;
 import net.minecraft.block.Block;
@@ -63,6 +64,13 @@ public class AllTheCompressed {
         if (!ModList.get().isLoaded("compressium")) {
             FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::minecraftBlocks);
             FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::minecraftItems);
+        }
+
+        if (Config.COMMON.powah.get()) {
+            if (ModList.get().isLoaded("powah")) {
+                FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::powahBlocks);
+                FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::powahItems);
+            }
         }
 
         if (Config.COMMON.thermal.get()) {
@@ -184,6 +192,25 @@ public class AllTheCompressed {
 
     private void minecraftItems(RegistryEvent.Register<Item> event) {
         for (MinecraftType type : MinecraftType.VALUES) {
+            for (Block block : type.blocks) {
+                event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
+            }
+        }
+    }
+
+    //Powah Blocks
+    private void powahBlocks(RegistryEvent.Register<Block> event) {
+        for (PowahType type : PowahType.VALUES) {
+            for (int i = 0; i < 9; i++) {
+                Block block = type.factory.get();
+                event.getRegistry().register(block.setRegistryName(type.name + "_block_" + (i + 1) + "x"));
+                type.blocks.add(block);
+            }
+        }
+    }
+
+    private void powahItems(RegistryEvent.Register<Item> event) {
+        for (PowahType type : PowahType.VALUES) {
             for (Block block : type.blocks) {
                 event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
             }

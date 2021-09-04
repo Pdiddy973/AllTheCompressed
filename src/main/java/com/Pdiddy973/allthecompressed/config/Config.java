@@ -15,6 +15,7 @@ public class Config {
     public static boolean allthemodium;
     public static boolean alltheores;
     public static boolean mekanism;
+    public static boolean powah;
     public static boolean thermal;
 
     public static final ForgeConfigSpec COMMON_SPEC;
@@ -36,6 +37,7 @@ public class Config {
         public final ForgeConfigSpec.BooleanValue allthemodium;
         public final ForgeConfigSpec.BooleanValue alltheores;
         public final ForgeConfigSpec.BooleanValue mekanism;
+        public final ForgeConfigSpec.BooleanValue powah;
         public final ForgeConfigSpec.BooleanValue thermal;
 
         public Common(ForgeConfigSpec.Builder BUILDER) {
@@ -44,6 +46,7 @@ public class Config {
             allthemodium = BUILDER.comment("Enable AllTheModium Blocks").define("AllTheModium", true);
             alltheores = BUILDER.comment("Enable AllTheOres Blocks").define("AllTheOres", true);
             mekanism = BUILDER.comment("Enable Mekanism Blocks").define("Mekanism", true);
+            powah = BUILDER.comment("Enable Powah Blocks").define("Powah", true);
             thermal = BUILDER.comment("Enable Thermal Blocks").define("Thermal", true);
             BUILDER.pop();
 

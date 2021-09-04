@@ -6,6 +6,7 @@ import com.Pdiddy973.AllTheCompressed.blocks.atm.AllTheModiumType;
 import com.Pdiddy973.AllTheCompressed.blocks.ato.AllTheOresType;
 import com.Pdiddy973.AllTheCompressed.blocks.mekanism.MekanismType;
 import com.Pdiddy973.AllTheCompressed.blocks.minecraft.MinecraftType;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.PowahType;
 import com.Pdiddy973.AllTheCompressed.blocks.thermal.ThermalType;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderType;
@@ -46,6 +47,11 @@ public class AllTheCompressedClient extends AllTheCompressedCommon {
             }
         }
         for (MinecraftType type : MinecraftType.VALUES) {
+            for (Block block : type.blocks) {
+                RenderTypeLookup.setRenderLayer(block, renderType -> renderType == RenderType.solid() || renderType == RenderType.translucent());
+            }
+        }
+        for (PowahType type : PowahType.VALUES) {
             for (Block block : type.blocks) {
                 RenderTypeLookup.setRenderLayer(block, renderType -> renderType == RenderType.solid() || renderType == RenderType.translucent());
             }
