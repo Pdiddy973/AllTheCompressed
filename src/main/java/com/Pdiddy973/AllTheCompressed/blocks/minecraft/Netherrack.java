@@ -9,8 +9,9 @@ public class Netherrack extends Block {
     public Netherrack() {
         super(Properties.of(Material.STONE)
                 .sound(SoundType.NETHERRACK)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

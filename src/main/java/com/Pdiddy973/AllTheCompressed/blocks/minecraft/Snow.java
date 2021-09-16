@@ -9,7 +9,8 @@ public class Snow extends Block {
     public Snow() {
         super(Properties.of(Material.SNOW)
                 .sound(SoundType.SNOW)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
+                .harvestLevel(2)
                 .harvestTool(ToolType.SHOVEL)
                 .requiresCorrectToolForDrops());
     }

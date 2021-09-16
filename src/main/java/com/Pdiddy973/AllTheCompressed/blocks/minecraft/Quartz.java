@@ -9,8 +9,9 @@ public class Quartz extends Block {
     public Quartz() {
         super(Properties.of(Material.STONE)
                 .sound(SoundType.STONE)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

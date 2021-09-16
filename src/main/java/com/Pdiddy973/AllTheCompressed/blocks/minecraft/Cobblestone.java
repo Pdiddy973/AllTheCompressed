@@ -9,8 +9,9 @@ public class Cobblestone extends Block {
     public Cobblestone() {
         super(Properties.of(Material.STONE)
                 .sound(SoundType.STONE)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

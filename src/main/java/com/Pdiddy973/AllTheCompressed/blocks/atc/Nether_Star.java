@@ -9,8 +9,9 @@ public class Nether_Star extends Block {
     public Nether_Star() {
         super(Properties.of(Material.METAL)
                 .sound(SoundType.METAL)
-                .strength(15f, 30F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

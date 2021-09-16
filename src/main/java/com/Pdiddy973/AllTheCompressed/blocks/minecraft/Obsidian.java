@@ -9,8 +9,9 @@ public class Obsidian extends Block {
     public Obsidian() {
         super(Properties.of(Material.STONE)
                 .sound(SoundType.STONE)
-                .strength(30f, 15F)
+                .strength(15f, 2000f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

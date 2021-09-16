@@ -9,8 +9,9 @@ public class Dirt extends Block {
     public Dirt() {
         super(Properties.of(Material.DIRT)
                 .sound(SoundType.GRAVEL)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

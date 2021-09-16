@@ -9,8 +9,9 @@ public class Glass extends Block {
     public Glass() {
         super(Properties.of(Material.GLASS)
                 .sound(SoundType.GLASS)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

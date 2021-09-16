@@ -9,8 +9,9 @@ public class Clay extends Block {
     public Clay() {
         super(Properties.of(Material.CLAY)
                 .sound(SoundType.GRAVEL)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

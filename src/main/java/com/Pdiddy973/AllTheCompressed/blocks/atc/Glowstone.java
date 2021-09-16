@@ -9,9 +9,10 @@ public class Glowstone extends Block {
     public Glowstone() {
         super(Properties.of(Material.GLASS)
                 .sound(SoundType.GLASS)
-                .strength(30f, 15F)
-                .harvestTool(ToolType.PICKAXE)
                 .lightLevel((b)->15)
+                .strength(15f, 1200f)
+                .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

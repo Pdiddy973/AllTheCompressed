@@ -9,8 +9,9 @@ public class Constantan extends Block {
     public Constantan() {
         super(Properties.of(Material.METAL)
                 .sound(SoundType.METAL)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
                 .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(2)
                 .requiresCorrectToolForDrops());
     }
 }

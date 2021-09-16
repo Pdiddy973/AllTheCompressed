@@ -10,7 +10,8 @@ public class Red_Sand extends FallingBlock {
     public Red_Sand() {
         super(Properties.of(Material.SAND)
                 .sound(SoundType.SAND)
-                .strength(30f, 15F)
+                .strength(15f, 1200f)
+                .harvestLevel(2)
                 .harvestTool(ToolType.SHOVEL)
                 .requiresCorrectToolForDrops());
     }
