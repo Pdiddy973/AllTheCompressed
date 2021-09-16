@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
-public enum Types {
+public enum AllTheCompressedTypes {
     //Allthecompressed
     NETHER_STAR("nether_star", Nether_Star::new),
     ATM_STAR("atm_star", ATM_Star::new),
@@ -84,13 +84,13 @@ public enum Types {
     LUMIUM("lumium", Lumium::new),
     SIGNALUM("signalum", Signalum::new);
 
-    public static final Types[] VALUES = values();
+    public static final AllTheCompressedTypes[] VALUES = values();
 
     public final String name;
     public final Supplier<Block> factory;
     public final List<Block> blocks;
 
-    Types(String n, Supplier<Block> f) {
+    AllTheCompressedTypes(String n, Supplier<Block> f) {
         name = n;
         factory = f;
         blocks = new ArrayList<>();

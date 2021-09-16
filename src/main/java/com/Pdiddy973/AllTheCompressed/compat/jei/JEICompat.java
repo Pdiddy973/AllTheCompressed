@@ -18,6 +18,7 @@ public class JEICompat implements IModPlugin {
 
     private static final ResourceLocation PLUGIN_ID = new ResourceLocation(MODID, "jei_plugin");
 
+
     @Override
     public ResourceLocation getPluginUid() {
         return PLUGIN_ID;
@@ -26,21 +27,21 @@ public class JEICompat implements IModPlugin {
     @Override
     public void onRuntimeAvailable(IJeiRuntime jeiRuntime) {
         IIngredientManager ingredientManager = jeiRuntime.getIngredientManager();
-        if (Config.COMMON.allthemodium.get()) {
+        if (!Config.COMMON.allthemodium.get()) {
             if (!ModList.get().isLoaded("allthemodium")) {
                 ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
 
                 ));
             }
         }
-        if (Config.COMMON.alltheores.get()) {
+        if (!Config.COMMON.alltheores.get()) {
             if (!ModList.get().isLoaded("alltheores")) {
                 ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
 
                 ));
             }
         }
-        if (Config.COMMON.mekanism.get()) {
+        if (!Config.COMMON.mekanism.get()) {
             if (!ModList.get().isLoaded("mekanism")) {
                 ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
 
@@ -48,7 +49,7 @@ public class JEICompat implements IModPlugin {
             }
         }
         if (!Config.COMMON.compressium.get()) {
-            if (ModList.get().isLoaded("compressium")) {
+            if (!ModList.get().isLoaded("compressium")) {
                 ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
 
                 ));

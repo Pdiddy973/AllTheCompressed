@@ -1,6 +1,5 @@
 package com.Pdiddy973.AllTheCompressed;
 
-import com.Pdiddy973.AllTheCompressed.blocks.atc.AllTheType;
 import com.Pdiddy973.AllTheCompressed.config.Config;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -22,7 +21,6 @@ public class AllTheCompressed {
     public static final String MODID = "allthecompressed";
     public static final ItemGroup creativeTab = new ItemGroup("AllTheCompressed") {
         @Override
-        // @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:nether_star_block_1x")));
         }
@@ -58,7 +56,7 @@ public class AllTheCompressed {
     }
 
     private void registerBlocks(RegistryEvent.Register<Block> event) {
-        for (Types type : Types.VALUES) {
+        for (AllTheCompressedTypes type : AllTheCompressedTypes.VALUES) {
             for (int i = 0; i < 9; i++) {
                 Block block = type.factory.get();
                 event.getRegistry().register(block.setRegistryName(type.name + "_block_" + (i + 1) + "x"));
@@ -68,7 +66,7 @@ public class AllTheCompressed {
     }
 
     private void registerItems(RegistryEvent.Register<Item> event) {
-        for (Types type : Types.VALUES) {
+        for (AllTheCompressedTypes type : AllTheCompressedTypes.VALUES) {
             for (Block block : type.blocks) {
                 event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
             }
