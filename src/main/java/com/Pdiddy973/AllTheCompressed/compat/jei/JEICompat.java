@@ -6,8 +6,10 @@ import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.runtime.IIngredientManager;
 import mezz.jei.api.runtime.IJeiRuntime;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.ModList;
+import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.Arrays;
 
@@ -28,46 +30,82 @@ public class JEICompat implements IModPlugin {
     public void onRuntimeAvailable(IJeiRuntime jeiRuntime) {
         IIngredientManager ingredientManager = jeiRuntime.getIngredientManager();
         if (!Config.COMMON.allthemodium.get()) {
-            if (!ModList.get().isLoaded("allthemodium")) {
-                ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
+            ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_9x"))),
 
-                ));
-            }
-        }
-        if (!Config.COMMON.alltheores.get()) {
-            if (!ModList.get().isLoaded("alltheores")) {
-                ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:vibranium_block_9x"))),
 
-                ));
-            }
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_9x"))),
+
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:ua_alloy_block_9x"))),
+
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:uv_alloy_block_9x"))),
+
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:va_alloy_block_9x")))
+            ));
+
         }
+
         if (!Config.COMMON.mekanism.get()) {
-            if (!ModList.get().isLoaded("mekanism")) {
-                ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
-
-                ));
-            }
-        }
-        if (!Config.COMMON.compressium.get()) {
-            if (!ModList.get().isLoaded("compressium")) {
-                ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
-
-                ));
-            }
-        }
-        if (Config.COMMON.powah.get()) {
-            if (!ModList.get().isLoaded("powah")) {
-                ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
-
-                ));
-            }
-        }
-        if (Config.COMMON.thermal.get()) {
-            if (!ModList.get().isLoaded("thermal")) {
-                ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
-
-                ));
-            }
+            ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_1x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_2x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_3x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_4x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_5x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_6x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_7x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_8x"))),
+                    new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:steel_block_9x")))
+            ));
         }
     }
 }
