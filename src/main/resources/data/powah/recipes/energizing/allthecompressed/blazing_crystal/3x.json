@@ -1,0 +1,14 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [{
+        "item": "allthecomrpessed:blaze_block_3x"
+    }],
+    "energy": 590490000,
+    "result": {
+        "item": "allthecomrpessed:blazing_crystal_block_3x"
+    },
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "powah"
+    }]
+}

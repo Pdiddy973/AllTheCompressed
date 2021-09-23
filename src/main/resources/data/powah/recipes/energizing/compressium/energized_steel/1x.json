@@ -1,0 +1,24 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [{
+        "item": "compressium:iron_1"
+    }, {
+        "item": "compressium:gold_1"
+    }],
+    "energy": 90000,
+    "result": {
+        "item": "allthecompressed:energized_steel_block_1x"
+    },
+    "conditions": [{
+        "type": "forge:and",
+        "values": [{
+                "type": "forge:mod_loaded",
+                "modid": "compressium"
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "powah"
+            }
+        ]
+    }]
+}
