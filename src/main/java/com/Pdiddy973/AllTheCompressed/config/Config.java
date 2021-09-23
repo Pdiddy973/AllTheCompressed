@@ -45,12 +45,12 @@ public class Config {
         public Common(ForgeConfigSpec.Builder BUILDER) {
 
             BUILDER.push("AllTheCompressed Blocks");
-            allthemodium = BUILDER.comment("Enable AllTheModium Blocks").define("AllTheModium", true);
-            alltheores = BUILDER.comment("Enable AllTheOres Blocks").define("AllTheOres", true);
-            compressium = BUILDER.comment("Enable Compressium Blocks").define("Compressium", false);
-            mekanism = BUILDER.comment("Enable Mekanism Blocks").define("Mekanism", true);
-            powah = BUILDER.comment("Enable Powah Blocks").define("Powah", true);
-            thermal = BUILDER.comment("Enable Thermal Blocks").define("Thermal", true);
+            allthemodium = BUILDER.comment("Show AllTheModium Blocks").define("AllTheModium", true);
+            alltheores = BUILDER.comment("Show AllTheOres Blocks").define("AllTheOres", true);
+            compressium = BUILDER.comment("Show Compressium Blocks").define("Compressium", false);
+            mekanism = BUILDER.comment("Show Mekanism Blocks").define("Mekanism", true);
+            powah = BUILDER.comment("Show Powah Blocks").define("Powah", true);
+            thermal = BUILDER.comment("Show Thermal Blocks").define("Thermal", true);
             BUILDER.pop();
 
         }

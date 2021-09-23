@@ -39,22 +39,6 @@ public class AllTheCompressed {
         DistExecutor.runForDist(() -> () -> new AllTheCompressedClient(), () -> () -> new AllTheCompressedCommon()).init();
     }
 
-    private void registerBlock(RegistryEvent.Register<Block> event) {
-        for (AllTheType type : AllTheType.VALUES) {
-            Block block = type.factory.get();
-            event.getRegistry().register(block.setRegistryName(type.name + "_block"));
-            type.blocks.add(block);
-        }
-    }
-
-    private void registerItem(RegistryEvent.Register<Item> event) {
-        for (AllTheType type : AllTheType.VALUES) {
-            for (Block block : type.blocks) {
-                event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
-            }
-        }
-    }
-
     private void registerBlocks(RegistryEvent.Register<Block> event) {
         for (AllTheCompressedTypes type : AllTheCompressedTypes.VALUES) {
             for (int i = 0; i < 9; i++) {
@@ -67,6 +51,22 @@ public class AllTheCompressed {
 
     private void registerItems(RegistryEvent.Register<Item> event) {
         for (AllTheCompressedTypes type : AllTheCompressedTypes.VALUES) {
+            for (Block block : type.blocks) {
+                event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
+            }
+        }
+    }
+
+    private void registerBlock(RegistryEvent.Register<Block> event) {
+        for (AllTheType type : AllTheType.VALUES) {
+            Block block = type.factory.get();
+            event.getRegistry().register(block.setRegistryName(type.name + "_block"));
+            type.blocks.add(block);
+        }
+    }
+
+    private void registerItem(RegistryEvent.Register<Item> event) {
+        for (AllTheType type : AllTheType.VALUES) {
             for (Block block : type.blocks) {
                 event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
             }
