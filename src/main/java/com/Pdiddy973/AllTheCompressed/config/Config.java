@@ -47,7 +47,7 @@ public class Config {
             BUILDER.push("AllTheCompressed Blocks");
             allthemodium = BUILDER.comment("Show AllTheModium Blocks").define("AllTheModium", true);
             alltheores = BUILDER.comment("Show AllTheOres Blocks").define("AllTheOres", true);
-            compressium = BUILDER.comment("Show Compressium Blocks").define("Compressium", false);
+            compressium = BUILDER.comment("Show Compressium Blocks").define("Compressium", true);
             mekanism = BUILDER.comment("Show Mekanism Blocks").define("Mekanism", true);
             powah = BUILDER.comment("Show Powah Blocks").define("Powah", true);
             thermal = BUILDER.comment("Show Thermal Blocks").define("Thermal", true);
