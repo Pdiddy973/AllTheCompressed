@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "allthecompressed:copper_block_1x"
+  }],
+  "result": {
+      "item": "alltheores:copper_block",
+      "count": 9
+  },
+  "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+  }]
+}

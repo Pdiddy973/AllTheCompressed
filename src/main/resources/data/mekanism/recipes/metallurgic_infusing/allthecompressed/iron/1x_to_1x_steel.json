@@ -1,33 +1,30 @@
 {
   "type": "mekanism:metallurgic_infusing",
   "itemInput": {
-    "ingredient": {
-      "item": "allthecompressed:iron_block_1x"
-    }
+      "ingredient": {
+          "item": "allthecompressed:iron_block_1x"
+      }
   },
   "infusionInput": {
-    "amount": 1620,
-    "tag": "mekanism:carbon"
+      "amount": 1620,
+      "tag": "mekanism:carbon"
   },
   "output": {
-    "item": "allthecompressed:steel_block_1x"
+      "item": "allthecompressed:steel_block_1x"
   },
-  "conditions": [
-    {
+  "conditions": [{
       "type": "forge:and",
-      "values": [
-        {
-          "type": "forge:not",
-          "value": {
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
               "type": "forge:mod_loaded",
-              "modid": "compressium"
+              "modid": "mekanism"
           }
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "mekanism"
-        }
       ]
-    }
-  ]
+  }]
 }

@@ -1,39 +1,40 @@
 {
   "type": "thermal:smelter",
   "ingredients": [{
-      "value": [{
-        "item": "allthecompressed:iron_block_8x"
-      }],
-      "count": 2
-    },
-    {
-      "value": [{
-        "item": "allthecompressed:nickel_block_8x"
-      }],
-      "count": 1
-    }
+          "value": [{
+              "item": "allthecompressed:iron_block_8x"
+          }],
+          "count": 2
+      },
+      {
+          "value": [{
+              "item": "allthecompressed:nickel_block_8x"
+          }],
+          "count": 1
+      }
   ],
   "result": [{
-    "item": "allthecompressed:invar_block_8x",
-    "count": 3
+      "item": "allthecompressed:invar_block_8x",
+      "count": 3
   }],
   "energy": 6400,
-  "conditions": [
-    {
+  "conditions": [{
       "type": "forge:and",
-      "values": [
-        {
-          "type": "forge:not",
-          "value": {
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
               "type": "forge:mod_loaded",
-              "modid": "compressium"
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
           }
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "alltheores"
-        }
       ]
-    }
-  ]
+  }]
 }

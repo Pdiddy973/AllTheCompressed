@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "allthecompressed:end_stone_block_2x"
+  }],
+  "result": {
+      "item": "allthecompressed:end_stone_block_1x",
+      "count": 9
+  },
+  "conditions": [{
+    "type": "forge:not",
+    "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+    }
+}]
+}

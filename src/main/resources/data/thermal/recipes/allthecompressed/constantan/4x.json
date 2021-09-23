@@ -1,27 +1,40 @@
 {
-  "type": "thermal:smelter",
-  "ingredients": [{
-      "value": [{
-        "item": "allthecompressed:copper_block_4x"
-      }],
-      "count": 1
-    },
-    {
-      "value": [{
-        "item": "allthecompressed:nickel_block_4x"
-      }],
-      "count": 1
-    }
-  ],
-  "result": [{
-    "item": "allthecompressed:constantan_block_4x",
-    "count": 2
-  }],
-  "energy": 6400,  
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "alltheores"
-    }
-  ]
+    "type": "thermal:smelter",
+    "ingredients": [{
+            "value": [{
+                "item": "allthecompressed:copper_block_4x"
+            }],
+            "count": 1
+        },
+        {
+            "value": [{
+                "item": "allthecompressed:nickel_block_4x"
+            }],
+            "count": 1
+        }
+    ],
+    "result": [{
+        "item": "allthecompressed:constantan_block_4x",
+        "count": 2
+    }],
+    "energy": 6400,
+    "conditions": [{
+        "type": "forge:and",
+        "values": [{
+                "type": "forge:not",
+                "value": {
+                    "type": "forge:mod_loaded",
+                    "modid": "compressium"
+                }
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "alltheores"
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "thermal"
+            }
+        ]
+    }]
 }

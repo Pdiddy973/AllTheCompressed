@@ -1,39 +1,40 @@
 {
   "type": "thermal:smelter",
   "ingredients": [{
-      "value": [{
-        "item": "allthecompressed:gold_block_5x"
-      }],
-      "count": 1
-    },
-    {
-      "value": [{
-        "item": "allthecompressed:silver_block_5x"
-      }],
-      "count": 1
-    }
+          "value": [{
+              "item": "allthecompressed:gold_block_5x"
+          }],
+          "count": 1
+      },
+      {
+          "value": [{
+              "item": "allthecompressed:silver_block_5x"
+          }],
+          "count": 1
+      }
   ],
   "result": [{
-    "item": "allthecompressed:electrum_block_5x",
-    "count": 2
+      "item": "allthecompressed:electrum_block_5x",
+      "count": 2
   }],
   "energy": 6400,
-  "conditions": [
-    {
+  "conditions": [{
       "type": "forge:and",
-      "values": [
-        {
-          "type": "forge:not",
-          "value": {
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
               "type": "forge:mod_loaded",
-              "modid": "compressium"
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
           }
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "alltheores"
-        }
       ]
-    }
-  ]
+  }]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "allthecompressed:obsidian_block_1x"
+  }],
+  "result": {
+      "item": "minecraft:obsidian",
+      "count": 9
+  },
+  "conditions": [{
+    "type": "forge:not",
+    "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+    }
+}]
+}

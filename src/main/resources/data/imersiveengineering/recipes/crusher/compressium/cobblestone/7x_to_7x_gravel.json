@@ -2,25 +2,22 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-    "item": "compressium:gravel_7"
+      "item": "compressium:gravel_7"
   },
   "input": {
-    "item": "compressium:cobblestone_7"
+      "item": "compressium:cobblestone_7"
   },
-  "energy": 3200,  
-  "conditions": [
-    {
+  "energy": 3200,
+  "conditions": [{
       "type": "forge:and",
-      "values": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "compressium"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "immersiveengineering"
-        }
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "compressium"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "immersiveengineering"
+          }
       ]
-    }
-  ]
+  }]
 }

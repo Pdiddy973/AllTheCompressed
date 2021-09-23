@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "allthecompressed:tin_block_5x"
+  }],
+  "result": {
+      "item": "allthecompressed:tin_block_4x",
+      "count": 9
+  },
+  "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+  }]
+}

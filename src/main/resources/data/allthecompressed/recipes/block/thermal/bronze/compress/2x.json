@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "###",
+      "###"
+  ],
+  "key": {
+      "#": {
+          "item": "allthecompressed:bronze_block_1x"
+      }
+  },
+  "result": {
+      "item": "allthecompressed:bronze_block_2x",
+      "count": 1
+  },
+  "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+  }]
+}

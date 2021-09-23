@@ -1,27 +1,24 @@
 {
   "dragon_type": "ice",
   "input_left": {
-    "item": "allthecompressed:unobtainium_block_9x"
+      "item": "allthecompressed:unobtainium_block_9x"
   },
   "input_right": {
-    "item": "allthecompressed:vibranium_block_9x"
+      "item": "allthecompressed:vibranium_block_9x"
   },
   "result": {
-    "item": "allthecompressed:uv_alloy_block_9x"
+      "item": "allthecompressed:uv_alloy_block_9x"
   },
-  "conditions": [
-    {
+  "conditions": [{
       "type": "forge:and",
-      "values": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "allthemodium"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "iceandfire"
-        }
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "allthemodium"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "iceandfire"
+          }
       ]
-    }
-  ]
+  }]
 }
