@@ -10,6 +10,39 @@ Note - this Mod is primarily made for the [ATM Mod Packs](https://github.com/All
 
 Blocks Added:
 
+ATC
+
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/atm_star_block.png) ATM Star
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nether_star_block.png) Nether Star
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/ender_pearl_block.png) Ender Pearl
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/blaze_rod_block.png) Blaze Rod - Asset from [Botania](https://www.curseforge.com/minecraft/mc-mods/botania)
+
+ATM
+
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/allthemodium_block.png) Allthemodium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/vibranium_block.png) Vibranium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/unobtainium_block.png) Unobtainum
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/va_alloy_block.png) Vibranium - Allthemodium Alloy
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/ua_alloy_block.png) Unobtainum - Allthemodium Alloy
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uv_alloy_block.png) Unobtainum - Vibranium Alloy
+
+ATO
+
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/aluminum_block.png) Aluminum
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/copper_block.png) Copper
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/lead_block.png) Lead
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nickel_block.png) Nickel
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/osmium_block.png) Osmium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/platinum_block.png) Platinum
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/silver_block.png) Silver
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/tin_block.png) Tin
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uranium_block.png) Uranium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/zinc_block.png) Zinc
+
+Mekanism
+
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/steel_block.png) Steel
+
 Vanilla
 
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/clay.png) Clay
@@ -37,27 +70,14 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/soul_sand.png) Soul Sand
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/stone.png) Stone
 
-ATM
+Powah
 
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/allthemodium_block.png) Allthemodium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/vibranium_block.png) Vibranium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/unobtainium_block.png) Unobtainum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/va_alloy_block.png) Vibranium - Allthemodium Alloy
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/ua_alloy_block.png) Unobtainum - Allthemodium Alloy
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uv_alloy_block.png) Unobtainum - Vibranium Alloy
-
-ATO
-
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/aluminum_block.png) Aluminum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/copper_block.png) Copper
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/lead_block.png) Lead
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nickel_block.png) Nickel
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/osmium_block.png) Osmium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/platinum_block.png) Platinum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/silver_block.png) Silver
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/tin_block.png) Tin
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uranium_block.png) Uranium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/zinc_block.png) Zinc
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/blazing_crystal.png) Blazing Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/energized_steel.png) Energized Steel
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/niotic_crystal.png) Niotic Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nitro_crystal.png) Nitro Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/spirited_crystal.png) Spiritied Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uraninie.png) Uraninite
 
 Thermal
 
