@@ -72,12 +72,12 @@ Vanilla
 
 Powah
 
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/blazing_crystal.png) Blazing Crystal
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/energized_steel.png) Energized Steel
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/niotic_crystal.png) Niotic Crystal
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nitro_crystal.png) Nitro Crystal
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/spirited_crystal.png) Spiritied Crystal
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uraninie.png) Uraninite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/blazing_crystal_block.png) Blazing Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/energized_steel_block.png) Energized Steel
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/niotic_crystal_block.png) Niotic Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nitro_crystal_block.png) Nitro Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/spirited_crystal_block.png) Spiritied Crystal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uraninie_block.png) Uraninite
 
 Thermal
 
