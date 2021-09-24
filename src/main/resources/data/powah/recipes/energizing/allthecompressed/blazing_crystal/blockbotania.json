@@ -1,7 +1,7 @@
 {
     "type": "powah:energizing",
     "ingredients": [{
-        "item": "allthecompressed:blaze_rod_block"
+        "item": "botania:blaze_block"
     }],
     "energy": 810000,
     "result": {
@@ -10,11 +10,8 @@
     "conditions": [{
         "type": "forge:and",
         "values": [{
-                "type": "forge:not",
-                "value": {
-                    "type": "forge:mod_loaded",
-                    "modid": "botania"
-                }
+                "type": "forge:mod_loaded",
+                "modid": "botania"
             },
             {
                 "type": "forge:mod_loaded",

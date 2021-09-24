@@ -77,7 +77,7 @@ Powah
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/niotic_crystal_block.png) Niotic Crystal
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/nitro_crystal_block.png) Nitro Crystal
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/spirited_crystal_block.png) Spiritied Crystal
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uraninie_block.png) Uraninite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/uraninite_block.png) Uraninite
 
 Thermal
 

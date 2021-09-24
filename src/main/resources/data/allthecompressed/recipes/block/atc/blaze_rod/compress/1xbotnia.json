@@ -7,18 +7,15 @@
     ],
     "key": {
         "#": {
-            "tag": "forge:rods/blaze"
+            "item": "botania:blaze_block"
         }
     },
     "result": {
-        "item": "allthecompressed:blaze_rod_block",
+        "item": "allthecompressed:blaze_rod_block_1x",
         "count": 1
     },
     "conditions": [{
-        "type": "forge:not",
-        "value": {
-            "type": "forge:mod_loaded",
-            "modid": "botania"
-        }
+        "type": "forge:mod_loaded",
+        "modid": "botania"
     }]
 }

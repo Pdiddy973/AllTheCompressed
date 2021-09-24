@@ -8,6 +8,7 @@ import mezz.jei.api.runtime.IIngredientManager;
 import mezz.jei.api.runtime.IJeiRuntime;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.Arrays;
@@ -27,6 +28,11 @@ public class JEICompat implements IModPlugin {
     @Override
     public void onRuntimeAvailable(IJeiRuntime jeiRuntime) {
         IIngredientManager ingredientManager = jeiRuntime.getIngredientManager();
+        if (ModList.get().isLoaded("botania")){
+            ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
+            new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:blaze_rod_block")))
+            ));
+        }
         if (!Config.COMMON.allthemodium.get()) {
             ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM, Arrays.asList(
                     new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:allthemodium_block_1x"))),
