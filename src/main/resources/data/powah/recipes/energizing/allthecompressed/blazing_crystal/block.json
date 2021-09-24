@@ -1,7 +1,7 @@
 {
     "type": "powah:energizing",
     "ingredients": [{
-        "item": "allthecomrpessed:blaze_block"
+        "item": "allthecompressed:blaze_rod_block"
     }],
     "energy": 810000,
     "result": {

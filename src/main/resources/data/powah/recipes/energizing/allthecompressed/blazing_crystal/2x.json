@@ -1,11 +1,11 @@
 {
     "type": "powah:energizing",
     "ingredients": [{
-        "item": "allthecomrpessed:blaze_block_2x"
+        "item": "allthecompressed:blaze_rod_block_2x"
     }],
     "energy": 65610000,
     "result": {
-        "item": "allthecomrpessed:blazing_crystal_block_2x"
+        "item": "allthecompressed:blazing_crystal_block_2x"
     },
     "conditions": [{
         "type": "forge:mod_loaded",

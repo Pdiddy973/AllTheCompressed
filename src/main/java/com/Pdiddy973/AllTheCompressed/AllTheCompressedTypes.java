@@ -16,6 +16,7 @@ public enum AllTheCompressedTypes {
     //Allthecompressed
     NETHER_STAR("nether_star", Nether_Star::new),
     ATM_STAR("atm_star", ATM_Star::new),
+    BLAZE_ROD("blaze_rod", Blaze_Rod::new),
     ENDER_PEARL("ender_pearl", Ender_Pearl::new),
     GLASS("glass", Glass::new),
     GLOWSTONE("glowstone", Glowstone::new),
