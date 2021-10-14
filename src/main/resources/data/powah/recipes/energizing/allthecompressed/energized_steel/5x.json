@@ -7,7 +7,8 @@
     }],
     "energy": 590490000,
     "result": {
-        "item": "allthecompressed:energized_steel_block_5x"
+        "item": "allthecompressed:energized_steel_block_5x",
+        "count": 2
     },
     "conditions": [{
         "type": "forge:and",
