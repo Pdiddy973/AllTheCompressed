@@ -1,30 +1,30 @@
 {
-  "type": "thermal:smelter",
-  "ingredients": [{
-          "value": [{
-              "item": "compressium:diamond_7"
-          }],
-          "count": 3
-      },
-      {
-          "value": [{
-              "item": "allthecompressed:silver_block_7x"
-          }],
-          "count": 1
-      },
-      {
-          "value": [{
-              "item": "allthecompressed:redstone_block_7x"
-          }],
-          "count": 4
+    "type": "thermal:smelter",
+    "ingredients": [{
+            "value": [{
+                "item": "compressium:diamond_7"
+            }],
+            "count": 1
+        },
+        {
+            "value": [{
+                "item": "allthecompressed:lead_block_7x"
+            }],
+            "count": 3
+        },
+        {
+            "value": [{
+                "item": "allthecompressed:ender_pearl_block_7x"
+            }],
+            "count": 2
 
-      }
-  ],
-  "result": [{
-      "item": "allthecompressed:signalum_block_7x",
-      "count": 4
-  }],
-  "energy": 6400,
+        }
+    ],
+    "result": [{
+        "item": "allthecompressed:enderium_block_7x",
+        "count": 4
+    }],
+    "energy": 6400,
   "conditions": [{
       "type": "forge:and",
       "values": [{
