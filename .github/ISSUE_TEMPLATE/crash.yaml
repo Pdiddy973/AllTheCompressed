@@ -24,11 +24,11 @@ body:
       attributes:
         label: Is Compressium Loaded
         description: Is Copmpressium Loaded Along With AllTheCompressed
-        options:
-          - Yes
-          - No
-      validations:
-        required: true
+      options:
+        - Loaded
+        - Not Loaded
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
