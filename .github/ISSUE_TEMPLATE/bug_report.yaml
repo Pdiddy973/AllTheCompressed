@@ -4,19 +4,21 @@ title: "[Bug]: "
 labels: [ Bug ]
 body:
   - type: dropdown
+    id: mc-version
+    attributes:
+      label: Minecraft Version
+      description: What version of Minecraft are you using?
+      options:
+        - 1.16.5
+        - 1.17.1
+    validations:
+      required: true
+  - type: input
     id: mod-version
     attributes:
       label: Mod Version
-      description: What version of the mod are you using?
-      options:
-        - 1.0.0
-        - 0.0.11
-        - 0.0.10
-        - 0.0.9
-        - 0.0.8
-        - 0.0.7
-        - 0.0.5
-        - Other
+      description: Please Enter The Mod Version
+      placeholder: 1.0.0-1.16.5-36.2.8
     validations:
       required: true
   - type: dropdown
