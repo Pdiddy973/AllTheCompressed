@@ -21,9 +21,9 @@ body:
       required: true
   - type: dropdown
     id: compressium
-      attributes:
-        label: Is Compressium Loaded
-        description: Is Copmpressium Loaded Along With AllTheCompressed
+    attributes:
+      label: Is Compressium Loaded
+      description: Is Copmpressium Loaded Along With AllTheCompressed
       options:
         - Loaded
         - Not Loaded
