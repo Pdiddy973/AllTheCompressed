@@ -1,0 +1,47 @@
+name: Crash Report
+description: File a crash report
+title: "[Crash]: "
+labels: [ Crash ]
+body:
+  - type: dropdown
+    id: mod-version
+    attributes:
+      label: Mod Version
+      description: What version of the mod are you using?
+      options:
+        - 1.0.0
+        - 0.0.11
+        - 0.0.10
+        - 0.0.9
+        - 0.0.8
+        - 0.0.7
+        - 0.0.5
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: compressium
+      attributes:
+        label: Is Compressium Loaded
+        description: Is Copmpressium Loaded Along With AllTheCompressed
+        options:
+          - Yes
+          - No
+      validations:
+        required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: Crash Log
+      description: Please upload your crash log to  https://gist.github.com/ and leave the link here.
+      placeholder: https://gist.github.com/
+    validations:
+      required: true
