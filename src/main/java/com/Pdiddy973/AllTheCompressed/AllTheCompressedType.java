@@ -40,7 +40,7 @@ public enum AllTheCompressedType {
     AMETHYST("amethyst", Amethyst::new),
     ANDESITE("andesite", Andesite::new),
     BASALT("basalt", Basalt::new),
-    BLACKSTONME("blackstone", Blackstone::new),
+    BLACKSTONE("blackstone", Blackstone::new),
     CLAY("clay", Clay::new),
     COAL("coal", Coal::new),
     COBBLED_DEEPSLATE("cobbled_deepslate", Cobbled_Deepslate::new),
