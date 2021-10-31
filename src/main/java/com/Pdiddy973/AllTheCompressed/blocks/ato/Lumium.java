@@ -8,8 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Lumium extends Block {
     public Lumium() {
         super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.METAL)
+            .strength(0.85f, 1.0f));
     }
 }

@@ -8,9 +8,8 @@ import net.minecraft.world.level.material.Material;
 public class Gravel extends FallingBlock {
     public Gravel() {
         super(Properties.of(Material.SAND)
-                .sound(SoundType.SAND)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.GRAVEL)
+            .strength(0.85f, 1.0f));
     }
 }
 

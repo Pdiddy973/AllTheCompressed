@@ -7,9 +7,8 @@ import net.minecraft.world.level.material.Material;
 
 public class Emerald extends Block {
     public Emerald() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+        super(Properties.of(Material.METAL)
+            .sound(SoundType.METAL)
+            .strength(0.85f, 1.0f));
     }
 }

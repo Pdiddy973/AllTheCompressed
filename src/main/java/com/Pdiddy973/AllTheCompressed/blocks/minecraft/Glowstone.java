@@ -8,9 +8,8 @@ import net.minecraft.world.level.material.Material;
 public class Glowstone extends Block {
     public Glowstone() {
         super(Properties.of(Material.GLASS)
-                .sound(SoundType.GLASS)
-                .strength(30f, 15F)
-                .lightLevel((b) -> 15)
-                .requiresCorrectToolForDrops());
+            .lightLevel((b) -> 15)
+            .sound(SoundType.GLASS)
+            .strength(0.85f, 1.0f));
     }
 }

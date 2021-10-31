@@ -7,9 +7,8 @@ import net.minecraft.world.level.material.Material;
 
 public class Soul_Sand extends Block {
     public Soul_Sand() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+        super(Properties.of(Material.SAND)
+            .sound(SoundType.SOUL_SAND)
+            .strength(0.85f, 1.0f));
     }
 }

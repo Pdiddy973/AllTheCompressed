@@ -7,9 +7,8 @@ import net.minecraft.world.level.material.Material;
 
 public class Glass extends Block {
     public Glass() {
-        super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+        super(Properties.of(Material.GLASS)
+            .sound(SoundType.GLASS)
+            .strength(0.85f, 1.0f));
     }
 }

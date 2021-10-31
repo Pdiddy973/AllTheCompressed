@@ -8,8 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class End_Stone extends Block {
     public End_Stone() {
         super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.STONE)
+            .strength(0.85f, 1.0f));
     }
 }

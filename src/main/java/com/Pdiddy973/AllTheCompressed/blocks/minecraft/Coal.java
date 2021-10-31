@@ -8,8 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Coal extends Block {
     public Coal() {
         super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.STONE)
+            .strength(0.85f, 1.0f));
     }
 }

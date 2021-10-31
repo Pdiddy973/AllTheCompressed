@@ -8,9 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Sand extends FallingBlock {
     public Sand() {
         super(Properties.of(Material.SAND)
-                .sound(SoundType.SAND)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.SAND)
+            .strength(0.85f, 1.0f));
     }
-
 }

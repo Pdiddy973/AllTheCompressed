@@ -8,8 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Netherrack extends Block {
     public Netherrack() {
         super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.NETHERRACK)
+            .strength(0.85f, 1.0f));
     }
 }

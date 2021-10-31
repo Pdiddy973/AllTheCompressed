@@ -5,12 +5,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
 
-
 public class Stone extends Block {
     public Stone() {
         super(Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
-                .strength(30f, 15F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.STONE)
+            .strength(0.85f, 1.0f));
     }
 }

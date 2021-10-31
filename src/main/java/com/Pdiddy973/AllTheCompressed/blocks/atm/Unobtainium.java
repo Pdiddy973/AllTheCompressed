@@ -8,8 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Unobtainium extends Block {
     public Unobtainium() {
         super(Properties.of(Material.METAL)
-                .sound(SoundType.METAL)
-                .strength(15f, 30F)
-                .requiresCorrectToolForDrops());
+            .sound(SoundType.METAL)
+            .strength(0.85f, 1.0f));
     }
 }
