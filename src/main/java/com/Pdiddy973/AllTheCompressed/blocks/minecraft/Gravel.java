@@ -9,7 +9,8 @@ public class Gravel extends FallingBlock {
     public Gravel() {
         super(Properties.of(Material.SAND)
             .sound(SoundType.GRAVEL)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }
 

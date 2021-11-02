@@ -9,6 +9,7 @@ public class End_Stone extends Block {
     public End_Stone() {
         super(Properties.of(Material.STONE)
             .sound(SoundType.STONE)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

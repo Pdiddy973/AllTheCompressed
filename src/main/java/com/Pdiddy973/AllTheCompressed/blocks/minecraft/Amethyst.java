@@ -8,6 +8,7 @@ public class Amethyst extends Block {
     public Amethyst() {
         super(Properties.of(Material.AMETHYST)
             .sound(SoundType.AMETHYST)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

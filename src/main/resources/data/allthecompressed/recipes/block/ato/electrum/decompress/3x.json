@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "allthecompressed:electrum_block_3x"
+        }
+    ],
+    "result": {
+        "item": "allthecompressed:electrum_block_2x",
+        "count": 9
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

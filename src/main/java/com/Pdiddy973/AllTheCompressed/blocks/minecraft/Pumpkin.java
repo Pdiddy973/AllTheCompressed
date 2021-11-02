@@ -9,6 +9,7 @@ public class Pumpkin extends Block {
     public Pumpkin() {
         super(BlockBehaviour.Properties.of(Material.PLANT)
             .sound(SoundType.SLIME_BLOCK)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

@@ -9,6 +9,7 @@ public class Clay extends Block {
     public Clay() {
         super(Properties.of(Material.CLAY)
             .sound(SoundType.GRAVEL)
-            .strength(0.85f, 1.0f));
+                        .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

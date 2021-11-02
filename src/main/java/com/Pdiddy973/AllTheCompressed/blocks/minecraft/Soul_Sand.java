@@ -9,6 +9,7 @@ public class Soul_Sand extends Block {
     public Soul_Sand() {
         super(Properties.of(Material.SAND)
             .sound(SoundType.SOUL_SAND)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

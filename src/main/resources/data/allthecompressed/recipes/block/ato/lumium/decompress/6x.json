@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "allthecompressed:lumium_block_6x"
+        }
+    ],
+    "result": {
+        "item": "allthecompressed:lumium_block_5x",
+        "count": 9
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

@@ -8,6 +8,7 @@ public class Hay extends Block {
     public Hay() {
         super(Properties.of(Material.WOOL)
             .sound(SoundType.WOOL)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

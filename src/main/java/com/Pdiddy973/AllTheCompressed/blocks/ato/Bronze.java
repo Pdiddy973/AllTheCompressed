@@ -7,8 +7,9 @@ import net.minecraft.world.level.material.Material;
 
 public class Bronze extends Block {
     public Bronze() {
-        super(Properties.of(Material.STONE)
+        super(Properties.of(Material.METAL)
             .sound(SoundType.METAL)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

@@ -1,7 +1,7 @@
 
 modLoader="javafml"
 loaderVersion="[37,)"
-license="All rights reserved"
+license="MIT"
 issueTrackerURL="https://github.com/Pdiddy973/AllTheCompressed/issues"
 [[mods]]
 modId="allthecompressed"

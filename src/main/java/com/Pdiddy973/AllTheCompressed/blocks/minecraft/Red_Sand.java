@@ -9,6 +9,7 @@ public class Red_Sand extends Block {
     public Red_Sand() {
         super(Properties.of(Material.SAND)
             .sound(SoundType.SAND)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

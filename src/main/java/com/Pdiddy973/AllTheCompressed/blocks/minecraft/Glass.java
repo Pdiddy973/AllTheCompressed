@@ -9,6 +9,7 @@ public class Glass extends Block {
     public Glass() {
         super(Properties.of(Material.GLASS)
             .sound(SoundType.GLASS)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

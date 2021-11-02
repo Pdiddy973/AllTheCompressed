@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+    "item": "allthecompressed:cobbled_deepslate_block_1x"
+  }],
+  "result": {
+    "item": "minecraft:cobbled_deepslate",
+    "count": 9
+}
+}

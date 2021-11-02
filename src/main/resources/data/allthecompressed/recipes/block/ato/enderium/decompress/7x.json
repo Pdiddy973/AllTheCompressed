@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "allthecompressed:enderium_block_7x"
+        }
+    ],
+    "result": {
+        "item": "allthecompressed:enderium_block_6x",
+        "count": 9
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

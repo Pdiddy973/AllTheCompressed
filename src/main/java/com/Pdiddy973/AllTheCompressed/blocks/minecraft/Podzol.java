@@ -8,6 +8,7 @@ public class Podzol extends Block {
     public Podzol() {
         super(Properties.of(Material.GRASS)
             .sound(SoundType.GRASS)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

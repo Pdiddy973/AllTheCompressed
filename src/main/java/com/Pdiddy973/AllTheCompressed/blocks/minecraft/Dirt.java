@@ -9,6 +9,7 @@ public class Dirt extends Block {
     public Dirt() {
         super(Properties.of(Material.DIRT)
             .sound(SoundType.GRAVEL)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

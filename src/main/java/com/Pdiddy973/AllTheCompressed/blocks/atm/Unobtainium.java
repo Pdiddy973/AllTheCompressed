@@ -9,6 +9,7 @@ public class Unobtainium extends Block {
     public Unobtainium() {
         super(Properties.of(Material.METAL)
             .sound(SoundType.METAL)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }

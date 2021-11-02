@@ -9,6 +9,7 @@ public class Zinc extends Block {
     public Zinc() {
         super(Properties.of(Material.METAL)
             .sound(SoundType.METAL)
-            .strength(0.85f, 1.0f));
+            .requiresCorrectToolForDrops()
+            .strength(7.0f, 20.0f));
     }
 }
