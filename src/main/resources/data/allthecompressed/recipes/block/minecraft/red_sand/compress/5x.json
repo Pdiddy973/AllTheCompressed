@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "###",
+      "###"
+  ],
+  "key": {
+      "#": {
+          "item": "allthecompressed:red_sand_block_4x"
+      }
+  },
+  "result": {
+      "item": "allthecompressed:red_sand_block_5x",
+      "count": 1
+  },
+  "conditions": [{
+    "type": "forge:not",
+    "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+    }
+}]
+}

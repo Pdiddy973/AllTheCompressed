@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "###",
+      "###"
+  ],
+  "key": {
+      "#": {
+          "item": "allthecompressed:iron_block_1x"
+      }
+  },
+  "result": {
+      "item": "allthecompressed:iron_block_2x",
+      "count": 1
+  },
+  "conditions": [{
+    "type": "forge:not",
+    "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+    }
+}]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "allthecompressed:stone_block_3x"
+  }],
+  "result": {
+      "item": "allthecompressed:stone_block_2x",
+      "count": 9
+  },
+  "conditions": [{
+    "type": "forge:not",
+    "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+    }
+}]
+}

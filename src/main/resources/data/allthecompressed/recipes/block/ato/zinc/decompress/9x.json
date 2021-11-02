@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "allthecompressed:zinc_block_9x"
+  }],
+  "result": {
+      "item": "allthecompressed:zinc_block_8x",
+      "count": 9
+  },
+  "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+  }]
+}
