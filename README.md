@@ -77,3 +77,9 @@ ATO
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/tin_block.png) Tin
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/uranium_block.png) Uranium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/zinc_block.png) Zinc
+
+ATT
+
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/atm_star_block.png) ATM Star
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/nether_star_block.png) Nether Star
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/ender_pearl_block.png) Ender Pearl
