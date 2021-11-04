@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthetweaks:atm_star_block"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:atm_star_block_1x",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthetweaks"
+    }
+  ]
+}

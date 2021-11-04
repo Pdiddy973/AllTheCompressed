@@ -2,6 +2,7 @@ package com.Pdiddy973.AllTheCompressed;
 
 import com.Pdiddy973.AllTheCompressed.blocks.atm.*;
 import com.Pdiddy973.AllTheCompressed.blocks.ato.*;
+import com.Pdiddy973.AllTheCompressed.blocks.att.*;
 import com.Pdiddy973.AllTheCompressed.blocks.minecraft.*;
 import net.minecraft.world.level.block.Block;
 import java.util.ArrayList;
@@ -35,6 +36,11 @@ public enum AllTheCompressedType {
     TIN("tin", Tin::new),
     URANIUM("uranium", Uranium::new),
     ZINC("zinc", Zinc::new),
+
+    //ATT
+    ATM_STAR("atm_star", ATM_Star::new),
+    ENDER_PEARL("ender_pearl", Ender_Pearl::new),
+    NETHER_STAR("nether_star", Nether_Star::new),
 
     //Minecraft
     AMETHYST("amethyst", Amethyst::new),
