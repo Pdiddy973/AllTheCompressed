@@ -1,0 +1,26 @@
+{
+  "parent": "block/block",
+  "loader": "forge:multi-layer",
+  "layers": {
+    "solid": {
+      "parent": "minecraft:block/cube_column",
+      "textures": {
+        "end": "minecraft:block/hay_block_top",
+        "side": "minecraft:block/hay_block_side"
+      },
+      "transform": {
+        "origin": "center",
+        "scale": 1
+      }
+    },
+    "translucent": {
+      "parent": "block/cube_all",
+      "textures": {
+        "all": "allthecompressed:block/layer_7"
+      }
+    }
+  },
+  "textures": {
+    "particle": "minecraft:block/hay_block"
+  }
+}
