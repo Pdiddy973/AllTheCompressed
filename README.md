@@ -45,30 +45,41 @@ Mekanism
 
 Vanilla
 
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/clay.png) Clay
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/coal_block.png) Coal
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/cobblestone.png) Cobblestone
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/diamond_block.png) Diamond
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/dirt.png) Dirt
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/emerald_block.png) Emerald
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/end_stone.png) End Stone
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/glass.png) Glass
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/glowstone.png) Glowstone
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/gold_block.png) Gold
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/gravel.png) Gravel
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/honey_block.png) Honey
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/iron_block.png) Iron
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/lapis_block.png) Lapis
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/netherite_block.png) Netherite
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/netherrack.png) Netherrack
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/obsidian.png) Obsidian
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/quartz_block.png) Quartz
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/red_sand.png) Red Sand
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/redstone_block.png) Redstone
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/sand.png) Sand
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/snow.png) Snow
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/soul_sand.png) Soul Sand
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.16/images/stone.png) Stone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/andesite.png) Andesite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/basalt.png) Basalt
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/blackstone.png) Blackstone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/clay.png) Clay
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/coal_block.png) Coal
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/cobblestone.png) Cobblestone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/diamond_block.png) Diamond
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/diorite.png) Diorite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/dirt.png) Dirt
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/emerald_block.png) Emerald
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/end_stone.png) End Stone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/glass.png) Glass
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/glowstone.png) Glowstone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/gold_block.png) Gold
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/granite.png) Granite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/grass.png) Grass
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/gravel.png) Gravel
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/hay.png) Hay
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/honey_block.png) Honey
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/iron_block.png) Iron
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/lapis.png) Lapis
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/melon.png) Melon
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/netherite_block.png) Netherite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/netherrack.png) Netherrack
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/obsidian.png) Obsidian
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/podzol.png) Podzol
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/pumpkin.png) Pumpkin
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/quartz_block.png) Quartz
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/red_sand.png) Red Sand
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/redstone_block.png) Redstone
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/sand.png) Sand
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/snow.png) Snow
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/soul_sand.png) Soul Sand
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/soul_soil.png) Soul Soil
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.17/images/stone.png) Stone
 
 Powah
 
