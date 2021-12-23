@@ -5,7 +5,7 @@
     "solid": {
       "parent": "block/cube_all",
       "textures": {
-        "all": "thermal:block/storage/lumium_block"
+        "all": "thermal:block/lumium_block"
       },
       "transform": {
         "origin": "center",
@@ -20,6 +20,6 @@
     }
   },
   "textures": {
-    "particle": "thermal:block/storage/lumium_block"
+    "particle": "thermal:block/lumium_block"
   }
 }
