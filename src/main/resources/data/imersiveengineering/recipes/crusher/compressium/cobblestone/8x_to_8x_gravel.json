@@ -7,7 +7,7 @@
   "input": {
       "item": "compressium:cobblestone_8"
   },
-  "energy": 3200,
+  "energy": 13440,
   "conditions": [{
       "type": "forge:and",
       "values": [{
