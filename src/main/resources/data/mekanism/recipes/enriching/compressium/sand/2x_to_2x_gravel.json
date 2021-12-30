@@ -1,0 +1,23 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+      "ingredient": {
+          "item": "compressium:sand_2"
+      }
+  },
+  "output": {
+      "item": "compressium:gravel_2"
+  },
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "compressium"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "mekanism"
+          }
+      ]
+  }]
+}

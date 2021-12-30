@@ -1,0 +1,22 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [{
+        "item": "compressium:emerald_1"
+    }],
+    "energy": 81000000,
+    "result": {
+        "item": "allthecompressed:spirited_crystal_block_1x"
+    },
+    "conditions": [{
+        "type": "forge:and",
+        "values": [{
+                "type": "forge:mod_loaded",
+                "modid": "compressium"
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "powah"
+            }
+        ]
+    }]
+}

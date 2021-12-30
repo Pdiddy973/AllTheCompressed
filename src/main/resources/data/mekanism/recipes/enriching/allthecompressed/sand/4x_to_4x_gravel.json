@@ -1,0 +1,26 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+      "ingredient": {
+          "item": "allthecompressed:sand_block_4x"
+      }
+  },
+  "output": {
+      "item": "allthecompressed:gravel_block_4x"
+  },
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "mekanism"
+          }
+      ]
+  }]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+      "item": "allthecompressed:gravel_block_6x"
+  },
+  "input": {
+      "item": "allthecompressed:cobblestone_block_6x"
+  },
+  "energy": 3200,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "immersiveengineering"
+          }
+      ]
+  }]
+}

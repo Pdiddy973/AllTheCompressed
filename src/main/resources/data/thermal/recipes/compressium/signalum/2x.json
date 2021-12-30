@@ -1,0 +1,44 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+          "value": [{
+              "item": "allthecompressed:copper_block_2x"
+          }],
+          "count": 3
+      },
+      {
+          "value": [{
+              "item": "allthecompressed:silver_block_2x"
+          }],
+          "count": 1
+      },
+      {
+          "value": [{
+              "item": "compressium:redstone_2"
+          }],
+          "count": 4
+
+      }
+  ],
+  "result": [{
+      "item": "allthecompressed:signalum_block_2x",
+      "count": 4
+  }],
+  "energy": 6400,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "compressium"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
+          }
+      ]
+  }]
+}

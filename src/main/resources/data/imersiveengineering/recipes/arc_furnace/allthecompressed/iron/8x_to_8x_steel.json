@@ -1,0 +1,33 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [{
+      "item": "allthecompressed:steel_block_8x"
+  }],
+  "additives": [{
+          "item": "allthecompressed:coal_block_8x"
+      },
+      {
+          "item": "allthecompressed:coal_block_8x"
+      }
+  ],
+  "input": {
+      "item": "allthecompressed:iron_block_8x"
+  },
+  "time": 400,
+  "energy": 204800,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "immersiveengineering"
+          }
+      ]
+  }]
+}

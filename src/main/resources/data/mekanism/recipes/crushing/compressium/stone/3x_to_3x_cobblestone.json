@@ -1,0 +1,23 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+      "ingredient": {
+          "item": "compressium:stone_3"
+      }
+  },
+  "output": {
+      "item": "compressium:cobblestone_3"
+  },
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "compressium"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "mekanism"
+          }
+      ]
+  }]
+}

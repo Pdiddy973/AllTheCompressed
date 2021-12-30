@@ -1,0 +1,33 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [{
+            "value": [{
+                "item": "allthecompressed:copper_block_2x"
+            }],
+            "count": 3
+        },
+        {
+            "value": [{
+                "item": "allthecompressed:tin_block_2x"
+            }],
+            "count": 1
+        }
+    ],
+    "result": [{
+        "item": "allthecompressed:bronze_block_2x",
+        "count": 4
+    }],
+    "energy": 6400,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
+          }
+      ]
+  }]
+}

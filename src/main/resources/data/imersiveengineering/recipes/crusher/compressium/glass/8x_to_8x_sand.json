@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+      "item": "compressium:sand_8"
+  },
+  "input": {
+      "item": "allthecompressed:glass_block_8x"
+  },
+  "energy": 3200,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "compressium"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "immersiveengineering"
+          }
+      ]
+  }]
+}
