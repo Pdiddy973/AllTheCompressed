@@ -1,10 +1,10 @@
 # AllTheCompressed
 
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/allthecompressed)
+[![AllTheCompressed](http://cf.way2muchnoise.eu/514045.svg "AllTheCompressed") AllTheCompressed](https://www.curseforge.com/minecraft/mc-mods/allthecompressed) 
 
-adds 1-9x compressed versions of blocks
+Adds 1-9x compressed versions of blocks
 
-Note - this Mod is primarily made for the [ATM Mod Packs](https://github.com/AllTheMods)
+Also adds a lot of recipes for bulk crafting
 
 Blocks Added:
 
