@@ -5,7 +5,7 @@
   },
   "result": "allthecompressed:glass_block_7x",
   "experience": 0.1,
-  "cookingtime": 200,
+  "cookingtime": 760,
   "conditions": [{
       "type": "forge:not",
       "value": {
