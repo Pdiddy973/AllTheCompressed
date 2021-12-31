@@ -4,6 +4,7 @@ import com.Pdiddy973.AllTheCompressed.blocks.atm.*;
 import com.Pdiddy973.AllTheCompressed.blocks.ato.*;
 import com.Pdiddy973.AllTheCompressed.blocks.att.*;
 import com.Pdiddy973.AllTheCompressed.blocks.minecraft.*;
+import com.Pdiddy973.AllTheCompressed.blocks.pb.Wax;
 import net.minecraft.world.level.block.Block;
 import java.util.ArrayList;
 import java.util.List;
@@ -81,7 +82,10 @@ public enum AllTheCompressedType {
     SNOW("snow", Snow::new),
     SOUL_SAND("soul_sand", Soul_Sand::new),
     SOUL_SOIL("soul_soil", Soul_Soil::new),
-    STONE("stone", Stone::new);
+    STONE("stone", Stone::new),
+
+    //PB
+    Wax("wax", Wax::new);
 
 
     public static final AllTheCompressedType[] VALUES = values();
