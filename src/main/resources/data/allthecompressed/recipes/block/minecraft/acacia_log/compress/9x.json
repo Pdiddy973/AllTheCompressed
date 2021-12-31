@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "allthecompressed:acacia_log_block_8x"
+        }
+    },
+    "result": {
+        "item": "allthecompressed:acacia_log_block_9x",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:mod_loaded",
+                "modid": "compressium"
+            }
+        }
+    ]
+}

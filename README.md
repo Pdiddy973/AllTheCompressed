@@ -9,15 +9,21 @@ Also adds a lot of recipes for bulk crafting
 Blocks Added:
 
 Vanilla
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/acacia_log.png) Acacia Log
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/acacia_planks.png) Acacia Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/amethyst.png) Amethyst
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/andesite.png) Andesite
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/basalt.png) Basalt
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/birch_log.png) Birch Log
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/birch_planks.png) Birch Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/blackstone.png) Blackstone
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/clay.png) Clay
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/coal_block.png) Coal
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/cobbled_deepslate.png) Cobbled Deepslate
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/cobblestone.png) Cobblestone
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/copper_block.png) Copper
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/dark_oak_log.png) Dark Oak Log
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/dark_oak_planks.png) Dark Oak Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/deepslate.png) Deepslate
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/diamond_block.png) Diamond
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/diorite.png) Diorite
@@ -33,10 +39,14 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/hay.png) Hay
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/honey_block.png) Honey
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/iron_block.png) Iron
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/jungle_log.png) Jungle Log
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/jungle_planks.png) Jungle Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lapis.png) Lapis
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/melon.png) Melon
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/netherite_block.png) Netherite
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/netherrack.png) Netherrack
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/oak_log.png) Oak Log
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/oak_planks.png) Oak Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/obsidian.png) Obsidian
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/podzol.png) Podzol
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/pumpkin.png) Pumpkin
@@ -47,6 +57,8 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/snow.png) Snow
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/soul_sand.png) Soul Sand
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/soul_soil.png) Soul Soil
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/spruce_log.png) Spruce Log
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/spruce_planks.png) Spruce Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/stone.png) Stone
 
 ATM
