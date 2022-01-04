@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:crafwaxg_shapeless",
+    "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
             "item": "allthecompressed:wax_block_4x"
