@@ -96,6 +96,7 @@ public enum AllTheCompressedType {
     SPRUCE_LOG("spruce_log", Spruce_Log::new),
     SPRUCE_PLANK("spruce_plank", Spruce_Plank::new),
     STONE("stone", Stone::new),
+    TUFF("tuff", Tuff::new),
 
     //PB
     Wax("wax", Wax::new);
