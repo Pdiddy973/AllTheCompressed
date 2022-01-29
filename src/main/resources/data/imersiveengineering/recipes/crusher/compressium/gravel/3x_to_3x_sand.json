@@ -7,7 +7,7 @@
   "input": {
       "item": "compressium:gravel_3"
   },
-  "energy": 3200,
+  "energy": 7040,
   "conditions": [{
       "type": "forge:and",
       "values": [{

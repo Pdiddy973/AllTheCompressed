@@ -7,7 +7,7 @@
   "input": {
       "item": "allthecompressed:glass_block_7x"
   },
-  "energy": 3200,
+  "energy": 12160,
   "conditions": [{
       "type": "forge:and",
       "values": [{

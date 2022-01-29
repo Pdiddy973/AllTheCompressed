@@ -7,7 +7,7 @@
   "input": {
       "item": "allthecompressed:cobblestone_block_4x"
   },
-  "energy": 3200,
+  "energy": 8320,
   "conditions": [{
       "type": "forge:and",
       "values": [{

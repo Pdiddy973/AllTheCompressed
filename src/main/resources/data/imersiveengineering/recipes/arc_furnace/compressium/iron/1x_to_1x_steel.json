@@ -13,8 +13,8 @@
   "input": {
       "item": "compressium:iron_1"
   },
-  "time": 400,
-  "energy": 204800,
+  "time": 560,
+  "energy": 286720,
   "conditions": [{
       "type": "forge:and",
       "values": [{

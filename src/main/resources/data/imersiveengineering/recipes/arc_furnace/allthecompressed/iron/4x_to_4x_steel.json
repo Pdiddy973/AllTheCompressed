@@ -13,8 +13,8 @@
   "input": {
       "item": "allthecompressed:iron_block_4x"
   },
-  "time": 400,
-  "energy": 204800,
+  "time": 1040,
+  "energy": 524288,
   "conditions": [{
       "type": "forge:and",
       "values": [{
