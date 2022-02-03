@@ -1,5 +1,5 @@
 {
-  "itemGroup.allthecompressed": "AllTheCompressed",
+  "itemGroup.AllTheCompressed": "AllTheCompressed",
   "item.allthecompressed.allthemodium_block_1x": "Allthemodium Block 1x",
   "block.allthecompressed.allthemodium_block_1x": "Allthemodium Block 1x",
   "item.allthecompressed.allthemodium_block_2x": "Allthemodium Block 2x",
@@ -324,6 +324,7 @@
   "block.allthecompressed.end_stone_block_8x": "End Stone Block 8x",
   "item.allthecompressed.end_stone_block_9x": "End Stone Block 9x",
   "block.allthecompressed.end_stone_block_9x": "End Stone Block 9x",
+  "block.allthecompressed.ender_pearl_block": "Ender Pearl Block",
   "item.allthecompressed.ender_pearl_block_1x": "Ender Pearl Block 1x",
   "block.allthecompressed.ender_pearl_block_1x": "Ender Pearl Block 1x",
   "item.allthecompressed.ender_pearl_block_2x": "Ender Pearl Block 2x",
