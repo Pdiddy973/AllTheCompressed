@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:atm_star_block_2x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:atm_star_block_1x",
-      "count": 9
+    "item": "allthecompressed:atm_star_block_1x",
+    "count": 9
   }
 }

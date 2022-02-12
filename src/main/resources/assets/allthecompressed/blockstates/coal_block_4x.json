@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/coal_block_4x" }
+    "": {
+      "model": "allthecompressed:block/coal_block_4x"
+    }
   }
 }

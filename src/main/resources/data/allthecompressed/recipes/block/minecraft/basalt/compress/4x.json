@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-        "item": "allthecompressed:basalt_block_3x"
-      }
+    "#": {
+      "item": "allthecompressed:basalt_block_3x"
+    }
   },
   "result": {
     "item": "allthecompressed:basalt_block_4x",
     "count": 1
-}
+  }
 }

@@ -1,24 +1,26 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "allthecompressed:blaze_rod_block"
-        }
-    },
-    "result": {
-        "item": "allthecompressed:blaze_rod_block_1x",
-        "count": 1
-    },
-    "conditions": [{
-        "type": "forge:not",
-        "value": {
-            "type": "forge:mod_loaded",
-            "modid": "botania"
-        }
-    }]
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:blaze_rod_block"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:blaze_rod_block_1x",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+      }
+    }
+  ]
 }

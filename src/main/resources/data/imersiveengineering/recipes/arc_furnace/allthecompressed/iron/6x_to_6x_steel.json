@@ -1,33 +1,39 @@
 {
   "type": "immersiveengineering:arc_furnace",
-  "results": [{
+  "results": [
+    {
       "item": "allthecompressed:steel_block_6x"
-  }],
-  "additives": [{
-          "item": "allthecompressed:coal_block_6x"
-      },
-      {
-          "item": "allthecompressed:coal_block_6x"
-      }
+    }
+  ],
+  "additives": [
+    {
+      "item": "allthecompressed:coal_block_6x"
+    },
+    {
+      "item": "allthecompressed:coal_block_6x"
+    }
   ],
   "input": {
-      "item": "allthecompressed:iron_block_6x"
+    "item": "allthecompressed:iron_block_6x"
   },
   "time": 1360,
   "energy": 696320,
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:not",
-              "value": {
-                  "type": "forge:mod_loaded",
-                  "modid": "compressium"
-              }
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "immersiveengineering"
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "compressium"
           }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
       ]
-  }]
+    }
+  ]
 }

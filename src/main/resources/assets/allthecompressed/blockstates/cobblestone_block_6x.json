@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/cobblestone_block_6x" }
+    "": {
+      "model": "allthecompressed:block/cobblestone_block_6x"
+    }
   }
 }

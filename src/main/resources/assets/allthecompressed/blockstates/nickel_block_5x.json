@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/nickel_block_5x" }
+    "": {
+      "model": "allthecompressed:block/nickel_block_5x"
+    }
   }
 }

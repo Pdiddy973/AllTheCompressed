@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:unobtainium_block_3x"
-      }
+    "#": {
+      "item": "allthecompressed:unobtainium_block_3x"
+    }
   },
   "result": {
-      "item": "allthecompressed:unobtainium_block_4x",
-      "count": 1
+    "item": "allthecompressed:unobtainium_block_4x",
+    "count": 1
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "allthemodium"
-  }]
+    }
+  ]
 }

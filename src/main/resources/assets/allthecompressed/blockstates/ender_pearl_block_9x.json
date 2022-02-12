@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/ender_pearl_block_9x" }
+    "": {
+      "model": "allthecompressed:block/ender_pearl_block_9x"
+    }
   }
 }

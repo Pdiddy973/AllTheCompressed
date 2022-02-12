@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/zinc_block_8x" }
+    "": {
+      "model": "allthecompressed:block/zinc_block_8x"
+    }
   }
 }

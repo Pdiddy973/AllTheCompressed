@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/aluminum_block_1x" }
+    "": {
+      "model": "allthecompressed:block/aluminum_block_1x"
+    }
   }
 }

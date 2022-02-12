@@ -1,24 +1,27 @@
 {
   "dragon_type": "lightning",
   "input_left": {
-      "item": "allthecompressed:allthemodium_block_1x"
+    "item": "allthecompressed:allthemodium_block_1x"
   },
   "input_right": {
-      "item": "allthecompressed:unobtainium_block_1x"
+    "item": "allthecompressed:unobtainium_block_1x"
   },
   "result": {
-      "item": "allthecompressed:ua_alloy_block_1x"
+    "item": "allthecompressed:ua_alloy_block_1x"
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:mod_loaded",
-              "modid": "allthemodium"
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "iceandfire"
-          }
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "iceandfire"
+        }
       ]
-  }]
+    }
+  ]
 }

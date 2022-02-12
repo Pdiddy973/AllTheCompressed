@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/soul_soil_block_6x" }
+    "": {
+      "model": "allthecompressed:block/soul_soil_block_6x"
+    }
   }
 }

@@ -1,18 +1,23 @@
 {
-    "type": "powah:energizing",
-    "ingredients": [{
-        "tag": "forge:storage_blocks/diamond"
-    }],
-    "energy": 2700000,
-    "result": {
-        "item": "powah:niotic_crystal_block"
-    },
-    "conditions": [{
-        "type": "forge:and",
-        "values": [{
-                "type": "forge:mod_loaded",
-                "modid": "powah"
-            }
-        ]
-    }]
+  "type": "powah:energizing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/diamond"
+    }
+  ],
+  "energy": 2700000,
+  "result": {
+    "item": "powah:niotic_crystal_block"
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "powah"
+        }
+      ]
+    }
+  ]
 }

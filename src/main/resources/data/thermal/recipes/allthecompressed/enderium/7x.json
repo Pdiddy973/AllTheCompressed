@@ -1,47 +1,58 @@
 {
-    "type": "thermal:smelter",
-    "ingredients": [{
-            "value": [{
-                "item": "allthecompressed:diamond_block_7x"
-            }],
-            "count": 1
-        },
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
         {
-            "value": [{
-                "item": "allthecompressed:lead_block_7x"
-            }],
-            "count": 3
-        },
-        {
-            "value": [{
-                "item": "allthecompressed:ender_pearl_block_7x"
-            }],
-            "count": 2
-
+          "item": "allthecompressed:diamond_block_7x"
         }
-    ],
-    "result": [{
-        "item": "allthecompressed:enderium_block_7x",
-        "count": 4
-    }],
-    "energy": 6400,
-    "conditions": [{
-        "type": "forge:and",
-        "values": [{
-                "type": "forge:not",
-                "value": {
-                    "type": "forge:mod_loaded",
-                    "modid": "compressium"
-                }
-            },
-            {
-                "type": "forge:mod_loaded",
-                "modid": "alltheores"
-            },
-            {
-                "type": "forge:mod_loaded",
-                "modid": "thermal"
-            }
-        ]
-    }]
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {
+          "item": "allthecompressed:lead_block_7x"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "value": [
+        {
+          "item": "allthecompressed:ender_pearl_block_7x"
+        }
+      ],
+      "count": 2
+    }
+  ],
+  "result": [
+    {
+      "item": "allthecompressed:enderium_block_7x",
+      "count": 4
+    }
+  ],
+  "energy": 6400,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "compressium"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alltheores"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        }
+      ]
+    }
+  ]
 }

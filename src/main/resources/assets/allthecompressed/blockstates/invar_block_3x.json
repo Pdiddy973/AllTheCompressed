@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/invar_block_3x" }
+    "": {
+      "model": "allthecompressed:block/invar_block_3x"
+    }
   }
 }

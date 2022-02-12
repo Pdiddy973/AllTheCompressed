@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
-    "item": "allthecompressed:soul_soil_block_7x"
-  }],
+  "ingredients": [
+    {
+      "item": "allthecompressed:soul_soil_block_7x"
+    }
+  ],
   "result": {
     "item": "allthecompressed:soul_soil_block_6x",
     "count": 9
-}
+  }
 }

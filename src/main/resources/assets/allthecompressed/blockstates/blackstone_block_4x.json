@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/blackstone_block_4x" }
+    "": {
+      "model": "allthecompressed:block/blackstone_block_4x"
+    }
   }
 }

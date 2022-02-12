@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:constantan_block_5x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:constantan_block_4x",
-      "count": 9
+    "item": "allthecompressed:constantan_block_4x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "thermal"
-  }]
+    }
+  ]
 }

@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:blaze_rod_block_9x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:blaze_rod_block_8x",
-      "count": 9
+    "item": "allthecompressed:blaze_rod_block_8x",
+    "count": 9
   }
 }

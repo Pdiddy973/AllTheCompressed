@@ -2,22 +2,25 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-      "item": "compressium:sand_9"
+    "item": "compressium:sand_9"
   },
   "input": {
-      "item": "allthecompressed:glass_block_9x"
+    "item": "allthecompressed:glass_block_9x"
   },
   "energy": 14720,
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:mod_loaded",
-              "modid": "compressium"
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "immersiveengineering"
-          }
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
       ]
-  }]
+    }
+  ]
 }

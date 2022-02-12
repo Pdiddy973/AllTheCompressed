@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:ender_pearl_block_6x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:ender_pearl_block_5x",
-      "count": 9
+    "item": "allthecompressed:ender_pearl_block_5x",
+    "count": 9
   }
 }

@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:lumium_block_3x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:lumium_block_2x",
-      "count": 9
+    "item": "allthecompressed:lumium_block_2x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "thermal"
-  }]
+    }
+  ]
 }

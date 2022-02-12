@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:steel_block_9x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:steel_block_8x",
-      "count": 9
+    "item": "allthecompressed:steel_block_8x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "mekanism"
-  }]
+    }
+  ]
 }

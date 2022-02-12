@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:blazing_crystal_block_1x"
-  }],
+    }
+  ],
   "result": {
-      "item": "powah:blazing_crystal_block",
-      "count": 9
+    "item": "powah:blazing_crystal_block",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "powah"
-  }]
+    }
+  ]
 }

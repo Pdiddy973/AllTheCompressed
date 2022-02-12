@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/diamond_block_8x" }
+    "": {
+      "model": "allthecompressed:block/diamond_block_8x"
+    }
   }
 }

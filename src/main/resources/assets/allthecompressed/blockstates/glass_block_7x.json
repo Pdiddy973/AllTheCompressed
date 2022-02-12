@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/glass_block_7x" }
+    "": {
+      "model": "allthecompressed:block/glass_block_7x"
+    }
   }
 }

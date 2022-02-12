@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:uraninite_block_3x"
-      }
+    "#": {
+      "item": "allthecompressed:uraninite_block_3x"
+    }
   },
   "result": {
-      "item": "allthecompressed:uraninite_block_4x",
-      "count": 1
+    "item": "allthecompressed:uraninite_block_4x",
+    "count": 1
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "powah"
-  }]
+    }
+  ]
 }

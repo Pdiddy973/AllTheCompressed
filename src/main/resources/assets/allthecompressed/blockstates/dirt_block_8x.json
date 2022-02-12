@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/dirt_block_8x" }
+    "": {
+      "model": "allthecompressed:block/dirt_block_8x"
+    }
   }
 }

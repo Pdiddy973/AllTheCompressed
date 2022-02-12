@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/constantan_block_2x" }
+    "": {
+      "model": "allthecompressed:block/constantan_block_2x"
+    }
   }
 }

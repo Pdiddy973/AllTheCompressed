@@ -1,24 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:soul_sand_block_2x"
-      }
+    "#": {
+      "item": "allthecompressed:soul_sand_block_2x"
+    }
   },
   "result": {
-      "item": "allthecompressed:soul_sand_block_3x",
-      "count": 1
+    "item": "allthecompressed:soul_sand_block_3x",
+    "count": 1
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

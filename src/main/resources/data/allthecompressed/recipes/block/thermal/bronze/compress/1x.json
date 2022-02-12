@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "tag": "forge:storage_blocks/bronze"
-      }
+    "#": {
+      "tag": "forge:storage_blocks/bronze"
+    }
   },
   "result": {
-      "item": "allthecompressed:bronze_block_1x",
-      "count": 1
+    "item": "allthecompressed:bronze_block_1x",
+    "count": 1
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "thermal"
-  }]
+    }
+  ]
 }

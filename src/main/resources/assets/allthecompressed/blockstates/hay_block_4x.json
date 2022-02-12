@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/hay_block_4x" }
+    "": {
+      "model": "allthecompressed:block/hay_block_4x"
+    }
   }
 }

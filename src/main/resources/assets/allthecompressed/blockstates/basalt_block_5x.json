@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/basalt_block_5x" }
+    "": {
+      "model": "allthecompressed:block/basalt_block_5x"
+    }
   }
 }

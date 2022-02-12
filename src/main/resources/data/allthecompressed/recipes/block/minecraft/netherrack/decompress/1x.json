@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:netherrack_block_1x"
-  }],
+    }
+  ],
   "result": {
-      "item": "minecraft:netherrack",
-      "count": 9
+    "item": "minecraft:netherrack",
+    "count": 9
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

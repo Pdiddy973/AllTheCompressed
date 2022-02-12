@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/blaze_rod_block" }
+    "": {
+      "model": "allthecompressed:block/blaze_rod_block"
+    }
   }
 }

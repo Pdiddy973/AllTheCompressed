@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:spirited_crystal_block_4x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:spirited_crystal_block_3x",
-      "count": 9
+    "item": "allthecompressed:spirited_crystal_block_3x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "powah"
-  }]
+    }
+  ]
 }

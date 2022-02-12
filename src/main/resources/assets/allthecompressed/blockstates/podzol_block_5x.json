@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/podzol_block_5x" }
+    "": {
+      "model": "allthecompressed:block/podzol_block_5x"
+    }
   }
 }

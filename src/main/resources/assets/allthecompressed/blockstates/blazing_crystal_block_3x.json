@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/blazing_crystal_block_3x" }
+    "": {
+      "model": "allthecompressed:block/blazing_crystal_block_3x"
+    }
   }
 }

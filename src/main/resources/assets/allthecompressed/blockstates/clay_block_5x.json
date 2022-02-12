@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/clay_block_5x" }
+    "": {
+      "model": "allthecompressed:block/clay_block_5x"
+    }
   }
 }

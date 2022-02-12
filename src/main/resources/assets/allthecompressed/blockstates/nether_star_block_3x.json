@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/nether_star_block_3x" }
+    "": {
+      "model": "allthecompressed:block/nether_star_block_3x"
+    }
   }
 }

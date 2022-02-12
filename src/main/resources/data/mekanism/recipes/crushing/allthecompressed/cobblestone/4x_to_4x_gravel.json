@@ -1,26 +1,29 @@
 {
   "type": "mekanism:crushing",
   "input": {
-      "ingredient": {
-          "item": "allthecompressed:cobblestone_block_4x"
-      }
+    "ingredient": {
+      "item": "allthecompressed:cobblestone_block_4x"
+    }
   },
   "output": {
-      "item": "allthecompressed:gravel_block_4x"
+    "item": "allthecompressed:gravel_block_4x"
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:not",
-              "value": {
-                  "type": "forge:mod_loaded",
-                  "modid": "compressium"
-              }
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "mekanism"
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "compressium"
           }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
       ]
-  }]
+    }
+  ]
 }

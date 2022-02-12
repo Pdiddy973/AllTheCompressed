@@ -1,21 +1,27 @@
 {
-    "type": "powah:energizing",
-    "ingredients": [{
-        "tag": "forge:storage_blocks/iron"
-    }, {
-        "tag": "forge:storage_blocks/gold"
-    }],
-    "energy": 90000,
-    "result": {
-        "item": "powah:energized_steel_block",
-        "count": 2
+  "type": "powah:energizing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/iron"
     },
-    "conditions": [{
-        "type": "forge:and",
-        "values": [{
-                "type": "forge:mod_loaded",
-                "modid": "powah"
-            }
-        ]
-    }]
+    {
+      "tag": "forge:storage_blocks/gold"
+    }
+  ],
+  "energy": 90000,
+  "result": {
+    "item": "powah:energized_steel_block",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "powah"
+        }
+      ]
+    }
+  ]
 }

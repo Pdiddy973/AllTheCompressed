@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/iron_block_6x" }
+    "": {
+      "model": "allthecompressed:block/iron_block_6x"
+    }
   }
 }

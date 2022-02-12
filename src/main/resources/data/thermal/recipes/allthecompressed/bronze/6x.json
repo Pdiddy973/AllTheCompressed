@@ -1,33 +1,43 @@
 {
-    "type": "thermal:smelter",
-    "ingredients": [{
-            "value": [{
-                "item": "allthecompressed:copper_block_6x"
-            }],
-            "count": 3
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "item": "allthecompressed:copper_block_6x"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "value": [
+        {
+          "item": "allthecompressed:tin_block_6x"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "allthecompressed:bronze_block_6x",
+      "count": 4
+    }
+  ],
+  "energy": 6400,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alltheores"
         },
         {
-            "value": [{
-                "item": "allthecompressed:tin_block_6x"
-            }],
-            "count": 1
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
         }
-    ],
-    "result": [{
-        "item": "allthecompressed:bronze_block_6x",
-        "count": 4
-    }],
-    "energy": 6400,
-  "conditions": [{
-      "type": "forge:and",
-      "values": [{
-              "type": "forge:mod_loaded",
-              "modid": "alltheores"
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "thermal"
-          }
       ]
-  }]
+    }
+  ]
 }

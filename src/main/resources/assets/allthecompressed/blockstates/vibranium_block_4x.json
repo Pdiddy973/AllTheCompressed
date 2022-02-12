@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/vibranium_block_4x" }
+    "": {
+      "model": "allthecompressed:block/vibranium_block_4x"
+    }
   }
 }

@@ -1,24 +1,27 @@
 {
   "dragon_type": "fire",
   "input_left": {
-      "item": "allthecompressed:allthemodium_block_4x"
+    "item": "allthecompressed:allthemodium_block_4x"
   },
   "input_right": {
-      "item": "allthecompressed:vibranium_block_4x"
+    "item": "allthecompressed:vibranium_block_4x"
   },
   "result": {
-      "item": "allthecompressed:va_alloy_block_4x"
+    "item": "allthecompressed:va_alloy_block_4x"
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:mod_loaded",
-              "modid": "allthemodium"
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "iceandfire"
-          }
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "iceandfire"
+        }
       ]
-  }]
+    }
+  ]
 }

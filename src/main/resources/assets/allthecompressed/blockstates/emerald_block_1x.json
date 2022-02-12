@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/emerald_block_1x" }
+    "": {
+      "model": "allthecompressed:block/emerald_block_1x"
+    }
   }
 }

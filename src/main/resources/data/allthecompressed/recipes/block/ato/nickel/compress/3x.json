@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:nickel_block_2x"
-      }
+    "#": {
+      "item": "allthecompressed:nickel_block_2x"
+    }
   },
   "result": {
-      "item": "allthecompressed:nickel_block_3x",
-      "count": 1
+    "item": "allthecompressed:nickel_block_3x",
+    "count": 1
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "alltheores"
-  }]
+    }
+  ]
 }

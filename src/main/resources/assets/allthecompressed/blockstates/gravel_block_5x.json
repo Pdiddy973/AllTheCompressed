@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/gravel_block_5x" }
+    "": {
+      "model": "allthecompressed:block/gravel_block_5x"
+    }
   }
 }

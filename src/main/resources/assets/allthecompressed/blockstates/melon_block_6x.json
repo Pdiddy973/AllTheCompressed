@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/melon_block_6x" }
+    "": {
+      "model": "allthecompressed:block/melon_block_6x"
+    }
   }
 }

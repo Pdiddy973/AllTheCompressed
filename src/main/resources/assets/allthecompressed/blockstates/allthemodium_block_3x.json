@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/allthemodium_block_3x" }
+    "": {
+      "model": "allthecompressed:block/allthemodium_block_3x"
+    }
   }
 }

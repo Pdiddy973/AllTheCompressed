@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/soul_sand_block_7x" }
+    "": {
+      "model": "allthecompressed:block/soul_sand_block_7x"
+    }
   }
 }

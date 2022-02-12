@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
-    "item": "allthecompressed:podzol_block_3x"
-  }],
+  "ingredients": [
+    {
+      "item": "allthecompressed:podzol_block_3x"
+    }
+  ],
   "result": {
     "item": "allthecompressed:podzol_block_2x",
     "count": 9
-}
+  }
 }

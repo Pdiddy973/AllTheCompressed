@@ -1,30 +1,36 @@
 {
   "type": "immersiveengineering:arc_furnace",
-  "results": [{
+  "results": [
+    {
       "item": "allthecompressed:steel_block_2x"
-  }],
-  "additives": [{
-          "item": "compressium:coal_2"
-      },
-      {
-          "item": "compressium:coal_2"
-      }
+    }
+  ],
+  "additives": [
+    {
+      "item": "compressium:coal_2"
+    },
+    {
+      "item": "compressium:coal_2"
+    }
   ],
   "input": {
-      "item": "compressium:iron_2"
+    "item": "compressium:iron_2"
   },
   "time": 720,
   "energy": 368640,
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:mod_loaded",
-              "modid": "compressium"
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "immersiveengineering"
-          }
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
       ]
-  }]
+    }
+  ]
 }

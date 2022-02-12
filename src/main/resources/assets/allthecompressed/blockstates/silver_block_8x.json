@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/silver_block_8x" }
+    "": {
+      "model": "allthecompressed:block/silver_block_8x"
+    }
   }
 }

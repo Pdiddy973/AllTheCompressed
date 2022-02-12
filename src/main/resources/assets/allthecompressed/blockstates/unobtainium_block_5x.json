@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/unobtainium_block_5x" }
+    "": {
+      "model": "allthecompressed:block/unobtainium_block_5x"
+    }
   }
 }

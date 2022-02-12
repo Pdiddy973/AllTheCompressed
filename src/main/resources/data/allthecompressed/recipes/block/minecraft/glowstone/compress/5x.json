@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:glowstone_block_4x"
-      }
+    "#": {
+      "item": "allthecompressed:glowstone_block_4x"
+    }
   },
   "result": {
-      "item": "allthecompressed:glowstone_block_5x",
-      "count": 1
+    "item": "allthecompressed:glowstone_block_5x",
+    "count": 1
   }
 }

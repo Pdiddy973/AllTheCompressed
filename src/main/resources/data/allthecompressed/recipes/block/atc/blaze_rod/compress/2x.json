@@ -1,17 +1,17 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "allthecompressed:blaze_rod_block_1x"
-        }
-    },
-    "result": {
-        "item": "allthecompressed:blaze_rod_block_2x",
-        "count": 1
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:blaze_rod_block_1x"
     }
+  },
+  "result": {
+    "item": "allthecompressed:blaze_rod_block_2x",
+    "count": 1
+  }
 }

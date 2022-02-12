@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/tin_block_1x" }
+    "": {
+      "model": "allthecompressed:block/tin_block_1x"
+    }
   }
 }

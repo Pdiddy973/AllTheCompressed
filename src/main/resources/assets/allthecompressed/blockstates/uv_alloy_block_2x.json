@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/uv_alloy_block_2x" }
+    "": {
+      "model": "allthecompressed:block/uv_alloy_block_2x"
+    }
   }
 }

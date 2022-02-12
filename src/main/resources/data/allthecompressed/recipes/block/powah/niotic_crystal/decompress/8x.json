@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:niotic_crystal_block_8x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:niotic_crystal_block_7x",
-      "count": 9
+    "item": "allthecompressed:niotic_crystal_block_7x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "powah"
-  }]
+    }
+  ]
 }

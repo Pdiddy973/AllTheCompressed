@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:diorite_block_9x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:diorite_block_8x",
-      "count": 9
+    "item": "allthecompressed:diorite_block_8x",
+    "count": 9
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

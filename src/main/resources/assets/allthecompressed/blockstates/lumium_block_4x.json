@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/lumium_block_4x" }
+    "": {
+      "model": "allthecompressed:block/lumium_block_4x"
+    }
   }
 }

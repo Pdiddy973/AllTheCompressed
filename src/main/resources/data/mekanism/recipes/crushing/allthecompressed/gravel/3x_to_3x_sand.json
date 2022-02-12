@@ -1,26 +1,29 @@
 {
   "type": "mekanism:crushing",
   "input": {
-      "ingredient": {
-          "item": "allthecompressed:gravel_block_3x"
-      }
+    "ingredient": {
+      "item": "allthecompressed:gravel_block_3x"
+    }
   },
   "output": {
-      "item": "allthecompressed:sand_block_3x"
+    "item": "allthecompressed:sand_block_3x"
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:not",
-              "value": {
-                  "type": "forge:mod_loaded",
-                  "modid": "compressium"
-              }
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "mekanism"
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "compressium"
           }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
       ]
-  }]
+    }
+  ]
 }

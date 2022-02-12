@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:uraninite_block_2x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:uraninite_block_1x",
-      "count": 9
+    "item": "allthecompressed:uraninite_block_1x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "powah"
-  }]
+    }
+  ]
 }

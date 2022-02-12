@@ -1,16 +1,18 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-      "item": "allthecompressed:sand_block_9x"
+    "item": "allthecompressed:sand_block_9x"
   },
   "result": "allthecompressed:glass_block_9x",
   "experience": 0.1,
   "cookingtime": 200,
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:not",
       "value": {
-          "type": "forge:mod_loaded",
-          "modid": "compressium"
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
       }
-  }]
+    }
+  ]
 }

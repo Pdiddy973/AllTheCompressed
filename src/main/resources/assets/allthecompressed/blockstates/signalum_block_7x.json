@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/signalum_block_7x" }
+    "": {
+      "model": "allthecompressed:block/signalum_block_7x"
+    }
   }
 }

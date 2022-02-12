@@ -1,24 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:gold_block_5x"
-      }
+    "#": {
+      "item": "allthecompressed:gold_block_5x"
+    }
   },
   "result": {
-      "item": "allthecompressed:gold_block_6x",
-      "count": 1
+    "item": "allthecompressed:gold_block_6x",
+    "count": 1
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

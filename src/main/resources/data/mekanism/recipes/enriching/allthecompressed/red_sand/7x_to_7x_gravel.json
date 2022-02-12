@@ -1,26 +1,29 @@
 {
   "type": "mekanism:enriching",
   "input": {
-      "ingredient": {
-          "item": "allthecompressed:red_sand_block_7x"
-      }
+    "ingredient": {
+      "item": "allthecompressed:red_sand_block_7x"
+    }
   },
   "output": {
-      "item": "allthecompressed:gravel_block_7x"
+    "item": "allthecompressed:gravel_block_7x"
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:and",
-      "values": [{
-              "type": "forge:not",
-              "value": {
-                  "type": "forge:mod_loaded",
-                  "modid": "compressium"
-              }
-          },
-          {
-              "type": "forge:mod_loaded",
-              "modid": "mekanism"
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "compressium"
           }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
       ]
-  }]
+    }
+  ]
 }

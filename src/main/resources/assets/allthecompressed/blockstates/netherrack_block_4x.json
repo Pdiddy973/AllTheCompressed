@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/netherrack_block_4x" }
+    "": {
+      "model": "allthecompressed:block/netherrack_block_4x"
+    }
   }
 }

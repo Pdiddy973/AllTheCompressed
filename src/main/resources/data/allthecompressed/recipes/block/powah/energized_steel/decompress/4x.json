@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:energized_steel_block_4x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:energized_steel_block_3x",
-      "count": 9
+    "item": "allthecompressed:energized_steel_block_3x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "powah"
-  }]
+    }
+  ]
 }

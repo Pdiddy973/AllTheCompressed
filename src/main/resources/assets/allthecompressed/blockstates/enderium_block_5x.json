@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/enderium_block_5x" }
+    "": {
+      "model": "allthecompressed:block/enderium_block_5x"
+    }
   }
 }

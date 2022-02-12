@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/netherite_block_9x" }
+    "": {
+      "model": "allthecompressed:block/netherite_block_9x"
+    }
   }
 }

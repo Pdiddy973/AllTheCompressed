@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/lapis_block_9x" }
+    "": {
+      "model": "allthecompressed:block/lapis_block_9x"
+    }
   }
 }
