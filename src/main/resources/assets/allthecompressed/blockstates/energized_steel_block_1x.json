@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/energized_steel_block_1x" }
+    "": {
+      "model": "allthecompressed:block/energized_steel_block_1x"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "allthecompressed:block/spirited_crystal_block_8x" }
+    "": {
+      "model": "allthecompressed:block/spirited_crystal_block_8x"
+    }
   }
 }
