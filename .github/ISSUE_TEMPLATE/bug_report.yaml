@@ -1,0 +1,50 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: [ Bug ]
+body:
+  - type: dropdown
+    id: mc-version
+    attributes:
+      label: Minecraft Version
+      description: What version of Minecraft are you using?
+      options:
+        - 1.16
+        - 1.17
+        - 1.18
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod Version
+      description: Please Enter The Mod Version
+      placeholder: 1.0.0-1.16.5-36.2.8
+    validations:
+      required: true
+  - type: dropdown
+    id: compressium
+    attributes:
+      label: Is Compressium Loaded
+      description: Is Copmpressium Loaded Along With AllTheCompressed
+      options:
+        - Loaded
+        - Not Loaded
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: latest.log
+      description: Please upload your 'latest.log' file to  https://gist.github.com/ and leave the link here.
+      placeholder: https://gist.github.com/
+    validations:
+      required: true
