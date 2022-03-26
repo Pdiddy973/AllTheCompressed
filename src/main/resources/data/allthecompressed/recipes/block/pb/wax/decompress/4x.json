@@ -1,18 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "allthecompressed:wax_block_4x"
-        }
-    ],
-    "result": {
-        "item": "allthecompressed:wax_block_3x",
-        "count": 9
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "productivebees"
-        }
-    ]
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:wax_block_4x"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:wax_block_3x",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
 }

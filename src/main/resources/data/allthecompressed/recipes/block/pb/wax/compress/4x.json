@@ -1,23 +1,23 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "allthecompressed:wax_block_3x"
-        }
-    },
-    "result": {
-        "item": "allthecompressed:wax_block_4x",
-        "count": 1
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "productivebees"
-        }
-    ]
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:wax_block_3x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:wax_block_4x",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
 }

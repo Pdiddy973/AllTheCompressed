@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-        "item": "allthecompressed:melon_block_8x"
-      }
+    "#": {
+      "item": "allthecompressed:melon_block_8x"
+    }
   },
   "result": {
     "item": "allthecompressed:melon_block_9x",
     "count": 1
-}
+  }
 }

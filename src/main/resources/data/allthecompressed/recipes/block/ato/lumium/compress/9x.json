@@ -1,23 +1,23 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "allthecompressed:lumium_block_8x"
-        }
-    },
-    "result": {
-        "item": "allthecompressed:lumium_block_9x",
-        "count": 1
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "alltheores"
-        }
-    ]
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:lumium_block_8x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:lumium_block_9x",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

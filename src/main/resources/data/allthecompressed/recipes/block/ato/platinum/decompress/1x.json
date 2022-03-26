@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:platinum_block_1x"
-  }],
+    }
+  ],
   "result": {
-      "item": "alltheores:platinum_block",
-      "count": 9
+    "item": "alltheores:platinum_block",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "alltheores"
-  }]
+    }
+  ]
 }

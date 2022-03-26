@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
-    "item": "allthecompressed:basalt_block_6x"
-  }],
+  "ingredients": [
+    {
+      "item": "allthecompressed:basalt_block_6x"
+    }
+  ],
   "result": {
     "item": "allthecompressed:basalt_block_5x",
     "count": 9
-}
+  }
 }

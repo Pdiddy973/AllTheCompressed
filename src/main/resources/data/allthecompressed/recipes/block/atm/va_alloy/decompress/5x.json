@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:va_alloy_block_5x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:va_alloy_block_4x",
-      "count": 9
+    "item": "allthecompressed:va_alloy_block_4x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "allthemodium"
-  }]
+    }
+  ]
 }

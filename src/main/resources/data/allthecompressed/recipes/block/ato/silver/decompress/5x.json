@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:silver_block_5x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:silver_block_4x",
-      "count": 9
+    "item": "allthecompressed:silver_block_4x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "alltheores"
-  }]
+    }
+  ]
 }

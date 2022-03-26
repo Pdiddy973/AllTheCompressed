@@ -1,24 +1,17 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:melon"
-        }
-    },
-    "result": {
-        "item": "allthecompressed:melon_block_1x",
-        "count": 1
-    },
-    "conditions": [{
-        "type": "forge:not",
-        "value": {
-            "type": "forge:mod_loaded",
-            "modid": "compressium"
-        }
-    }]
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:melon"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:melon_block_1x",
+    "count": 1
+  }
 }

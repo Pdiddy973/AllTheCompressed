@@ -1,21 +1,12 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "allthecompressed:spruce_log_block_9x"
-        }
-    ],
-    "result": {
-        "item": "allthecompressed:spruce_log_block_8x",
-        "count": 9
-    },
-    "conditions": [
-        {
-            "type": "forge:not",
-            "value": {
-                "type": "forge:mod_loaded",
-                "modid": "compressium"
-            }
-        }
-    ]
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allthecompressed:spruce_log_block_9x"
+    }
+  ],
+  "result": {
+    "item": "allthecompressed:spruce_log_block_8x",
+    "count": 9
+  }
 }

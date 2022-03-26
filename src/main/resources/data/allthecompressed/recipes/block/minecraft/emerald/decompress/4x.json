@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:emerald_block_4x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:emerald_block_3x",
-      "count": 9
+    "item": "allthecompressed:emerald_block_3x",
+    "count": 9
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

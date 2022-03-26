@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:glass_block_6x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:glass_block_5x",
-      "count": 9
+    "item": "allthecompressed:glass_block_5x",
+    "count": 9
   }
 }

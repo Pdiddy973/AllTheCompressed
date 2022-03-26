@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-        "item": "allthecompressed:cobbled_deepslate_block_8x"
-      }
+    "#": {
+      "item": "allthecompressed:cobbled_deepslate_block_8x"
+    }
   },
   "result": {
     "item": "allthecompressed:cobbled_deepslate_block_9x",
     "count": 1
-}
+  }
 }

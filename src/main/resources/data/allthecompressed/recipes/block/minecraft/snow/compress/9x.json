@@ -1,24 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:snow_block_8x"
-      }
+    "#": {
+      "item": "allthecompressed:snow_block_8x"
+    }
   },
   "result": {
-      "item": "allthecompressed:snow_block_9x",
-      "count": 1
+    "item": "allthecompressed:snow_block_9x",
+    "count": 1
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

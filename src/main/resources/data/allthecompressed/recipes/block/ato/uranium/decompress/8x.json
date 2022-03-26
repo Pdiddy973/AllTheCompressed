@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
+  "ingredients": [
+    {
       "item": "allthecompressed:uranium_block_8x"
-  }],
+    }
+  ],
   "result": {
-      "item": "allthecompressed:uranium_block_7x",
-      "count": 9
+    "item": "allthecompressed:uranium_block_7x",
+    "count": 9
   },
-  "conditions": [{
+  "conditions": [
+    {
       "type": "forge:mod_loaded",
       "modid": "alltheores"
-  }]
+    }
+  ]
 }

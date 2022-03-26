@@ -1,24 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "###",
-      "###",
-      "###"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-      "#": {
-          "item": "allthecompressed:granite_block_1x"
-      }
+    "#": {
+      "item": "allthecompressed:granite_block_1x"
+    }
   },
   "result": {
-      "item": "allthecompressed:granite_block_2x",
-      "count": 1
+    "item": "allthecompressed:granite_block_2x",
+    "count": 1
   },
-  "conditions": [{
-    "type": "forge:not",
-    "value": {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
         "type": "forge:mod_loaded",
         "modid": "compressium"
+      }
     }
-}]
+  ]
 }

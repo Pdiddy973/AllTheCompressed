@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
-    "item": "allthecompressed:hay_block_1x"
-  }],
+  "ingredients": [
+    {
+      "item": "allthecompressed:hay_block_1x"
+    }
+  ],
   "result": {
     "item": "minecraft:hay_block",
     "count": 9
-}
+  }
 }

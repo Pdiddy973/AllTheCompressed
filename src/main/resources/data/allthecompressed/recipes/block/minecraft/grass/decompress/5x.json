@@ -1,10 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": [{
-    "item": "allthecompressed:grass_block_5x"
-  }],
+  "ingredients": [
+    {
+      "item": "allthecompressed:grass_block_5x"
+    }
+  ],
   "result": {
     "item": "allthecompressed:grass_block_4x",
     "count": 9
-}
+  }
 }
