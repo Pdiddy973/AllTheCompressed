@@ -27,6 +27,7 @@ public enum AllTheCompressedType {
     ELECTRUM("electrum", Electrum::new),
     ENDERIUM("enderium", Enderium::new),
     INVAR("invar", Invar::new),
+    IRIDIUM("iridium", Iridium::new),
     LEAD("lead", Lead::new),
     LUMIUM("lumium", Lumium::new),
     NICKEL("nickel", Nickel::new),
