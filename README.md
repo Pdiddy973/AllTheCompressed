@@ -79,6 +79,7 @@ ATO
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/electrum_block.png) Electrum
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/enderium_block.png) Enderium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/invar_block.png) Invar
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/iridium_block.png) Iridium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lead_block.png) Lead
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lumium_block.png) Lumium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/nickel_block.png) Nickel
