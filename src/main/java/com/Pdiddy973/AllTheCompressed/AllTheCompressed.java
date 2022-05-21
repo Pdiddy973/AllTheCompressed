@@ -20,7 +20,7 @@ public class AllTheCompressed {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:unobtainium_block_1x")));
+            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("allthecompressed:gold_block_4x")));
         }
     };
 
@@ -54,4 +54,3 @@ public class AllTheCompressed {
         }
     }
 }
-

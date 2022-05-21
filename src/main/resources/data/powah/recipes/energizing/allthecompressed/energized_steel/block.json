@@ -5,7 +5,7 @@
     }, {
         "tag": "forge:storage_blocks/gold"
     }],
-    "energy": 90000,
+"energy": 90000,
     "result": {
         "item": "powah:energized_steel_block",
         "count": 2

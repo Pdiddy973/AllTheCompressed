@@ -3,7 +3,7 @@
     "ingredients": [{
         "tag": "forge:storage_blocks/diamond"
     }],
-    "energy": 2700000,
+"energy": 2700000,
     "result": {
         "item": "powah:niotic_crystal_block"
     },

@@ -8,7 +8,7 @@ public class Blackstone extends Block {
     public Blackstone() {
         super(Properties.of(Material.STONE)
             .sound(SoundType.STONE)
-                        .requiresCorrectToolForDrops()
+            .requiresCorrectToolForDrops()
             .strength(7.0f, 20.0f));
     }
 }

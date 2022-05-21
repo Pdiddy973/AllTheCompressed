@@ -3,7 +3,7 @@
     "ingredients": [{
         "item": "compressium:emerald_2"
     }],
-    "energy": 729000000,
+"energy": 729000000,
     "result": {
         "item": "allthecompressed:spirited_crystal_block_2x"
     },

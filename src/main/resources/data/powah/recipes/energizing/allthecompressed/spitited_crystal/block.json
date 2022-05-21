@@ -3,7 +3,7 @@
     "ingredients": [{
         "tag": "forge:storage_blocks/emerald"
     }],
-    "energy": 9000000,
+"energy": 9000000,
     "result": {
         "item": "powah:spirited_crystal_block"
     },

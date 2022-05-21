@@ -3,7 +3,7 @@
     "ingredients": [{
         "item": "compressium:diamond_1"
     }],
-    "energy": 24300000,
+"energy": 24300000,
     "result": {
         "item": "allthecompressed:niotic_crystal_block_1x"
     },

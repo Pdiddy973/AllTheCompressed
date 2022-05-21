@@ -3,7 +3,7 @@
     "ingredients": [{
         "item": "allthecompressed:blaze_rod_block_1x"
     }],
-    "energy": 7290000,
+"energy": 7290000,
     "result": {
         "item": "allthecompressed:blazing_crystal_block_1x"
     },

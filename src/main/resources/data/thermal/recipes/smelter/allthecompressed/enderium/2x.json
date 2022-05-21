@@ -1,0 +1,47 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [{
+            "value": [{
+                "item": "allthecompressed:diamond_block_2x"
+            }],
+            "count": 1
+        },
+        {
+            "value": [{
+                "item": "allthecompressed:lead_block_2x"
+            }],
+            "count": 3
+        },
+        {
+            "value": [{
+                "item": "allthecompressed:ender_pearl_block_2x"
+            }],
+            "count": 2
+
+        }
+    ],
+    "result": [{
+        "item": "allthecompressed:enderium_block_2x",
+        "count": 4
+    }],
+"energy": 480000,
+    "conditions": [{
+        "type": "forge:and",
+        "values": [{
+                "type": "forge:not",
+                "value": {
+                    "type": "forge:mod_loaded",
+                    "modid": "compressium"
+                }
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "alltheores"
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "thermal"
+            }
+        ]
+    }]
+}
