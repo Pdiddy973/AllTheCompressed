@@ -84,7 +84,10 @@ ATO
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lumium_block.png) Lumium
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/nickel_block.png) Nickel
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/osmium_block.png) Osmium
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/peridot_block.png) Peridot
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/platinum_block.png) Platinum
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/ruby_block.png) Ruby
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/sapphire_block.png) Sapphire
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/signalum_block.png) Signalum
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/silver_block.png) Silver
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/steel_block.png) Steel
