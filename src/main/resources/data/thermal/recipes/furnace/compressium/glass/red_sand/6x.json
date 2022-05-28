@@ -1,0 +1,26 @@
+{
+  "type": "thermal:furnace",
+  "ingredient": {
+    "item": "allthecompressed:red_sand_block_6x",
+    "count": 1
+  },
+  "result": {
+    "item": "allthecompressed:glass_block_6x"
+  },
+  "energy": 1440000,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        }
+      ]
+    }
+  ]
+}

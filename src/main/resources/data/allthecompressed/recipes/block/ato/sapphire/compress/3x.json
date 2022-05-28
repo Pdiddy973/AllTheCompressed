@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "allthecompressed:sapphire_block_2x"
+    }
+  },
+  "result": {
+    "item": "allthecompressed:sapphire_block_3x",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
+}

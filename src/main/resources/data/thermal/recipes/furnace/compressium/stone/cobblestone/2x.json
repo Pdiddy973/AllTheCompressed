@@ -1,0 +1,26 @@
+{
+  "type": "thermal:furnace",
+  "ingredient": {
+    "item": "allthecompressed:cobblestone_block_2x",
+    "count": 1
+  },
+  "result": {
+    "item": "allthecompressed:stone_block_2x"
+  },
+  "energy": 480000,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "compressium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        }
+      ]
+    }
+  ]
+}
