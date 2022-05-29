@@ -60,7 +60,7 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/spruce_log.png) Spruce Log
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/spruce_planks.png) Spruce Plank
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/stone.png) Stone
-- - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/terracotta.png) Terracotta
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/terracotta.png) Terracotta
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/tuff.png) Tuff
 
 ATM
