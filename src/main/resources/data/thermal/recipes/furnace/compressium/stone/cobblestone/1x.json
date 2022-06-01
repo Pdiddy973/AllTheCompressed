@@ -1,7 +1,7 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:cobblestone_block_1x",
+    "item": "compressium:cobblestone_1",
     "count": 1
   },
   "result": {

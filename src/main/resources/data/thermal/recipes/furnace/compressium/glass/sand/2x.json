@@ -1,7 +1,7 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:sand_block_2x",
+    "item": "compressium:sand_2",
     "count": 1
   },
   "result": {
