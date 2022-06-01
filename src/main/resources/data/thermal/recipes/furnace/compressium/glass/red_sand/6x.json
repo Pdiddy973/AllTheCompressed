@@ -1,7 +1,7 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "compressium:red_sand_6",
+    "item": "compressium:redsand_6",
     "count": 1
   },
   "result": {
