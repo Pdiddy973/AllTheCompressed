@@ -1,14 +1,27 @@
 {
     "type": "powah:energizing",
-    "ingredients": [{
-        "item": "allthecompressed:blaze_rod_block_1x"
-    }],
-"energy": 7290000,
+    "ingredients": [
+        {
+            "item": "allthecompressed:blaze_rod_block_1x"
+        }
+    ],
+    "energy": 7290000,
     "result": {
         "item": "allthecompressed:blazing_crystal_block_1x"
     },
-    "conditions": [{
-        "type": "forge:mod_loaded",
-        "modid": "powah"
-    }]
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "powah"
+                },
+                {
+                    "type": "forge:item_exists",
+                    "item": "allthecompressed:blazing_crystal_block_1x"
+                }
+            ]
+        }
+    ]
 }
