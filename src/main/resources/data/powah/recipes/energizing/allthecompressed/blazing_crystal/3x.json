@@ -7,8 +7,19 @@
     "result": {
         "item": "allthecompressed:blazing_crystal_block_3x"
     },
-    "conditions": [{
-        "type": "forge:mod_loaded",
-        "modid": "powah"
-    }]
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "powah"
+                },
+                {
+                    "type": "forge:item_exists",
+                    "item": "allthecompressed:blazing_crystal_block_1x"
+                }
+            ]
+        }
+    ]
 }
