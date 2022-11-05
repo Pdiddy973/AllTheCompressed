@@ -1,7 +1,7 @@
 {
   "parent": "block/block",
-  "loader": "forge:multi-layer",
-  "layers": {
+  "loader": "forge:composite",
+  "children": {
     "solid": {
     "parent": "minecraft:block/cube_column",
       "textures": {
@@ -15,6 +15,7 @@
     },
     "translucent": {
       "parent": "block/cube_all",
+      "render_type": "minecraft:translucent",
       "textures": {
         "all": "allthecompressed:block/layer_1"
       }

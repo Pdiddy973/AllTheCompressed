@@ -1,9 +1,10 @@
 {
   "parent": "block/block",
-  "loader": "forge:multi-layer",
-  "layers": {
+  "loader": "forge:composite",
+  "children": {
     "solid": {
       "parent": "block/cube_all",
+      "render_type": "minecraft:solid",
       "textures": {
         "all": "alltheores:block/signalum_block"
       },
@@ -14,6 +15,7 @@
     },
     "translucent": {
       "parent": "block/cube_all",
+      "render_type": "minecraft:translucent",
       "textures": {
         "all": "allthecompressed:block/layer_3"
       }

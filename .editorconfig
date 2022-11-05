@@ -9,6 +9,7 @@ indent_size = 4
 
 [*.{json,yml,yaml}]
 indent_size = 2
+insert_final_newline = false
 
 [*.bat]
 end_of_line = crlf

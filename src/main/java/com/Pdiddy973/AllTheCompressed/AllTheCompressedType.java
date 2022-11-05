@@ -5,6 +5,12 @@ import com.Pdiddy973.AllTheCompressed.blocks.ato.*;
 import com.Pdiddy973.AllTheCompressed.blocks.att.*;
 import com.Pdiddy973.AllTheCompressed.blocks.minecraft.*;
 import com.Pdiddy973.AllTheCompressed.blocks.pb.Wax;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.Blazing_Crystal;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.Energized_Steel;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.Niotic_Crystal;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.Nitro_Crystal;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.Spirited_Crystal;
+import com.Pdiddy973.AllTheCompressed.blocks.powah.Uraninite;
 import net.minecraft.world.level.block.Block;
 
 import java.util.ArrayList;
@@ -102,6 +108,14 @@ public enum AllTheCompressedType {
     STONE("stone", Stone::new),
     TERRACOTTA("terracotta", Terracotta::new),
     TUFF("tuff", Tuff::new),
+
+    // Powah
+    BLAZING_CRYSTAL("blazing_crystal", Blazing_Crystal::new),
+    ENERGIZED_STEEL("energized_steel", Energized_Steel::new),
+    NIOTIC_CRYSTAL("niotic_crystal", Niotic_Crystal::new),
+    NITRO_CRYSTAL("nitro_crystal", Nitro_Crystal::new),
+    SPIRITED_CRYSTAL("spirited_crystal", Spirited_Crystal::new),
+    URANINITE("uraninite", Uraninite::new),
 
     //PB
     Wax("wax", Wax::new);
