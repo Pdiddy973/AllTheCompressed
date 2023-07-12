@@ -1,6 +1,8 @@
 {
-    "pack": {
-        "description": "AllTheCompressed resources",
-        "pack_format": 9
-    }
+  "pack": {
+    "description": {
+      "text": "AllTheCompressed resources"
+    },
+    "pack_format": 15
+  }
 }
