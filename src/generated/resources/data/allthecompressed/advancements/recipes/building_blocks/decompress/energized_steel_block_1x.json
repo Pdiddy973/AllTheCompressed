@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_energized_steel_block_1x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:energized_steel_block_1x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/energized_steel_block_1x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_energized_steel_block_1x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/energized_steel_block_1x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

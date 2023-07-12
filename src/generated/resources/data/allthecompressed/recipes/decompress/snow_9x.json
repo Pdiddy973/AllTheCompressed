@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:snow_9x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:snow_8x"
+  }
+}

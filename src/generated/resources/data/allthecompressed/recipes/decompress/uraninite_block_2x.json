@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:uraninite_block_2x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:uraninite_block_1x"
+  }
+}

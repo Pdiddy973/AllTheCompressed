@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:podzol_9x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:podzol_8x"
+  }
+}

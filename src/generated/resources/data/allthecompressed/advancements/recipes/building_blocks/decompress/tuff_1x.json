@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/tuff_1x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tuff_1x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:tuff_1x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tuff_1x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/tuff_1x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

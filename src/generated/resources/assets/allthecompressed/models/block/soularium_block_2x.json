@@ -1,0 +1,21 @@
+{
+  "parent": "enderio:block/soularium_block",
+  "children": {
+    "solid": {
+      "parent": "enderio:block/soularium_block",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_2"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "forge:composite"
+}

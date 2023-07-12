@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:nitro_crystal_block_7x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:nitro_crystal_block_6x"
+  }
+}

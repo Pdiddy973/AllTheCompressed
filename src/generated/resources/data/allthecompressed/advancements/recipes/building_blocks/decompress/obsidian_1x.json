@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obsidian_1x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:obsidian_1x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/obsidian_1x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian_1x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/obsidian_1x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_steel_block_2x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:steel_block_2x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/steel_block_2x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_steel_block_2x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/steel_block_2x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

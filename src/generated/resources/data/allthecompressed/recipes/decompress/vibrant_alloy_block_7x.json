@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:vibrant_alloy_block_7x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:vibrant_alloy_block_6x"
+  }
+}

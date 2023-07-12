@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:netherite_block_6x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:netherite_block_5x"
+  }
+}

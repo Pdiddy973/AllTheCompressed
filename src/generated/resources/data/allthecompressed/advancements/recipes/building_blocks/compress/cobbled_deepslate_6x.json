@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobbled_deepslate_5x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:cobbled_deepslate_5x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/cobbled_deepslate_6x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cobbled_deepslate_5x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/cobbled_deepslate_6x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

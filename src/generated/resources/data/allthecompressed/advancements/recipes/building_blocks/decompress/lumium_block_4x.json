@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lumium_block_4x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:lumium_block_4x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/lumium_block_4x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lumium_block_4x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/lumium_block_4x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

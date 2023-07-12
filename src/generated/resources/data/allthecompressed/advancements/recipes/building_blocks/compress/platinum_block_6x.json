@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_platinum_block_5x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:platinum_block_5x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/platinum_block_6x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_platinum_block_5x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/platinum_block_6x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

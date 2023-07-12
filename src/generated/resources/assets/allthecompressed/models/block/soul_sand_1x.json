@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/soul_sand",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/soul_sand",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_1"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "forge:composite"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/zinc_block_9x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zinc_block_9x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:zinc_block_9x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zinc_block_9x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/zinc_block_9x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

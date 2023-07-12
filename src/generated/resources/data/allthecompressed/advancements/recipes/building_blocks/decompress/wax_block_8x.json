@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/wax_block_8x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wax_block_8x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allthecompressed:wax_block_8x"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wax_block_8x",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/wax_block_8x"
+    ]
+  },
+  "sends_telemetry_event": false
+}

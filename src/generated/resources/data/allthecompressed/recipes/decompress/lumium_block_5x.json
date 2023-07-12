@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:lumium_block_5x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:lumium_block_4x"
+  }
+}

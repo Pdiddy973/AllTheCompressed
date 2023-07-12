@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:steel_block_8x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:steel_block_7x"
+  }
+}
