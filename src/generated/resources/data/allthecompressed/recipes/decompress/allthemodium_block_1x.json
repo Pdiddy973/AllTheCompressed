@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:allthemodium_block_1x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthemodium:allthemodium_block"
+  }
+}

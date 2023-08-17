@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:vibranium_allthemodium_alloy_block_6x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:vibranium_allthemodium_alloy_block_5x"
+  }
+}

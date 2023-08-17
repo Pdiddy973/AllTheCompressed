@@ -1,14 +1,12 @@
 package com.Pdiddy973.AllTheCompressed.overlay;
 
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
-import com.google.common.base.Suppliers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.ModList;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public enum Overlays {
@@ -44,12 +42,12 @@ public enum Overlays {
     ZINC(Mods.ALLTHEORES, "zinc_block"),
 
     // allthetweaks
-    ATM_STAR(Mods.ALLTHETWEAKS, "atm_star_block"),
-    ENDER_PEARL(Mods.ALLTHETWEAKS, "ender_pearl_block"),
-    NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
+//    ATM_STAR(Mods.ALLTHETWEAKS, "atm_star_block"),
+//    ENDER_PEARL(Mods.ALLTHETWEAKS, "ender_pearl_block"),
+//    NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
 
     // botania
-    BLAZE(Mods.BOTANIA, "blaze_block"),
+//    BLAZE(Mods.BOTANIA, "blaze_block"),
 
     // enderio
     COPPER_ALLOY(Mods.ENDERIO, "copper_alloy_block"),

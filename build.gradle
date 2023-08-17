@@ -137,14 +137,20 @@ repositories {
             includeGroup "mezz.jei"
         }
     }
-    maven {
-        url "https://cursemaven.com"
-        content {
+    exclusiveContent {
+        forRepositories(fg.repository)
+        forRepository {
+            maven {
+                name "CurseMaven"
+                url "https://www.cursemaven.com"
+            }
+        }
+        filter {
             includeGroup "curse.maven"
         }
     }
-    flatDir {
-        dirs 'tmp'
+    maven {
+        url "https://maven.permutated.net/snapshots"
     }
 }
 
@@ -161,7 +167,9 @@ dependencies {
     runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
 //    runtimeOnly fg.deobf("curse.maven:ato-405593:4590570")
-    runtimeOnly fg.deobf("ato:alltheores:1.20-46.0.2-2.0.3")
+    runtimeOnly fg.deobf("net.allthemods.alltheores:AllTheOres:2.0.4")
+    runtimeOnly fg.deobf("com.thevortex.allthemodium:allthemodium:2.1.8")
+    runtimeOnly fg.deobf("curse.maven:geckolib-388172:4627674") // required by allthemodium
     runtimeOnly fg.deobf("curse.maven:productivebees-377897:4588445")
     runtimeOnly fg.deobf("curse.maven:supplementaries-412082:4591988")
     runtimeOnly fg.deobf("curse.maven:selene-499980:4591863") // required by supplementaries

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "allthecompressed:unobtainium_allthemodium_alloy_block_1x"
+  },
+  "show_notification": true
+}
