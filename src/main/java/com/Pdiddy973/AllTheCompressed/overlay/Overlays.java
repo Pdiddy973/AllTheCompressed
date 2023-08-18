@@ -17,6 +17,8 @@ public enum Overlays {
     UA_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_allthemodium_alloy_block"),
     UV_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_vibranium_alloy_block"),
     VA_ALLOY(Mods.ALLTHEMODIUM, "vibranium_allthemodium_alloy_block"),
+    ANCIENT_STONE(Mods.ALLTHEMODIUM, "ancient_stone"),
+    ANCIENT_LOG(Mods.ALLTHEMODIUM, "ancient_log_0"),
 
     //alltheores
     ALUMINUM(Mods.ALLTHEORES, "aluminum_block"),
@@ -81,6 +83,7 @@ public enum Overlays {
     DIAMOND(Mods.MINECRAFT, "diamond_block"),
     DIORITE(Mods.MINECRAFT, "diorite"),
     DIRT(Mods.MINECRAFT, "dirt"),
+    DRIPSTONE(Mods.MINECRAFT, "dripstone_block"),
     EMERALD(Mods.MINECRAFT, "emerald_block"),
     END_STONE(Mods.MINECRAFT, "end_stone"),
     GLASS(Mods.MINECRAFT, "glass"),
@@ -96,6 +99,7 @@ public enum Overlays {
     JUNGLE_PLANK(Mods.MINECRAFT, "jungle_planks"),
     LAPIS(Mods.MINECRAFT, "lapis_block"),
     MELON(Mods.MINECRAFT, "melon"),
+    MOSS(Mods.MINECRAFT, "moss_block"),
     NETHERITE(Mods.MINECRAFT, "netherite_block"),
     NETHERRACK(Mods.MINECRAFT, "netherrack"),
     OAK_LOG(Mods.MINECRAFT, "oak_log"),

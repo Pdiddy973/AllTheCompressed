@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:ancient_log_0_9x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:ancient_log_0_8x"
+  }
+}
