@@ -44,9 +44,9 @@ public enum Overlays {
     ZINC(Mods.ALLTHEORES, "zinc_block"),
 
     // allthetweaks
-//    ATM_STAR(Mods.ALLTHETWEAKS, "atm_star_block"),
-//    ENDER_PEARL(Mods.ALLTHETWEAKS, "ender_pearl_block"),
-//    NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
+    ATM_STAR(Mods.ALLTHETWEAKS, "atm_star_block"),
+    ENDER_PEARL(Mods.ALLTHETWEAKS, "ender_pearl_block"),
+    NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
 
     // botania
 //    BLAZE(Mods.BOTANIA, "blaze_block"),

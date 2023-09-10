@@ -169,6 +169,7 @@ dependencies {
 //    runtimeOnly fg.deobf("curse.maven:ato-405593:4590570")
     runtimeOnly fg.deobf("net.allthemods.alltheores:AllTheOres:2.0.4")
     runtimeOnly fg.deobf("com.thevortex.allthemodium:allthemodium:2.1.8")
+    runtimeOnly fg.deobf("curse.maven:all-the-tweaks-364120:4744569")
     runtimeOnly fg.deobf("curse.maven:geckolib-388172:4627674") // required by allthemodium
     runtimeOnly fg.deobf("curse.maven:productivebees-377897:4588445")
     runtimeOnly fg.deobf("curse.maven:supplementaries-412082:4591988")
