@@ -1,11 +1,11 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:clay_block_8x",
+    "item": "allthecompressed:clay_8x",
     "count": 1
   },
   "result": {
-    "item": "allthecompressed:terracotta_block_8x"
+    "item": "allthecompressed:terracotta_8x"
   },
   "energy": 2160000,
   "conditions": [

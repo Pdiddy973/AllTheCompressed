@@ -2,11 +2,11 @@
   "type": "mekanism:enriching",
   "input": {
       "ingredient": {
-          "item": "allthecompressed:sand_block_7x"
+          "item": "allthecompressed:sand_7x"
       }
   },
   "output": {
-      "item": "allthecompressed:gravel_block_7x"
+      "item": "allthecompressed:gravel_7x"
   },
   "conditions": [{
       "type": "forge:and",

@@ -2,11 +2,11 @@
   "type": "mekanism:crushing",
   "input": {
       "ingredient": {
-          "item": "allthecompressed:gravel_block_6x"
+          "item": "allthecompressed:gravel_6x"
       }
   },
   "output": {
-      "item": "allthecompressed:sand_block_6x"
+      "item": "allthecompressed:sand_6x"
   },
   "conditions": [{
       "type": "forge:and",
