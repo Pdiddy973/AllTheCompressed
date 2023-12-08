@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:mangrove_planks_6x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:mangrove_planks_5x"
+  }
+}

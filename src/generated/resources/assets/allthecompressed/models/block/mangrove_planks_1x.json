@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/mangrove_planks",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/mangrove_planks",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_1"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "forge:composite"
+}
