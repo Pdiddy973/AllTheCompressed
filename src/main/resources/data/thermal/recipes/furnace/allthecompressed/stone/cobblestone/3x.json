@@ -1,11 +1,11 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:cobblestone_block_3x",
+    "item": "allthecompressed:cobblestone_3x",
     "count": 1
   },
   "result": {
-    "item": "allthecompressed:stone_block_3x"
+    "item": "allthecompressed:stone_3x"
   },
   "energy": 720000,
   "conditions": [

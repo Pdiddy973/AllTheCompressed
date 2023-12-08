@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/mangrove_log",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/mangrove_log",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_8"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "forge:composite"
+}

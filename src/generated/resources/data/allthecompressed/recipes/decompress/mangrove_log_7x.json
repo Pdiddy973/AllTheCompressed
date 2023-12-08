@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:mangrove_log_7x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "allthecompressed:mangrove_log_6x"
+  }
+}

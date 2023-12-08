@@ -2,10 +2,10 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-      "item": "allthecompressed:gravel_block_6x"
+      "item": "allthecompressed:gravel_6x"
   },
   "input": {
-      "item": "allthecompressed:cobblestone_block_6x"
+      "item": "allthecompressed:cobblestone_6x"
   },
   "energy": 10880,
   "conditions": [{

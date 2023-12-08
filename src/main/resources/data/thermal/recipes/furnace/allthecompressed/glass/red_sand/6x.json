@@ -1,11 +1,11 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:red_sand_block_6x",
+    "item": "allthecompressed:red_sand_6x",
     "count": 1
   },
   "result": {
-    "item": "allthecompressed:glass_block_6x"
+    "item": "allthecompressed:glass_6x"
   },
   "energy": 1440000,
   "conditions": [

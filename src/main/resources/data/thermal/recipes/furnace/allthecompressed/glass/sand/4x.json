@@ -1,11 +1,11 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:sand_block_4x",
+    "item": "allthecompressed:sand_4x",
     "count": 1
   },
   "result": {
-    "item": "allthecompressed:glass_block_4x"
+    "item": "allthecompressed:glass_4x"
   },
   "energy": 960000,
   "conditions": [

@@ -3,12 +3,8 @@ package com.Pdiddy973.AllTheCompressed.data.client;
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.data.LanguageUtil;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
-import com.Pdiddy973.AllTheCompressed.util.ResourceUtil;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.client.model.generators.loaders.CompositeModelBuilder;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.common.data.LanguageProvider;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -34,7 +30,7 @@ public class Languages {
         @Override
         protected void addTranslations() {
             add(tab(), "AllTheCompressed");
-            add(tooltip("quantity"), "Total items: %s");
+            add(tooltip("quantity"), "Total blocks: %s");
 
             for (Overlays value : Overlays.values()) {
                 var parent = value.overlay.parent;

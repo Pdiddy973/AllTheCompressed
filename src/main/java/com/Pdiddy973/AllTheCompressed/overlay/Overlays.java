@@ -49,7 +49,7 @@ public enum Overlays {
     NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
 
     // botania
-//    BLAZE(Mods.BOTANIA, "blaze_block"),
+    BLAZE(Mods.BOTANIA, "blaze_block"),
 
     // enderio
     COPPER_ALLOY(Mods.ENDERIO, "copper_alloy_block"),
@@ -72,6 +72,7 @@ public enum Overlays {
     BIRCH_PLANKS(Mods.MINECRAFT, "birch_planks"),
     BLACKSTONE(Mods.MINECRAFT, "blackstone"),
     BONE(Mods.MINECRAFT, "bone_block"),
+    CALCITE(Mods.MINECRAFT, "calcite"),
     CLAY(Mods.MINECRAFT, "clay"),
     COAL(Mods.MINECRAFT, "coal_block"),
     COBBLED_DEEPSLATE(Mods.MINECRAFT, "cobbled_deepslate"),
@@ -98,6 +99,7 @@ public enum Overlays {
     JUNGLE_LOG(Mods.MINECRAFT, "jungle_log"),
     JUNGLE_PLANK(Mods.MINECRAFT, "jungle_planks"),
     LAPIS(Mods.MINECRAFT, "lapis_block"),
+    MANGROVE_LOG(Mods.MINECRAFT, "mangrove_log"),
     MELON(Mods.MINECRAFT, "melon"),
     MOSS(Mods.MINECRAFT, "moss_block"),
     NETHERITE(Mods.MINECRAFT, "netherite_block"),

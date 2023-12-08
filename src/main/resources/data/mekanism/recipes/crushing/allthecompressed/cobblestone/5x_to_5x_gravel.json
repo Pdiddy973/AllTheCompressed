@@ -2,11 +2,11 @@
   "type": "mekanism:crushing",
   "input": {
       "ingredient": {
-          "item": "allthecompressed:cobblestone_block_5x"
+          "item": "allthecompressed:cobblestone_5x"
       }
   },
   "output": {
-      "item": "allthecompressed:gravel_block_5x"
+      "item": "allthecompressed:gravel_5x"
   },
   "conditions": [{
       "type": "forge:and",

@@ -5,7 +5,7 @@
       "item": "compressium:sand_5"
   },
   "input": {
-      "item": "allthecompressed:glass_block_5x"
+      "item": "allthecompressed:glass_5x"
   },
   "energy": 9600,
   "conditions": [{
