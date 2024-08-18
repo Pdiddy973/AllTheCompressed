@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/uraninite_block_7x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uraninite_block_6x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:uraninite_block_6x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_uraninite_block_6x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/uraninite_block_7x"
+    ]
+  }
+}

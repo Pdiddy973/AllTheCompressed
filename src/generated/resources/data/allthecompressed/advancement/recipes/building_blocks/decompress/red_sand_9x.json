@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_sand_9x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:red_sand_9x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/red_sand_9x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_sand_9x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/red_sand_9x"
+    ]
+  }
+}

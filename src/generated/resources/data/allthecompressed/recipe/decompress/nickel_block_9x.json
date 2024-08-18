@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:nickel_block_9x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:nickel_block_8x"
+  }
+}

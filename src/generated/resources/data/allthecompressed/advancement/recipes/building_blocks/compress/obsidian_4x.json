@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obsidian_3x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:obsidian_3x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/obsidian_4x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obsidian_3x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/obsidian_4x"
+    ]
+  }
+}

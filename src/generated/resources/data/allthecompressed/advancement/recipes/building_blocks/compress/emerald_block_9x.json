@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emerald_block_8x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:emerald_block_8x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/emerald_block_9x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_emerald_block_8x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/emerald_block_9x"
+    ]
+  }
+}

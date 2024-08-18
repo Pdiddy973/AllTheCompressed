@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:grass_block_4x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:grass_block_3x"
+  }
+}

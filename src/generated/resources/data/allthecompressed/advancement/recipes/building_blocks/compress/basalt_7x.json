@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_basalt_6x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:basalt_6x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/basalt_7x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_basalt_6x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/basalt_7x"
+    ]
+  }
+}

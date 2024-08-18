@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_podzol_4x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:podzol_4x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/podzol_5x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_podzol_4x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/podzol_5x"
+    ]
+  }
+}

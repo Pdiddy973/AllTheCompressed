@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/tuff_8x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tuff_8x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:tuff_8x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tuff_8x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/tuff_8x"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_granite_1x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:granite_1x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/granite_2x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_granite_1x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/granite_2x"
+    ]
+  }
+}

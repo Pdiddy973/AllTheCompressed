@@ -1,0 +1,21 @@
+{
+  "parent": "allthemodium:block/piglich_heart_block",
+  "children": {
+    "solid": {
+      "parent": "allthemodium:block/piglich_heart_block",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_3"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "neoforge:composite"
+}

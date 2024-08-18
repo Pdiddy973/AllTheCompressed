@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jungle_planks_6x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:jungle_planks_6x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/jungle_planks_7x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_jungle_planks_6x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/jungle_planks_7x"
+    ]
+  }
+}

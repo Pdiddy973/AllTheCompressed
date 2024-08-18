@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soul_sand_2x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:soul_sand_2x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/soul_sand_3x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soul_sand_2x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/soul_sand_3x"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_log_3x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:oak_log_3x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/oak_log_4x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oak_log_3x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/oak_log_4x"
+    ]
+  }
+}

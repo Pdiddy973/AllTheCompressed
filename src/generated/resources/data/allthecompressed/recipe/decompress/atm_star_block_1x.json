@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthetweaks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:atm_star_block_1x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthetweaks:atm_star_block"
+  }
+}

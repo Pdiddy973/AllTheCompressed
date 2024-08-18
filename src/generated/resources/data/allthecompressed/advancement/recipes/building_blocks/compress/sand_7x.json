@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sand_6x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:sand_6x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/sand_7x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sand_6x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/sand_7x"
+    ]
+  }
+}

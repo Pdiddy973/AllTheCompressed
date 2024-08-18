@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:spirited_crystal_block_1x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "powah:spirited_crystal_block"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_birch_log_7x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:birch_log_7x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/birch_log_8x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_birch_log_7x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/birch_log_8x"
+    ]
+  }
+}

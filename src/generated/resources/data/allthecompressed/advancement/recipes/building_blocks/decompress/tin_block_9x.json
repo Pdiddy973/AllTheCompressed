@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/tin_block_9x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tin_block_9x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:tin_block_9x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tin_block_9x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/tin_block_9x"
+    ]
+  }
+}

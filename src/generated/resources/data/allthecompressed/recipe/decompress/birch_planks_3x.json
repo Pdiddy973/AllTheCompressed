@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:birch_planks_3x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:birch_planks_2x"
+  }
+}

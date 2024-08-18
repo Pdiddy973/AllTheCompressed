@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthetweaks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:greg_star_block_7x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:greg_star_block_6x"
+  }
+}

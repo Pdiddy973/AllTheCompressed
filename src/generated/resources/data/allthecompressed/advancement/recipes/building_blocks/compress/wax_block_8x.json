@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/wax_block_8x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wax_block_7x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:wax_block_7x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wax_block_7x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/wax_block_8x"
+    ]
+  }
+}

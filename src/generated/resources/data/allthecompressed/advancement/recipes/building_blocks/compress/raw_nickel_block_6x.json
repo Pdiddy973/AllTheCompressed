@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_nickel_block_5x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:raw_nickel_block_5x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/raw_nickel_block_6x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_nickel_block_5x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/raw_nickel_block_6x"
+    ]
+  }
+}

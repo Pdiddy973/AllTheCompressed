@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_calcite_5x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:calcite_5x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/calcite_6x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_calcite_5x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/calcite_6x"
+    ]
+  }
+}

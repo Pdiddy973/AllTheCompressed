@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/vibranium_block_4x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vibranium_block_4x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:vibranium_block_4x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vibranium_block_4x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/vibranium_block_4x"
+    ]
+  }
+}

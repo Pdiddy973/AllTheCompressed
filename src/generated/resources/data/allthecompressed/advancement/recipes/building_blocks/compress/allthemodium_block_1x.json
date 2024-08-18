@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_allthemodium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthemodium:allthemodium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/allthemodium_block_1x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_allthemodium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/allthemodium_block_1x"
+    ]
+  }
+}
