@@ -3,11 +3,11 @@ package com.Pdiddy973.AllTheCompressed.data.client;
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.data.LanguageUtil;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.common.data.LanguageProvider;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.common.data.LanguageProvider;
 
 import static com.Pdiddy973.AllTheCompressed.util.TranslationKey.tab;
 import static com.Pdiddy973.AllTheCompressed.util.TranslationKey.tooltip;
@@ -34,9 +34,9 @@ public class Languages {
 
             for (Overlays value : Overlays.values()) {
                 var parent = value.overlay.parent;
-                var block = ForgeRegistries.BLOCKS.getValue(parent);
+                var block = BuiltInRegistries.BLOCK.getOptional(parent);
 
-                if (block == null || block == Blocks.AIR) {
+                if (block.isEmpty() || block.get() == Blocks.AIR) {
                     AllTheCompressed.LOGGER.error("missing block during datagen: {}", parent);
                     continue;
                 }

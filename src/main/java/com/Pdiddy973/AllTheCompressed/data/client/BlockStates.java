@@ -3,14 +3,13 @@ package com.Pdiddy973.AllTheCompressed.data.client;
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
 import com.Pdiddy973.AllTheCompressed.util.ResourceUtil;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.client.model.generators.BlockStateProvider;
-import net.minecraftforge.client.model.generators.loaders.CompositeModelBuilder;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.loaders.CompositeModelBuilder;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 public class BlockStates extends BlockStateProvider {
     public BlockStates(PackOutput packOutput, ExistingFileHelper fileHelper) {
@@ -21,17 +20,17 @@ public class BlockStates extends BlockStateProvider {
     protected void registerStatesAndModels() {
         for (Overlays value : Overlays.values()) {
             var parent = value.overlay.parent;
-            var block = ForgeRegistries.BLOCKS.getValue(parent);
+            var block = BuiltInRegistries.BLOCK.getOptional(parent);
 
-            if (block == null || block == Blocks.AIR) {
+            if (block.isEmpty() || block.get() == Blocks.AIR) {
                 AllTheCompressed.LOGGER.error("missing block during datagen: {}", parent);
                 continue;
             }
 
             ResourceLocation modelFile = switch (parent.getPath()) {
-                case "grass_block" -> new ResourceLocation(AllTheCompressed.MODID, String.format("block/%s", parent.getPath()));
-                case "snow" -> new ResourceLocation(parent.getNamespace(), String.format("block/%s_block", parent.getPath()));
-                default -> new ResourceLocation(parent.getNamespace(), String.format("block/%s", parent.getPath()));
+                case "grass_block" -> ResourceLocation.fromNamespaceAndPath(AllTheCompressed.MODID, String.format("block/%s", parent.getPath()));
+                case "snow" -> ResourceLocation.fromNamespaceAndPath(parent.getNamespace(), String.format("block/%s_block", parent.getPath()));
+                default -> ResourceLocation.fromNamespaceAndPath(parent.getNamespace(), String.format("block/%s", parent.getPath()));
             };
 
             var original = models().getExistingFile(modelFile);
@@ -44,7 +43,7 @@ public class BlockStates extends BlockStateProvider {
                     .customLoader(CompositeModelBuilder::begin)
                     .child("solid", models().nested().renderType("minecraft:solid").parent(original))
                     .child("translucent", models().nested().renderType("minecraft:translucent")
-                        .parent(models().getExistingFile(new ResourceLocation("block/cube_all")))
+                        .parent(models().getExistingFile(ResourceLocation.withDefaultNamespace("block/cube_all")))
                         .texture("all", ResourceUtil.block(String.format("layer_%s", i+1))))
                     .end().parent(original);
                 simpleBlockWithItem(each.get(), model);

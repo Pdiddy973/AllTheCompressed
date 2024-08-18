@@ -3,47 +3,43 @@ package com.Pdiddy973.AllTheCompressed.overlay;
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.ModRegistry;
 import com.google.common.base.Suppliers;
-import net.minecraft.locale.Language;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Supplier;
-
-import static com.Pdiddy973.AllTheCompressed.ModRegistry.CREATIVE_TAB;
 
 public class OverlayEntry {
     public final ResourceLocation parent;
-    public final RegistryObject<Block> x1;
-    public final RegistryObject<Block> x2;
-    public final RegistryObject<Block> x3;
-    public final RegistryObject<Block> x4;
-    public final RegistryObject<Block> x5;
-    public final RegistryObject<Block> x6;
-    public final RegistryObject<Block> x7;
-    public final RegistryObject<Block> x8;
-    public final RegistryObject<Block> x9;
-    public final List<RegistryObject<Block>> xall;
+    public final DeferredBlock<Block> x1;
+    public final DeferredBlock<Block> x2;
+    public final DeferredBlock<Block> x3;
+    public final DeferredBlock<Block> x4;
+    public final DeferredBlock<Block> x5;
+    public final DeferredBlock<Block> x6;
+    public final DeferredBlock<Block> x7;
+    public final DeferredBlock<Block> x8;
+    public final DeferredBlock<Block> x9;
+    public final List<DeferredBlock<Block>> xall;
 
-    public final RegistryObject<BlockItem> i1;
-    public final RegistryObject<BlockItem> i2;
-    public final RegistryObject<BlockItem> i3;
-    public final RegistryObject<BlockItem> i4;
-    public final RegistryObject<BlockItem> i5;
-    public final RegistryObject<BlockItem> i6;
-    public final RegistryObject<BlockItem> i7;
-    public final RegistryObject<BlockItem> i8;
-    public final RegistryObject<BlockItem> i9;
-    public final List<RegistryObject<BlockItem>> iall;
+    public final DeferredItem<BlockItem> i1;
+    public final DeferredItem<BlockItem> i2;
+    public final DeferredItem<BlockItem> i3;
+    public final DeferredItem<BlockItem> i4;
+    public final DeferredItem<BlockItem> i5;
+    public final DeferredItem<BlockItem> i6;
+    public final DeferredItem<BlockItem> i7;
+    public final DeferredItem<BlockItem> i8;
+    public final DeferredItem<BlockItem> i9;
+    public final List<DeferredItem<BlockItem>> iall;
 
     private boolean blockLoaded = false;
 
@@ -95,10 +91,10 @@ public class OverlayEntry {
         return Suppliers.memoize(() -> {
             BlockBehaviour.Properties properties = defaultProperties;
             if (ModList.get().isLoaded(parent.getNamespace())) {
-                var block = ForgeRegistries.BLOCKS.getValue(parent);
-                if (block != null) {
+                var block = BuiltInRegistries.BLOCK.getOptional(parent);
+                if (block.isPresent()) {
                     blockLoaded = true;
-                    properties = BlockBehaviour.Properties.copy(block);
+                    properties = BlockBehaviour.Properties.ofFullCopy(block.get());
                 } else {
                     AllTheCompressed.LOGGER.error("Trying to register an overlay for a block that doesn't exist! {}", parent);
                 }
@@ -110,12 +106,12 @@ public class OverlayEntry {
     /**
      * Register a BlockItem for a Block
      *
-     * @param registryObject the Block
+     * @param block the Block
      * @return the new registry object
      */
-    private static RegistryObject<BlockItem> blockItem(RegistryObject<Block> registryObject) {
-        return ModRegistry.ITEMS.register(registryObject.getId().getPath(),
-            () -> new BlockItem(registryObject.get(), new Item.Properties()));
+    private static DeferredItem<BlockItem> blockItem(DeferredBlock<Block> block) {
+        return ModRegistry.ITEMS.register(block.getKey().location().getPath(),
+            () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     /**
@@ -126,7 +122,7 @@ public class OverlayEntry {
      * @param pillar whether the block is a pillar block
      * @return the new registry entry
      */
-    private static RegistryObject<Block> block(ResourceLocation parent, Supplier<BlockBehaviour.Properties> properties, int level, boolean pillar) {
+    private static DeferredBlock<Block> block(ResourceLocation parent, Supplier<BlockBehaviour.Properties> properties, int level, boolean pillar) {
         Supplier<Block> supplier;
         if (pillar) {
             supplier = () -> new OverlayPillarBlock(properties.get(), level);

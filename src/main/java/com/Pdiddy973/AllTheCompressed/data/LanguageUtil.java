@@ -9,9 +9,8 @@ import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.util.FormattedCharSequence;
 import net.minecraft.util.StringDecomposer;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.ModList;
-
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -52,7 +51,7 @@ public class LanguageUtil {
         String langFile = String.format("/assets/%s/lang/en_us.json", mod);
 
         try {
-            Resource resource = fileHelper.getResource(new ResourceLocation(mod, "/lang/en_us.json"), PackType.CLIENT_RESOURCES);
+            Resource resource = fileHelper.getResource(ResourceLocation.fromNamespaceAndPath(mod, "lang/en_us.json"), PackType.CLIENT_RESOURCES);
             InputStream is = resource.open();
             Language.loadFromJson(is, builder::put);
         } catch (IOException e) {

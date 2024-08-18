@@ -6,22 +6,23 @@ import com.Pdiddy973.AllTheCompressed.data.client.Languages;
 import com.Pdiddy973.AllTheCompressed.data.server.BlockLoot;
 import com.Pdiddy973.AllTheCompressed.data.server.BlockTags;
 import com.Pdiddy973.AllTheCompressed.data.server.CraftingRecipes;
+import com.Pdiddy973.AllTheCompressed.data.server.ItemTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.data.event.GatherDataEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = AllTheCompressed.MODID)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, modid = AllTheCompressed.MODID)
 public final class DataGenerators {
     private DataGenerators() {}
 
@@ -32,10 +33,16 @@ public final class DataGenerators {
         ExistingFileHelper fileHelper = event.getExistingFileHelper();
 
         if (event.includeServer()) {
-            generator.addProvider(true, new BlockTags(generator, event.getLookupProvider(), fileHelper));
-            generator.addProvider(true, new CraftingRecipes(packOutput));
-            generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
-                List.of(new LootTableProvider.SubProviderEntry(BlockLoot::new, LootContextParamSets.BLOCK))));
+            BlockTags blockTags = new BlockTags(generator, event.getLookupProvider(), fileHelper);
+            generator.addProvider(true, blockTags);
+            generator.addProvider(true, new ItemTags(generator, event.getLookupProvider(), blockTags.contentsGetter(), fileHelper));
+            generator.addProvider(true, new CraftingRecipes(packOutput, event.getLookupProvider()));
+            generator.addProvider(true, new LootTableProvider(
+                packOutput,
+                Collections.emptySet(),
+                List.of(new LootTableProvider.SubProviderEntry(BlockLoot::new, LootContextParamSets.BLOCK)),
+                event.getLookupProvider()
+            ));
         }
         if (event.includeClient()) {
             generator.addProvider(true, new BlockStates(packOutput, fileHelper));

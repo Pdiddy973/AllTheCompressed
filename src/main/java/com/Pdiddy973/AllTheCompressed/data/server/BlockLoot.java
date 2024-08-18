@@ -1,13 +1,19 @@
 package com.Pdiddy973.AllTheCompressed.data.server;
 
 import com.Pdiddy973.AllTheCompressed.ModRegistry;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.packs.VanillaBlockLoot;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.registries.RegistryObject;
 
-import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Supplier;
 
 public class BlockLoot extends VanillaBlockLoot {
+    public BlockLoot(HolderLookup.Provider provider) {
+        super(provider);
+    }
+
     @Override
     protected void generate() {
         ModRegistry.BLOCKS.getEntries().forEach(block -> dropSelf(block.get()));
@@ -15,8 +21,10 @@ public class BlockLoot extends VanillaBlockLoot {
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return ModRegistry.BLOCKS.getEntries().stream()
-            .map(RegistryObject::get)
-            .toList();
+        List<Block> blocks = new ArrayList<>();
+        ModRegistry.BLOCKS.getEntries().stream()
+            .map(Supplier::get)
+            .forEach(blocks::add);
+        return blocks;
     }
 }

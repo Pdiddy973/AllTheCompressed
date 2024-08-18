@@ -9,9 +9,10 @@ body:
       label: Minecraft Version
       description: What version of Minecraft are you using?
       options:
-        - 1.16
-        - 1.17
-        - 1.18
+        - 1.16.5
+        - 1.18.2
+        - 1.20.1
+        - 1.21.1
     validations:
       required: true
   - type: input
@@ -20,16 +21,6 @@ body:
       label: Mod Version
       description: Please Enter The Mod Version
       placeholder: 1.0.0-1.16.5-36.2.8
-    validations:
-      required: true
-  - type: dropdown
-    id: compressium
-    attributes:
-      label: Is Compressium Loaded
-      description: Is Copmpressium Loaded Along With AllTheCompressed
-      options:
-        - Loaded
-        - Not Loaded
     validations:
       required: true
   - type: textarea

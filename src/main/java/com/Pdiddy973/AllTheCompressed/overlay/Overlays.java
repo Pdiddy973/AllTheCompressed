@@ -2,8 +2,7 @@ package com.Pdiddy973.AllTheCompressed.overlay;
 
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.fml.ModList;
-
+import net.neoforged.fml.ModList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -14,14 +13,19 @@ public enum Overlays {
     ALLTHEMODIUM(Mods.ALLTHEMODIUM, "allthemodium_block"),
     VIBRANIUM(Mods.ALLTHEMODIUM, "vibranium_block"),
     UNOBTAINIUM(Mods.ALLTHEMODIUM, "unobtainium_block"),
+    RAW_ALLTHEMODIUM(Mods.ALLTHEMODIUM, "raw_allthemodium_block"),
+    RAW_VIBRANIUM(Mods.ALLTHEMODIUM, "raw_vibranium_block"),
+    RAW_UNOBTAINIUM(Mods.ALLTHEMODIUM, "raw_unobtainium_block"),
     UA_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_allthemodium_alloy_block"),
     UV_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_vibranium_alloy_block"),
     VA_ALLOY(Mods.ALLTHEMODIUM, "vibranium_allthemodium_alloy_block"),
     ANCIENT_STONE(Mods.ALLTHEMODIUM, "ancient_stone"),
     ANCIENT_LOG(Mods.ALLTHEMODIUM, "ancient_log_0"),
+    PIGLICH_HEART_BLOCK(Mods.ALLTHEMODIUM, "piglich_heart_block"),
 
     //alltheores
     ALUMINUM(Mods.ALLTHEORES, "aluminum_block"),
+    BRASS(Mods.ALLTHEORES, "brass_block"),
     BRONZE(Mods.ALLTHEORES, "bronze_block"),
     CONSTANTAN(Mods.ALLTHEORES, "constantan_block"),
     ELECTRUM(Mods.ALLTHEORES, "electrum_block"),
@@ -43,24 +47,41 @@ public enum Overlays {
     URANIUM(Mods.ALLTHEORES, "uranium_block"),
     ZINC(Mods.ALLTHEORES, "zinc_block"),
 
+    RAW_ALUMINUM(Mods.ALLTHEORES, "raw_aluminum_block"),
+    RAW_IRIDIUM(Mods.ALLTHEORES, "raw_iridium_block"),
+    RAW_LEAD(Mods.ALLTHEORES, "raw_lead_block"),
+    RAW_NICKEL(Mods.ALLTHEORES, "raw_nickel_block"),
+    RAW_OSMIUM(Mods.ALLTHEORES, "raw_osmium_block"),
+    RAW_PLATINUM(Mods.ALLTHEORES, "raw_platinum_block"),
+    RAW_SILVER(Mods.ALLTHEORES, "raw_silver_block"),
+    RAW_TIN(Mods.ALLTHEORES, "raw_tin_block"),
+    RAW_URANIUM(Mods.ALLTHEORES, "raw_uranium_block"),
+    RAW_ZINC(Mods.ALLTHEORES, "raw_zinc_block"),
+
+    CINNABAR(Mods.ALLTHEORES, "cinnabar_block"),
+    FLUORITE(Mods.ALLTHEORES, "fluorite_block"),
+    SALT(Mods.ALLTHEORES, "salt_block"),
+    SULFUR(Mods.ALLTHEORES, "sulfur_block"),
+
     // allthetweaks
     ATM_STAR(Mods.ALLTHETWEAKS, "atm_star_block"),
+    GREG_STAR(Mods.ALLTHETWEAKS, "greg_star_block"),
     ENDER_PEARL(Mods.ALLTHETWEAKS, "ender_pearl_block"),
     NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
 
     // botania
-    BLAZE(Mods.BOTANIA, "blaze_block"),
+//    BLAZE(Mods.BOTANIA, "blaze_block"),
 
     // enderio
-    COPPER_ALLOY(Mods.ENDERIO, "copper_alloy_block"),
-    ENERGETIC_ALLOY(Mods.ENDERIO, "energetic_alloy_block"),
-    VIBRANT_ALLOY(Mods.ENDERIO, "vibrant_alloy_block"),
-    REDSTONE_ALLOY(Mods.ENDERIO, "redstone_alloy_block"),
-    CONDUCTIVE_ALLOY(Mods.ENDERIO, "conductive_alloy_block"),
-    PULSATING_ALLOY(Mods.ENDERIO, "pulsating_alloy_block"),
-    DARK_STEEL(Mods.ENDERIO, "dark_steel_block"),
-    SOULARIUM(Mods.ENDERIO, "soularium_block"),
-    END_STEEL(Mods.ENDERIO, "end_steel_block"),
+//    COPPER_ALLOY(Mods.ENDERIO, "copper_alloy_block"),
+//    ENERGETIC_ALLOY(Mods.ENDERIO, "energetic_alloy_block"),
+//    VIBRANT_ALLOY(Mods.ENDERIO, "vibrant_alloy_block"),
+//    REDSTONE_ALLOY(Mods.ENDERIO, "redstone_alloy_block"),
+//    CONDUCTIVE_ALLOY(Mods.ENDERIO, "conductive_alloy_block"),
+//    PULSATING_ALLOY(Mods.ENDERIO, "pulsating_alloy_block"),
+//    DARK_STEEL(Mods.ENDERIO, "dark_steel_block"),
+//    SOULARIUM(Mods.ENDERIO, "soularium_block"),
+//    END_STEEL(Mods.ENDERIO, "end_steel_block"),
 
     // minecraft
     ACACIA_LOG(Mods.MINECRAFT, "acacia_log"),
@@ -117,6 +138,7 @@ public enum Overlays {
     SNOW(Mods.MINECRAFT, "snow"),
     SOUL_SAND(Mods.MINECRAFT, "soul_sand"),
     SOUL_SOIL(Mods.MINECRAFT, "soul_soil"),
+    SPONGE(Mods.MINECRAFT, "sponge"),
     SPRUCE_LOG(Mods.MINECRAFT, "spruce_log"),
     SPRUCE_PLANKS(Mods.MINECRAFT, "spruce_planks"),
     STONE(Mods.MINECRAFT, "stone"),
@@ -132,7 +154,7 @@ public enum Overlays {
     URANINITE(Mods.POWAH, "uraninite_block"),
 
     // supplementaries
-    FLINT(Mods.SUPPLEMENTARIES, "flint_block"),
+//    FLINT(Mods.SUPPLEMENTARIES, "flint_block"),
 
     // productivebees
     WAX(Mods.PRODUCTIVEBEES, "wax_block"),
@@ -142,7 +164,7 @@ public enum Overlays {
     public final OverlayEntry overlay;
     Overlays(Mods mod, String block) {
         this.mod = mod;
-        this.overlay = new OverlayEntry(new ResourceLocation(mod.toString(), block));
+        this.overlay = new OverlayEntry(ResourceLocation.fromNamespaceAndPath(mod.toString(), block));
     }
 
     public static void init() {
