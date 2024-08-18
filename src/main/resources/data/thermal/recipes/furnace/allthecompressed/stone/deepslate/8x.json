@@ -1,11 +1,11 @@
 {
   "type": "thermal:furnace",
   "ingredient": {
-    "item": "allthecompressed:cobbled_deepslate_block_8x",
+    "item": "allthecompressed:cobbled_deepslate_8x",
     "count": 1
   },
   "result": {
-    "item": "allthecompressed:deepslate_block_8x"
+    "item": "allthecompressed:deepslate_8x"
   },
   "energy": 2160000,
   "conditions": [
