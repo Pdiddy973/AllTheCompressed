@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:dried_kelp_block_7x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:dried_kelp_block_6x"
+  }
+}

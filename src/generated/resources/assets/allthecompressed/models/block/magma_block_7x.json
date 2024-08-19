@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/magma_block",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/magma_block",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_7"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "neoforge:composite"
+}
