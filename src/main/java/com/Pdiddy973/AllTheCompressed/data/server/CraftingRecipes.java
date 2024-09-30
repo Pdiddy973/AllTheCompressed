@@ -76,7 +76,7 @@ public class CraftingRecipes extends RecipeProvider {
             .save(powah);
 
         EnergizingRecipeBuilder.build(Overlays.SPIRITED_CRYSTAL)
-            .setEnergy(81_000_000)
+            .setEnergy(9_000_000)
             .addIngredient(Overlays.EMERALD)
             .save(powah);
 

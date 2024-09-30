@@ -6,14 +6,14 @@
     }
   ],
   "type": "powah:energizing",
-  "energy": 9000000,
+  "energy": 729000000,
   "ingredients": [
     {
-      "item": "minecraft:emerald_block"
+      "item": "allthecompressed:emerald_block_2x"
     }
   ],
   "result": {
     "count": 1,
-    "id": "powah:spirited_crystal_block"
+    "id": "allthecompressed:spirited_crystal_block_2x"
   }
 }
