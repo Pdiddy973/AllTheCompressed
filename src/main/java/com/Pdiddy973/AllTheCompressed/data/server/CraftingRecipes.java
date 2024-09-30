@@ -64,7 +64,7 @@ public class CraftingRecipes extends RecipeProvider {
     protected void energizingRecipes(RecipeOutput consumer) {
         RecipeOutput powah = consumer.withConditions(new ModLoadedCondition(Powah.MOD_ID));
 
-        EnergizingRecipeBuilder.build(Overlays.ENERGIZED_STEEL)
+        EnergizingRecipeBuilder.build(Overlays.ENERGIZED_STEEL, 2)
             .setEnergy(90_000)
             .addIngredient(Overlays.IRON)
             .addIngredient(Overlays.GOLD)

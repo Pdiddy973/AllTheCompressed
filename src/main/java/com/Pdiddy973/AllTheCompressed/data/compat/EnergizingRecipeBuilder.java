@@ -9,7 +9,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.neoforge.registries.DeferredItem;
 import owmii.powah.block.energizing.EnergizingRecipe;
 
 import java.util.ArrayList;
@@ -19,16 +18,22 @@ import static com.Pdiddy973.AllTheCompressed.util.ResourceUtil.prefix;
 
 public class EnergizingRecipeBuilder {
     final Overlays overlay;
+    final int count;
 
     long energy = 0L;
     List<Overlays> ingredients = new ArrayList<>();
 
-    public EnergizingRecipeBuilder(Overlays overlay) {
+    public EnergizingRecipeBuilder(Overlays overlay, int count) {
         this.overlay = overlay;
+        this.count = count;
     }
 
     public static EnergizingRecipeBuilder build(Overlays overlays) {
-        return new EnergizingRecipeBuilder(overlays);
+        return new EnergizingRecipeBuilder(overlays, 1);
+    }
+
+    public static EnergizingRecipeBuilder build(Overlays overlays, int count) {
+        return new EnergizingRecipeBuilder(overlays, count);
     }
 
     public EnergizingRecipeBuilder setEnergy(long energy) {
@@ -61,13 +66,13 @@ public class EnergizingRecipeBuilder {
                     continue;
                 }
 
-                output = new ItemStack(block.get(), 1);
+                output = new ItemStack(block.get(), count);
                 for (Overlays ingredient : ingredients) {
                     var iblock = BuiltInRegistries.BLOCK.getOrThrow(ResourceKey.create(Registries.BLOCK, ingredient.overlay.parent));
                     inputs.add(Ingredient.of(iblock));
                 }
             } else {
-                output = overlay.overlay.iall.get(i - 1).toStack();
+                output = overlay.overlay.iall.get(i - 1).toStack().copyWithCount(count);
                 for (Overlays ingredient : ingredients) {
                     inputs.add(Ingredient.of(ingredient.overlay.iall.get(i - 1)));
                 }
