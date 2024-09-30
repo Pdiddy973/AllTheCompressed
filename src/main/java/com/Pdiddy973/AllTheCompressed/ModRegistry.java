@@ -3,13 +3,22 @@ package com.Pdiddy973.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
 import com.Pdiddy973.AllTheCompressed.util.ResourceUtil;
 import com.Pdiddy973.AllTheCompressed.util.TranslationKey;
+import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -31,6 +40,8 @@ public class ModRegistry {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AllTheCompressed.MODID);
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(AllTheCompressed.MODID);
+    public static final DeferredRegister.Items OVERLAY_ITEMS = DeferredRegister.createItems(AllTheCompressed.MODID);
+    public static final DeferredRegister.Blocks OVERLAY_BLOCKS = DeferredRegister.createBlocks(AllTheCompressed.MODID);
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AllTheCompressed.MODID);
 
     public static final Supplier<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab", () -> CreativeModeTab.builder()
@@ -45,13 +56,38 @@ public class ModRegistry {
                         .forEach(output::accept);
                 }
             }
+
+            ITEMS.getEntries().stream()
+                .map(Supplier::get)
+                .map(Item::getDefaultInstance)
+                .forEach(output::accept);
         }).build()
     );
+
+    public static final DeferredBlock<Block> FLINT_BLOCK = BLOCKS.registerBlock("flint_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
+    public static final DeferredItem<BlockItem> FLINT_BLOCK_ITEM = blockItem(FLINT_BLOCK);
+
+    public static final DeferredBlock<Block> BLAZE_ROD_BLOCK = BLOCKS.registerBlock("blaze_rod_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.GOLD));
+    public static final DeferredItem<BlockItem> BLAZE_ROD_BLOCK_ITEM = blockItem(BLAZE_ROD_BLOCK);
+
+
+    /**
+     * Register a BlockItem for a Block
+     *
+     * @param holder the Block
+     * @return the new registry object
+     */
+    private static DeferredItem<BlockItem> blockItem(Holder<Block> holder) {
+        return ITEMS.register(holder.unwrapKey().map(ResourceKey::location).map(ResourceLocation::getPath).orElseThrow(),
+            () -> new BlockItem(holder.value(), new Item.Properties()));
+    }
 
     public static void register(IEventBus bus) {
         Overlays.init();
         ITEMS.register(bus);
         BLOCKS.register(bus);
+        OVERLAY_ITEMS.register(bus);
+        OVERLAY_BLOCKS.register(bus);
         CREATIVE_MODE_TABS.register(bus);
     }
 }

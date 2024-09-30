@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthecompressed"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:blaze_rod_block_8x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:blaze_rod_block_7x"
+  }
+}

@@ -1,15 +1,21 @@
 package com.Pdiddy973.AllTheCompressed.data.client;
 
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
+import com.Pdiddy973.AllTheCompressed.ModRegistry;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
 import com.Pdiddy973.AllTheCompressed.util.ResourceUtil;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.client.model.generators.loaders.CompositeModelBuilder;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
+
+import java.util.function.Supplier;
 
 public class BlockStates extends BlockStateProvider {
     public BlockStates(PackOutput packOutput, ExistingFileHelper fileHelper) {
@@ -18,6 +24,9 @@ public class BlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        simpleBlockWithItem(ModRegistry.FLINT_BLOCK);
+        columnBlockWithItem(ModRegistry.BLAZE_ROD_BLOCK);
+
         for (Overlays value : Overlays.values()) {
             var parent = value.overlay.parent;
             var block = BuiltInRegistries.BLOCK.getOptional(parent);
@@ -28,9 +37,9 @@ public class BlockStates extends BlockStateProvider {
             }
 
             ResourceLocation modelFile = switch (parent.getPath()) {
-                case "grass_block" -> ResourceLocation.fromNamespaceAndPath(AllTheCompressed.MODID, String.format("block/%s", parent.getPath()));
-                case "snow" -> ResourceLocation.fromNamespaceAndPath(parent.getNamespace(), String.format("block/%s_block", parent.getPath()));
-                default -> ResourceLocation.fromNamespaceAndPath(parent.getNamespace(), String.format("block/%s", parent.getPath()));
+                case "grass_block" -> ResourceUtil.block(parent.getPath());
+                case "snow" -> blockTexture(parent, "block");
+                default -> blockTexture(parent);
             };
 
             var original = models().getExistingFile(modelFile);
@@ -49,5 +58,23 @@ public class BlockStates extends BlockStateProvider {
                 simpleBlockWithItem(each.get(), model);
             }
         }
+    }
+
+    public void simpleBlockWithItem(Supplier<Block> block) {
+        super.simpleBlockWithItem(block.get(), cubeAll(block.get()));
+    }
+
+    public void columnBlockWithItem(DeferredBlock<Block> block) {
+        ResourceLocation key = BuiltInRegistries.BLOCK.getKey(block.get());
+        ModelFile modelFile = models().cubeColumn(key.getPath(), blockTexture(key), blockTexture(key, "end"));
+        super.simpleBlockWithItem(block.get(), modelFile);
+    }
+
+    public ResourceLocation blockTexture(ResourceLocation key) {
+        return ResourceLocation.fromNamespaceAndPath(key.getNamespace(), String.format("block/%s", key.getPath()));
+    }
+
+    public ResourceLocation blockTexture(ResourceLocation key, String suffix) {
+        return ResourceLocation.fromNamespaceAndPath(key.getNamespace(), String.format("block/%s_%s", key.getPath(), suffix));
     }
 }

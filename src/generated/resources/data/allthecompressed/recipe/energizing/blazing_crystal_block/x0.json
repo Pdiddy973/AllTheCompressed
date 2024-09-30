@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    }
+  ],
+  "type": "powah:energizing",
+  "energy": 1080000,
+  "ingredients": [
+    {
+      "item": "allthecompressed:blaze_rod_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:blazing_crystal_block"
+  }
+}

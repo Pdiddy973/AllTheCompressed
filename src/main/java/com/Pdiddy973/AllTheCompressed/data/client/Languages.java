@@ -1,6 +1,7 @@
 package com.Pdiddy973.AllTheCompressed.data.client;
 
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
+import com.Pdiddy973.AllTheCompressed.ModRegistry;
 import com.Pdiddy973.AllTheCompressed.data.LanguageUtil;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -31,6 +32,8 @@ public class Languages {
         protected void addTranslations() {
             add(tab(), "AllTheCompressed");
             add(tooltip("quantity"), "Total blocks: %s");
+            addBlock(ModRegistry.FLINT_BLOCK, "Flint Block");
+            addBlock(ModRegistry.BLAZE_ROD_BLOCK, "Blaze Rod Block");
 
             for (Overlays value : Overlays.values()) {
                 var parent = value.overlay.parent;
@@ -47,6 +50,15 @@ public class Languages {
                     add(value.overlay.iall.get(i).get(), String.format("%s %sx", parentName, i+1));
                 }
             }
+        }
+
+        /*
+         * Mod translations cannot be loaded during runData, we inject them manually to work around this.
+         */
+        @Override
+        public void add(String key, String value) {
+            super.add(key, value);
+            languageUtil.put(key, value);
         }
     }
 }

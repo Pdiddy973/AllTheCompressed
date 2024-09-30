@@ -9,6 +9,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public enum Overlays {
+    // allthecompressed
+    BLAZE(Mods.ALLTHECOMPRESSED, "blaze_rod_block"),
+    FLINT(Mods.ALLTHECOMPRESSED, "flint_block"),
+
     // allthemodium
     ALLTHEMODIUM(Mods.ALLTHEMODIUM, "allthemodium_block"),
     VIBRANIUM(Mods.ALLTHEMODIUM, "vibranium_block"),

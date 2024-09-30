@@ -110,7 +110,7 @@ public class OverlayEntry {
      * @return the new registry object
      */
     private static DeferredItem<BlockItem> blockItem(DeferredBlock<Block> block) {
-        return ModRegistry.ITEMS.register(block.getKey().location().getPath(),
+        return ModRegistry.OVERLAY_ITEMS.register(block.getKey().location().getPath(),
             () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
@@ -129,7 +129,7 @@ public class OverlayEntry {
         } else {
             supplier = () -> new OverlayBlock(properties.get(), level);
         }
-        return ModRegistry.BLOCKS.register(generateName(parent, level), supplier);
+        return ModRegistry.OVERLAY_BLOCKS.register(generateName(parent, level), supplier);
     }
 
     private static String generateName(ResourceLocation parent, int level) {

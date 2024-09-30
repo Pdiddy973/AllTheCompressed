@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "allthecompressed:block/blaze_rod_block_end",
+    "side": "allthecompressed:block/blaze_rod_block"
+  }
+}

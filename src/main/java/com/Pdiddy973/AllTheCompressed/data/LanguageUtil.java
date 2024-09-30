@@ -19,11 +19,17 @@ import java.util.Optional;
 
 public class LanguageUtil {
     private final Map<String, Language> languageMap = new HashMap<>();
+    private final Map<String, String> translations = new HashMap<>();
     private final ExistingFileHelper fileHelper;
 
     public LanguageUtil(ExistingFileHelper fileHelper) {
         this.fileHelper = fileHelper;
         languageMap.put("minecraft", Language.getInstance());
+        languageMap.put("allthecompressed", loadLanguage(translations));
+    }
+
+    public void put(String key, String value) {
+        translations.put(key, value);
     }
 
     public String getParentName(ResourceLocation parent) {
@@ -59,6 +65,10 @@ public class LanguageUtil {
         }
 
         final Map<String, String> map = new java.util.HashMap<>(builder.build());
+        return loadLanguage(map);
+    }
+
+    private Language loadLanguage(final Map<String, String> map) {
         return new Language() {
             public String getOrDefault(String key, String fallback) {
                 return map.getOrDefault(key, fallback);
@@ -84,5 +94,4 @@ public class LanguageUtil {
             }
         };
     }
-
 }

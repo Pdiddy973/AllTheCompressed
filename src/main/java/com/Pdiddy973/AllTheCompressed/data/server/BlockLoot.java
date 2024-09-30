@@ -17,12 +17,16 @@ public class BlockLoot extends VanillaBlockLoot {
     @Override
     protected void generate() {
         ModRegistry.BLOCKS.getEntries().forEach(block -> dropSelf(block.get()));
+        ModRegistry.OVERLAY_BLOCKS.getEntries().forEach(block -> dropSelf(block.get()));
     }
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
         List<Block> blocks = new ArrayList<>();
         ModRegistry.BLOCKS.getEntries().stream()
+            .map(Supplier::get)
+            .forEach(blocks::add);
+        ModRegistry.OVERLAY_BLOCKS.getEntries().stream()
             .map(Supplier::get)
             .forEach(blocks::add);
         return blocks;

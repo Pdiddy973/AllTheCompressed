@@ -3,6 +3,7 @@ package com.Pdiddy973.AllTheCompressed.overlay;
 import java.util.Locale;
 
 public enum Mods {
+    ALLTHECOMPRESSED,
     ALLTHEMODIUM,
     ALLTHEORES,
     ALLTHETWEAKS,
