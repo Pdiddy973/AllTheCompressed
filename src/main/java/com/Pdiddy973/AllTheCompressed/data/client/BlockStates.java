@@ -38,7 +38,6 @@ public class BlockStates extends BlockStateProvider {
 
             ResourceLocation modelFile = switch (parent.getPath()) {
                 case "grass_block" -> ResourceUtil.block(parent.getPath());
-                case "snow" -> blockTexture(parent, "block");
                 default -> blockTexture(parent);
             };
 

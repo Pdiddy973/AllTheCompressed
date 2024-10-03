@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_honeycomb_block_1x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:honeycomb_block_1x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/honeycomb_block_2x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_honeycomb_block_1x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/honeycomb_block_2x"
+    ]
+  }
+}

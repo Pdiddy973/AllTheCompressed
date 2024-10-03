@@ -3,6 +3,8 @@ package com.Pdiddy973.AllTheCompressed.overlay;
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.fml.ModList;
+
+import javax.annotation.Nullable;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -73,6 +75,23 @@ public enum Overlays {
     ENDER_PEARL(Mods.ALLTHETWEAKS, "ender_pearl_block"),
     NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
 
+    // ae2
+    FLUIX(Mods.AE2, "fluix_block"),
+    SKY_STONE(Mods.AE2, "sky_stone_block"),
+    CERTUS_QUARTZ(Mods.AE2, "quartz_block", "certus_quartz_block"),
+
+    // appflux
+    CHARGED_REDSTONE(Mods.APPFLUX, "charged_redstone_block"),
+
+    // extendedae
+    ENTRO(Mods.EXTENDEDAE, "entro_block"),
+    SILICON(Mods.EXTENDEDAE, "silicon_block"),
+
+    // megacells
+    SKY_STEEL(Mods.MEGACELLS, "sky_steel_block"),
+    SKY_BRONZE(Mods.MEGACELLS, "sky_bronze_block"),
+    SKY_OSMIUM(Mods.MEGACELLS, "sky_osmium_block"),
+
     // botania
 //    BLAZE(Mods.BOTANIA, "blaze_block"),
 
@@ -121,6 +140,7 @@ public enum Overlays {
     GRAVEL(Mods.MINECRAFT, "gravel"),
     HAY(Mods.MINECRAFT, "hay_block"),
     HONEY(Mods.MINECRAFT, "honey_block"),
+    HONEYCOMB(Mods.MINECRAFT, "honeycomb_block"),
     IRON(Mods.MINECRAFT, "iron_block"),
     JUNGLE_LOG(Mods.MINECRAFT, "jungle_log"),
     JUNGLE_PLANKS(Mods.MINECRAFT, "jungle_planks"),
@@ -141,7 +161,7 @@ public enum Overlays {
     RED_SAND(Mods.MINECRAFT, "red_sand"),
     REDSTONE(Mods.MINECRAFT, "redstone_block"),
     SAND(Mods.MINECRAFT, "sand"),
-    SNOW(Mods.MINECRAFT, "snow"),
+    SNOW(Mods.MINECRAFT, "snow_block", "snow"), // override to keep backwards compat for 1.21
     SOUL_SAND(Mods.MINECRAFT, "soul_sand"),
     SOUL_SOIL(Mods.MINECRAFT, "soul_soil"),
     SPONGE(Mods.MINECRAFT, "sponge"),
@@ -150,6 +170,9 @@ public enum Overlays {
     STONE(Mods.MINECRAFT, "stone"),
     TERRACOTTA(Mods.MINECRAFT, "terracotta"),
     TUFF(Mods.MINECRAFT, "tuff"),
+
+    // PneumaticCraft
+    COMPRESSED_IRON(Mods.PNEUMATICCRAFT, "compressed_iron_block"),
 
     // Powah
     BLAZING_CRYSTAL(Mods.POWAH, "blazing_crystal_block"),
@@ -169,8 +192,12 @@ public enum Overlays {
     public final Mods mod;
     public final OverlayEntry overlay;
     Overlays(Mods mod, String block) {
+        this(mod, block, null);
+    }
+
+    Overlays(Mods mod, String block, @Nullable String override) {
         this.mod = mod;
-        this.overlay = new OverlayEntry(ResourceLocation.fromNamespaceAndPath(mod.toString(), block));
+        this.overlay = new OverlayEntry(ResourceLocation.fromNamespaceAndPath(mod.toString(), block), override);
     }
 
     public static void init() {

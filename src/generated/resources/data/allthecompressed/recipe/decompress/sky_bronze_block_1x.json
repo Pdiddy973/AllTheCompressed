@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "megacells"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:sky_bronze_block_1x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "megacells:sky_bronze_block"
+  }
+}

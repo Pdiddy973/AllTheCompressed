@@ -27,6 +27,15 @@
     "allthecompressed:raw_silver_block_7x",
     "allthecompressed:raw_silver_block_8x",
     "allthecompressed:raw_silver_block_9x",
+    "allthecompressed:sky_stone_block_1x",
+    "allthecompressed:sky_stone_block_2x",
+    "allthecompressed:sky_stone_block_3x",
+    "allthecompressed:sky_stone_block_4x",
+    "allthecompressed:sky_stone_block_5x",
+    "allthecompressed:sky_stone_block_6x",
+    "allthecompressed:sky_stone_block_7x",
+    "allthecompressed:sky_stone_block_8x",
+    "allthecompressed:sky_stone_block_9x",
     "allthecompressed:diamond_block_1x",
     "allthecompressed:diamond_block_2x",
     "allthecompressed:diamond_block_3x",
@@ -53,6 +62,15 @@
     "allthecompressed:gold_block_6x",
     "allthecompressed:gold_block_7x",
     "allthecompressed:gold_block_8x",
-    "allthecompressed:gold_block_9x"
+    "allthecompressed:gold_block_9x",
+    "allthecompressed:compressed_iron_block_1x",
+    "allthecompressed:compressed_iron_block_2x",
+    "allthecompressed:compressed_iron_block_3x",
+    "allthecompressed:compressed_iron_block_4x",
+    "allthecompressed:compressed_iron_block_5x",
+    "allthecompressed:compressed_iron_block_6x",
+    "allthecompressed:compressed_iron_block_7x",
+    "allthecompressed:compressed_iron_block_8x",
+    "allthecompressed:compressed_iron_block_9x"
   ]
 }

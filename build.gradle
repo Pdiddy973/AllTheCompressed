@@ -65,8 +65,13 @@ runs {
             '--existing-mod', 'alltheores',
             '--existing-mod', 'allthemodium',
             '--existing-mod', 'allthetweaks',
+            '--existing-mod', 'ae2',
+            '--existing-mod', 'appflux',
             '--existing-mod', 'botania',
             '--existing-mod', 'enderio',
+            '--existing-mod', 'extendedae',
+            '--existing-mod', 'megacells',
+            '--existing-mod', 'pneumaticcraft',
             '--existing-mod', 'powah',
             '--existing-mod', 'productivebees',
             '--existing-mod', 'supplementaries'
@@ -112,6 +117,12 @@ dependencies {
     runtimeOnly "com.thevortex.allthetweaks:AllTheTweaks:2.4.2"
     runtimeOnly "curse.maven:geckolib-388172:5605715" // required by allthemodium
     runtimeOnly "curse.maven:productivebees-377897:5633300"
+    runtimeOnly "curse.maven:applied-energistics-2-223794:5729094"
+    runtimeOnly "curse.maven:mega-cells-622112:5662141"
+    runtimeOnly "curse.maven:glodium-957920:5614731"
+    runtimeOnly "curse.maven:ex-pattern-provider-892005:5770608"
+    runtimeOnly "curse.maven:applied-flux-965012:5639620"
+    runtimeOnly "curse.maven:pneumaticcraft-repressurized-281849:5721690"
 //    runtimeOnly fg.deobf("curse.maven:supplementaries-412082:4591988")
 //    runtimeOnly fg.deobf("curse.maven:selene-499980:4591863") // required by supplementaries
     implementation "curse.maven:powah-rearchitected-633483:5608949"

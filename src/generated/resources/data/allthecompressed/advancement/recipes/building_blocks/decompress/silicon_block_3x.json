@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silicon_block_3x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:silicon_block_3x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/silicon_block_3x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silicon_block_3x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/silicon_block_3x"
+    ]
+  }
+}

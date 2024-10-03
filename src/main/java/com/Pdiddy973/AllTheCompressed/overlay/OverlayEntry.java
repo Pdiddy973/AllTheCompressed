@@ -14,6 +14,7 @@ import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 
+import javax.annotation.Nullable;
 import java.util.List;
 import java.util.function.Supplier;
 
@@ -51,21 +52,27 @@ public class OverlayEntry {
         return blockLoaded;
     }
 
-    public OverlayEntry(ResourceLocation parent) {
+    /**
+     * Create a new overlay and register it
+     * @param parent the parent block for this overlay
+     * @param registryOverride optionally override the registry path for this block
+     */
+    public OverlayEntry(ResourceLocation parent, @Nullable String registryOverride) {
         this.parent = parent;
+        String path = registryOverride == null ? parent.getPath() : registryOverride;
         Supplier<BlockBehaviour.Properties> properties = getProperties(parent);
         boolean pillar = parent.getPath().endsWith("_log");
 
 
-        x1 = block(parent, properties, 1, pillar);
-        x2 = block(parent, properties, 2, pillar);
-        x3 = block(parent, properties, 3, pillar);
-        x4 = block(parent, properties, 4, pillar);
-        x5 = block(parent, properties, 5, pillar);
-        x6 = block(parent, properties, 6, pillar);
-        x7 = block(parent, properties, 7, pillar);
-        x8 = block(parent, properties, 8, pillar);
-        x9 = block(parent, properties, 9, pillar);
+        x1 = block(path, properties, 1, pillar);
+        x2 = block(path, properties, 2, pillar);
+        x3 = block(path, properties, 3, pillar);
+        x4 = block(path, properties, 4, pillar);
+        x5 = block(path, properties, 5, pillar);
+        x6 = block(path, properties, 6, pillar);
+        x7 = block(path, properties, 7, pillar);
+        x8 = block(path, properties, 8, pillar);
+        x9 = block(path, properties, 9, pillar);
         xall = List.of(x1, x2, x3, x4, x5, x6, x7, x8, x9);
 
         i1 = blockItem(x1);
@@ -116,23 +123,23 @@ public class OverlayEntry {
 
     /**
      * Register an OverlayBlock
-     * @param parent the block this is based on
+     * @param path the registry path of the block this is based on
      * @param properties the block properties for the new block
      * @param level the compression level of the block
      * @param pillar whether the block is a pillar block
      * @return the new registry entry
      */
-    private static DeferredBlock<Block> block(ResourceLocation parent, Supplier<BlockBehaviour.Properties> properties, int level, boolean pillar) {
+    private static DeferredBlock<Block> block(String path, Supplier<BlockBehaviour.Properties> properties, int level, boolean pillar) {
         Supplier<Block> supplier;
         if (pillar) {
             supplier = () -> new OverlayPillarBlock(properties.get(), level);
         } else {
             supplier = () -> new OverlayBlock(properties.get(), level);
         }
-        return ModRegistry.OVERLAY_BLOCKS.register(generateName(parent, level), supplier);
+        return ModRegistry.OVERLAY_BLOCKS.register(generateName(path, level), supplier);
     }
 
-    private static String generateName(ResourceLocation parent, int level) {
-        return String.format("%s_%dx", parent.getPath(), level);
+    private static String generateName(String path, int level) {
+        return String.format("%s_%dx", path, level);
     }
 }
