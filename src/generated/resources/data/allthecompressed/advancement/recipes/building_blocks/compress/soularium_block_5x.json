@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soularium_block_4x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:soularium_block_4x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/soularium_block_5x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soularium_block_4x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/soularium_block_5x"
+    ]
+  }
+}

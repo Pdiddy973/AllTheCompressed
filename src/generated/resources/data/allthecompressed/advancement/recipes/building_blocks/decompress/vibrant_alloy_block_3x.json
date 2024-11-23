@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/vibrant_alloy_block_3x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vibrant_alloy_block_3x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:vibrant_alloy_block_3x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vibrant_alloy_block_3x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/vibrant_alloy_block_3x"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "enderio:block/end_steel_block",
+  "children": {
+    "solid": {
+      "parent": "enderio:block/end_steel_block",
+      "render_type": "minecraft:solid"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_5"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "neoforge:composite"
+}

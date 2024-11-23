@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.0.151'
+    id 'net.neoforged.gradle.userdev' version '7.0.165'
 }
 
 version = mod_version
@@ -68,7 +68,7 @@ runs {
             '--existing-mod', 'ae2',
             '--existing-mod', 'appflux',
             '--existing-mod', 'botania',
-            '--existing-mod', 'enderio',
+            '--existing-mod', 'enderio_base',
             '--existing-mod', 'extendedae',
             '--existing-mod', 'megacells',
             '--existing-mod', 'pneumaticcraft',
@@ -128,7 +128,7 @@ dependencies {
     implementation "curse.maven:powah-rearchitected-633483:5608949"
     runtimeOnly "curse.maven:cloth-config-348521:5424576" // required by powah
     runtimeOnly "curse.maven:architectury-api-419699:5521987" // required by powah
-//    runtimeOnly fg.deobf("curse.maven:ender-io-64578:4637542")
+    runtimeOnly "curse.maven:ender-io-64578:5858187"
 //    runtimeOnly fg.deobf("curse.maven:botania-225643:4900327")
 //    runtimeOnly fg.deobf("curse.maven:curios-309927:4913335") // required by botania
 //    runtimeOnly fg.deobf("curse.maven:patchouli-306770:4892162") // required by botania

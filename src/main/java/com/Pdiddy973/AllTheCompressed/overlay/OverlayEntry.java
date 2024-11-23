@@ -1,6 +1,5 @@
 package com.Pdiddy973.AllTheCompressed.overlay;
 
-import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.ModRegistry;
 import com.google.common.base.Suppliers;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -102,8 +101,6 @@ public class OverlayEntry {
                 if (block.isPresent()) {
                     blockLoaded = true;
                     properties = BlockBehaviour.Properties.ofFullCopy(block.get());
-                } else {
-                    AllTheCompressed.LOGGER.error("Trying to register an overlay for a block that doesn't exist! {}", parent);
                 }
             }
             return properties;
