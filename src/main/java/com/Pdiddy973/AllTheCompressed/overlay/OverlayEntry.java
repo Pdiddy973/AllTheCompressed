@@ -15,6 +15,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 import javax.annotation.Nullable;
 import java.util.List;
+import java.util.Locale;
 import java.util.function.Supplier;
 
 public class OverlayEntry {
@@ -137,6 +138,6 @@ public class OverlayEntry {
     }
 
     private static String generateName(String path, int level) {
-        return String.format("%s_%dx", path, level);
+        return String.format(Locale.ROOT, "%s_%dx", path, level);
     }
 }
