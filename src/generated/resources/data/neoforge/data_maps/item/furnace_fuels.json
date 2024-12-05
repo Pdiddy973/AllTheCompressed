@@ -1,0 +1,37 @@
+{
+  "values": {
+    "allthecompressed:blaze_rod_block": {
+      "burn_time": 24000
+    },
+    "allthecompressed:blaze_rod_block_1x": {
+      "burn_time": 216000
+    },
+    "allthecompressed:blaze_rod_block_2x": {
+      "burn_time": 1944000
+    },
+    "allthecompressed:blaze_rod_block_3x": {
+      "burn_time": 17496000
+    },
+    "allthecompressed:blaze_rod_block_4x": {
+      "burn_time": 157464000
+    },
+    "allthecompressed:blaze_rod_block_5x": {
+      "burn_time": 1417176000
+    },
+    "allthecompressed:coal_block_1x": {
+      "burn_time": 144000
+    },
+    "allthecompressed:coal_block_2x": {
+      "burn_time": 1296000
+    },
+    "allthecompressed:coal_block_3x": {
+      "burn_time": 11664000
+    },
+    "allthecompressed:coal_block_4x": {
+      "burn_time": 104976000
+    },
+    "allthecompressed:coal_block_5x": {
+      "burn_time": 944784000
+    }
+  }
+}

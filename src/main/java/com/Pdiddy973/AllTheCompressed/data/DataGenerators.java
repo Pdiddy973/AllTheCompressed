@@ -6,6 +6,7 @@ import com.Pdiddy973.AllTheCompressed.data.client.Languages;
 import com.Pdiddy973.AllTheCompressed.data.server.BlockLoot;
 import com.Pdiddy973.AllTheCompressed.data.server.BlockTags;
 import com.Pdiddy973.AllTheCompressed.data.server.CraftingRecipes;
+import com.Pdiddy973.AllTheCompressed.data.server.DataMaps;
 import com.Pdiddy973.AllTheCompressed.data.server.ItemTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -37,6 +38,7 @@ public final class DataGenerators {
             generator.addProvider(true, blockTags);
             generator.addProvider(true, new ItemTags(generator, event.getLookupProvider(), blockTags.contentsGetter(), fileHelper));
             generator.addProvider(true, new CraftingRecipes(packOutput, event.getLookupProvider()));
+            generator.addProvider(true, new DataMaps(packOutput, event.getLookupProvider()));
             generator.addProvider(true, new LootTableProvider(
                 packOutput,
                 Collections.emptySet(),
