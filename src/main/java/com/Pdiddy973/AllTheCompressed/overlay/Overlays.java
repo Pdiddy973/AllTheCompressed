@@ -116,6 +116,7 @@ public enum Overlays {
     BIRCH_PLANKS(Mods.MINECRAFT, "birch_planks"),
     BLACKSTONE(Mods.MINECRAFT, "blackstone"),
     BONE(Mods.MINECRAFT, "bone_block"),
+    BRICKS(Mods.MINECRAFT, "bricks"),
     CALCITE(Mods.MINECRAFT, "calcite"),
     CLAY(Mods.MINECRAFT, "clay"),
     COAL(Mods.MINECRAFT, "coal_block"),
@@ -164,6 +165,7 @@ public enum Overlays {
     RED_SAND(Mods.MINECRAFT, "red_sand"),
     REDSTONE(Mods.MINECRAFT, "redstone_block"),
     SAND(Mods.MINECRAFT, "sand"),
+    SMOOTH_STONE(Mods.MINECRAFT, "smooth_stone"),
     SNOW(Mods.MINECRAFT, "snow_block", "snow"), // override to keep backwards compat for 1.21
     SOUL_SAND(Mods.MINECRAFT, "soul_sand"),
     SOUL_SOIL(Mods.MINECRAFT, "soul_soil"),

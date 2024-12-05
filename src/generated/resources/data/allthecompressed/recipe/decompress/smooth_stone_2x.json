@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:smooth_stone_2x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:smooth_stone_1x"
+  }
+}
