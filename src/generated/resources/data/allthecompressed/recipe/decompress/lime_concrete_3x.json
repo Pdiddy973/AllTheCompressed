@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:lime_concrete_3x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:lime_concrete_2x"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:block/purple_concrete",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/purple_concrete"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_6"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "neoforge:composite"
+}

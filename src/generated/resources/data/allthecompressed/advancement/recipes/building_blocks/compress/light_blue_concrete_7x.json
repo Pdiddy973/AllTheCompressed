@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_blue_concrete_6x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:light_blue_concrete_6x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/light_blue_concrete_7x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_blue_concrete_6x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/light_blue_concrete_7x"
+    ]
+  }
+}

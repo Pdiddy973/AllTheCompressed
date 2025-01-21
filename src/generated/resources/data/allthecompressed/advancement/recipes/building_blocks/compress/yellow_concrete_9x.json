@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/yellow_concrete_9x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_concrete_8x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:yellow_concrete_8x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_yellow_concrete_8x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/yellow_concrete_9x"
+    ]
+  }
+}

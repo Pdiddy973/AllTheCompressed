@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:block/lime_concrete",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/lime_concrete"
+    },
+    "translucent": {
+      "parent": "minecraft:block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "allthecompressed:block/layer_2"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "neoforge:composite"
+}
