@@ -2,8 +2,7 @@
   "parent": "alltheores:block/invar_block",
   "children": {
     "solid": {
-      "parent": "alltheores:block/invar_block",
-      "render_type": "minecraft:solid"
+      "parent": "alltheores:block/invar_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

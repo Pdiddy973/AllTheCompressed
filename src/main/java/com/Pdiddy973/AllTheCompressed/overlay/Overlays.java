@@ -187,6 +187,14 @@ public enum Overlays {
     SPIRITED_CRYSTAL(Mods.POWAH, "spirited_crystal_block"),
     URANINITE(Mods.POWAH, "uraninite_block"),
 
+    // XyCraft
+    KIVI(Mods.XYCRAFT_WORLD, "kivi"),
+    BLUE_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_blue"),
+    GREEN_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_green"),
+    RED_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_red"),
+    DARK_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_dark"),
+    LIGHT_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_light"),
+
     // supplementaries
 //    FLINT(Mods.SUPPLEMENTARIES, "flint_block"),
 

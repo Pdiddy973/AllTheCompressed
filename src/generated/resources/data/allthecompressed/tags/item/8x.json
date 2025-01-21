@@ -147,6 +147,12 @@
     "allthecompressed:nitro_crystal_block_8x",
     "allthecompressed:spirited_crystal_block_8x",
     "allthecompressed:uraninite_block_8x",
+    "allthecompressed:kivi_8x",
+    "allthecompressed:xychorium_storage_blue_8x",
+    "allthecompressed:xychorium_storage_green_8x",
+    "allthecompressed:xychorium_storage_red_8x",
+    "allthecompressed:xychorium_storage_dark_8x",
+    "allthecompressed:xychorium_storage_light_8x",
     "allthecompressed:wax_block_8x"
   ]
 }

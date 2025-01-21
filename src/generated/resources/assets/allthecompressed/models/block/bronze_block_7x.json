@@ -2,8 +2,7 @@
   "parent": "alltheores:block/bronze_block",
   "children": {
     "solid": {
-      "parent": "alltheores:block/bronze_block",
-      "render_type": "minecraft:solid"
+      "parent": "alltheores:block/bronze_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

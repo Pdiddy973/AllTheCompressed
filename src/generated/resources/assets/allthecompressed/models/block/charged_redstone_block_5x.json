@@ -2,8 +2,7 @@
   "parent": "appflux:block/charged_redstone_block",
   "children": {
     "solid": {
-      "parent": "appflux:block/charged_redstone_block",
-      "render_type": "minecraft:solid"
+      "parent": "appflux:block/charged_redstone_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

@@ -2,8 +2,7 @@
   "parent": "minecraft:block/soul_soil",
   "children": {
     "solid": {
-      "parent": "minecraft:block/soul_soil",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/soul_soil"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

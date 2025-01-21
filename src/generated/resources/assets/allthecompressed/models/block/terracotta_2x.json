@@ -2,8 +2,7 @@
   "parent": "minecraft:block/terracotta",
   "children": {
     "solid": {
-      "parent": "minecraft:block/terracotta",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/terracotta"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

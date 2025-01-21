@@ -2,8 +2,7 @@
   "parent": "alltheores:block/iridium_block",
   "children": {
     "solid": {
-      "parent": "alltheores:block/iridium_block",
-      "render_type": "minecraft:solid"
+      "parent": "alltheores:block/iridium_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

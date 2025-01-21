@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xycraft_world"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/xychorium_storage_green_7x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_xychorium_storage_green_7x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:xychorium_storage_green_7x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_xychorium_storage_green_7x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/xychorium_storage_green_7x"
+    ]
+  }
+}

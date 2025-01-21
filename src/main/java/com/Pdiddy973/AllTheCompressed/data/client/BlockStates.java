@@ -38,6 +38,11 @@ public class BlockStates extends BlockStateProvider {
 
             ResourceLocation modelFile = switch (parent.getPath()) {
                 case "grass_block" -> ResourceUtil.block(parent.getPath());
+                case "xychorium_storage_blue",
+                     "xychorium_storage_green",
+                     "xychorium_storage_red",
+                     "xychorium_storage_dark",
+                     "xychorium_storage_light" -> ResourceLocation.fromNamespaceAndPath("xycraft_world", "block/xychorium_storage");
                 default -> blockTexture(parent);
             };
 
@@ -49,7 +54,7 @@ public class BlockStates extends BlockStateProvider {
                 var model = models()
                     .getBuilder(path)
                     .customLoader(CompositeModelBuilder::begin)
-                    .child("solid", models().nested().renderType("minecraft:solid").parent(original))
+                    .child("solid", models().nested().parent(original))
                     .child("translucent", models().nested().renderType("minecraft:translucent")
                         .parent(models().getExistingFile(ResourceLocation.withDefaultNamespace("block/cube_all")))
                         .texture("all", ResourceUtil.block(String.format("layer_%s", i+1))))

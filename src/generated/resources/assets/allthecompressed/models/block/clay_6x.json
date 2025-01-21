@@ -2,8 +2,7 @@
   "parent": "minecraft:block/clay",
   "children": {
     "solid": {
-      "parent": "minecraft:block/clay",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/clay"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

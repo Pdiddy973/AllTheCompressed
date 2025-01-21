@@ -2,8 +2,7 @@
   "parent": "minecraft:block/jungle_log",
   "children": {
     "solid": {
-      "parent": "minecraft:block/jungle_log",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/jungle_log"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

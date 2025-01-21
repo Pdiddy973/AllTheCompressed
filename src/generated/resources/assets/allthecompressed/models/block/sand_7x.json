@@ -2,8 +2,7 @@
   "parent": "minecraft:block/sand",
   "children": {
     "solid": {
-      "parent": "minecraft:block/sand",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/sand"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

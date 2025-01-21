@@ -2,8 +2,7 @@
   "parent": "minecraft:block/blackstone",
   "children": {
     "solid": {
-      "parent": "minecraft:block/blackstone",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/blackstone"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

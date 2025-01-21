@@ -2,8 +2,7 @@
   "parent": "minecraft:block/pumpkin",
   "children": {
     "solid": {
-      "parent": "minecraft:block/pumpkin",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/pumpkin"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

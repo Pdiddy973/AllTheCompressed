@@ -2,8 +2,7 @@
   "parent": "minecraft:block/diorite",
   "children": {
     "solid": {
-      "parent": "minecraft:block/diorite",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/diorite"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

@@ -2,8 +2,7 @@
   "parent": "allthemodium:block/ancient_stone",
   "children": {
     "solid": {
-      "parent": "allthemodium:block/ancient_stone",
-      "render_type": "minecraft:solid"
+      "parent": "allthemodium:block/ancient_stone"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

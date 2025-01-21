@@ -2,8 +2,7 @@
   "parent": "minecraft:block/mangrove_planks",
   "children": {
     "solid": {
-      "parent": "minecraft:block/mangrove_planks",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/mangrove_planks"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

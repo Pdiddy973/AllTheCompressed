@@ -2,8 +2,7 @@
   "parent": "minecraft:block/calcite",
   "children": {
     "solid": {
-      "parent": "minecraft:block/calcite",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/calcite"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

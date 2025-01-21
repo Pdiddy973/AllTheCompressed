@@ -2,8 +2,7 @@
   "parent": "minecraft:block/dirt",
   "children": {
     "solid": {
-      "parent": "minecraft:block/dirt",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/dirt"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

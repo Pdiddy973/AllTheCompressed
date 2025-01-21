@@ -2,8 +2,7 @@
   "parent": "minecraft:block/diamond_block",
   "children": {
     "solid": {
-      "parent": "minecraft:block/diamond_block",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/diamond_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

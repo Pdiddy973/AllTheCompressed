@@ -2,8 +2,7 @@
   "parent": "allthemodium:block/unobtainium_block",
   "children": {
     "solid": {
-      "parent": "allthemodium:block/unobtainium_block",
-      "render_type": "minecraft:solid"
+      "parent": "allthemodium:block/unobtainium_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

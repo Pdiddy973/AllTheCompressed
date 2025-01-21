@@ -2,8 +2,7 @@
   "parent": "allthemodium:block/piglich_heart_block",
   "children": {
     "solid": {
-      "parent": "allthemodium:block/piglich_heart_block",
-      "render_type": "minecraft:solid"
+      "parent": "allthemodium:block/piglich_heart_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

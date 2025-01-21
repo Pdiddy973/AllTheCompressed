@@ -2,8 +2,7 @@
   "parent": "minecraft:block/podzol",
   "children": {
     "solid": {
-      "parent": "minecraft:block/podzol",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/podzol"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

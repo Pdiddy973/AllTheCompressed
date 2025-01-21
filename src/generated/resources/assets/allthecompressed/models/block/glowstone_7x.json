@@ -2,8 +2,7 @@
   "parent": "minecraft:block/glowstone",
   "children": {
     "solid": {
-      "parent": "minecraft:block/glowstone",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/glowstone"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

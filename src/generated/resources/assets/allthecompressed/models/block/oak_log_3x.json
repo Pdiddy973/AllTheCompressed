@@ -2,8 +2,7 @@
   "parent": "minecraft:block/oak_log",
   "children": {
     "solid": {
-      "parent": "minecraft:block/oak_log",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/oak_log"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

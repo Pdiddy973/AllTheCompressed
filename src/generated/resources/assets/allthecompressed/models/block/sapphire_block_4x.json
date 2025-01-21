@@ -2,8 +2,7 @@
   "parent": "alltheores:block/sapphire_block",
   "children": {
     "solid": {
-      "parent": "alltheores:block/sapphire_block",
-      "render_type": "minecraft:solid"
+      "parent": "alltheores:block/sapphire_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

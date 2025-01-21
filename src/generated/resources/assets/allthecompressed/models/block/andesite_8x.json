@@ -2,8 +2,7 @@
   "parent": "minecraft:block/andesite",
   "children": {
     "solid": {
-      "parent": "minecraft:block/andesite",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/andesite"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

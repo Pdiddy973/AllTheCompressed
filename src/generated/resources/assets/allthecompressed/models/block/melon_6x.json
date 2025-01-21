@@ -2,8 +2,7 @@
   "parent": "minecraft:block/melon",
   "children": {
     "solid": {
-      "parent": "minecraft:block/melon",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/melon"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

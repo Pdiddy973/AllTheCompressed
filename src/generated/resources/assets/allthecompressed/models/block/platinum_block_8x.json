@@ -2,8 +2,7 @@
   "parent": "alltheores:block/platinum_block",
   "children": {
     "solid": {
-      "parent": "alltheores:block/platinum_block",
-      "render_type": "minecraft:solid"
+      "parent": "alltheores:block/platinum_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

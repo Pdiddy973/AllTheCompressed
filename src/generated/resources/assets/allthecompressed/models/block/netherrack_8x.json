@@ -2,8 +2,7 @@
   "parent": "minecraft:block/netherrack",
   "children": {
     "solid": {
-      "parent": "minecraft:block/netherrack",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/netherrack"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

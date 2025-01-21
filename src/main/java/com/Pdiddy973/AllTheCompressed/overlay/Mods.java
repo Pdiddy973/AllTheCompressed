@@ -18,6 +18,7 @@ public enum Mods {
     POWAH,
     PRODUCTIVEBEES,
     SUPPLEMENTARIES,
+    XYCRAFT_WORLD
     ;
 
     @Override

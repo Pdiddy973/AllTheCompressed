@@ -2,8 +2,7 @@
   "parent": "allthetweaks:block/greg_star_block",
   "children": {
     "solid": {
-      "parent": "allthetweaks:block/greg_star_block",
-      "render_type": "minecraft:solid"
+      "parent": "allthetweaks:block/greg_star_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

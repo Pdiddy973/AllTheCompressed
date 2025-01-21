@@ -2,8 +2,7 @@
   "parent": "minecraft:block/sponge",
   "children": {
     "solid": {
-      "parent": "minecraft:block/sponge",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/sponge"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

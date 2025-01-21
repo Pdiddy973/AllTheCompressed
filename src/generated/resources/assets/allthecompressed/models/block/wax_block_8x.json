@@ -2,8 +2,7 @@
   "parent": "productivebees:block/wax_block",
   "children": {
     "solid": {
-      "parent": "productivebees:block/wax_block",
-      "render_type": "minecraft:solid"
+      "parent": "productivebees:block/wax_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

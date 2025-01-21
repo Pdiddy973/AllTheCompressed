@@ -2,8 +2,7 @@
   "parent": "alltheores:block/raw_aluminum_block",
   "children": {
     "solid": {
-      "parent": "alltheores:block/raw_aluminum_block",
-      "render_type": "minecraft:solid"
+      "parent": "alltheores:block/raw_aluminum_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

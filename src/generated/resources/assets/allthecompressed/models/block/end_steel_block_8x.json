@@ -2,8 +2,7 @@
   "parent": "enderio:block/end_steel_block",
   "children": {
     "solid": {
-      "parent": "enderio:block/end_steel_block",
-      "render_type": "minecraft:solid"
+      "parent": "enderio:block/end_steel_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

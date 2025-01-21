@@ -2,8 +2,7 @@
   "parent": "allthecompressed:block/flint_block",
   "children": {
     "solid": {
-      "parent": "allthecompressed:block/flint_block",
-      "render_type": "minecraft:solid"
+      "parent": "allthecompressed:block/flint_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

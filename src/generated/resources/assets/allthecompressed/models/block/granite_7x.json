@@ -2,8 +2,7 @@
   "parent": "minecraft:block/granite",
   "children": {
     "solid": {
-      "parent": "minecraft:block/granite",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/granite"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

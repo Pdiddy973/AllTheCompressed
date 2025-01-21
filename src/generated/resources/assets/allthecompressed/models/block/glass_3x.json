@@ -2,8 +2,7 @@
   "parent": "minecraft:block/glass",
   "children": {
     "solid": {
-      "parent": "minecraft:block/glass",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/glass"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

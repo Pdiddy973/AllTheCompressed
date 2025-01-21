@@ -2,8 +2,7 @@
   "parent": "minecraft:block/obsidian",
   "children": {
     "solid": {
-      "parent": "minecraft:block/obsidian",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/obsidian"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

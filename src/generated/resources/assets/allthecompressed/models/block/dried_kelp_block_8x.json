@@ -2,8 +2,7 @@
   "parent": "minecraft:block/dried_kelp_block",
   "children": {
     "solid": {
-      "parent": "minecraft:block/dried_kelp_block",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/dried_kelp_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

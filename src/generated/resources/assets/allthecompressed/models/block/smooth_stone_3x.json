@@ -2,8 +2,7 @@
   "parent": "minecraft:block/smooth_stone",
   "children": {
     "solid": {
-      "parent": "minecraft:block/smooth_stone",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/smooth_stone"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

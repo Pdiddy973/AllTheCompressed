@@ -2,8 +2,7 @@
   "parent": "allthecompressed:block/blaze_rod_block",
   "children": {
     "solid": {
-      "parent": "allthecompressed:block/blaze_rod_block",
-      "render_type": "minecraft:solid"
+      "parent": "allthecompressed:block/blaze_rod_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

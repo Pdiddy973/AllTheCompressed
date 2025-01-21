@@ -2,8 +2,7 @@
   "parent": "minecraft:block/cobbled_deepslate",
   "children": {
     "solid": {
-      "parent": "minecraft:block/cobbled_deepslate",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/cobbled_deepslate"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

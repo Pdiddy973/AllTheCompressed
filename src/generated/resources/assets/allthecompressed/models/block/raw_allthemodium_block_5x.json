@@ -2,8 +2,7 @@
   "parent": "allthemodium:block/raw_allthemodium_block",
   "children": {
     "solid": {
-      "parent": "allthemodium:block/raw_allthemodium_block",
-      "render_type": "minecraft:solid"
+      "parent": "allthemodium:block/raw_allthemodium_block"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

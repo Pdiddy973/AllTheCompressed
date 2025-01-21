@@ -2,8 +2,7 @@
   "parent": "minecraft:block/mangrove_log",
   "children": {
     "solid": {
-      "parent": "minecraft:block/mangrove_log",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/mangrove_log"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",

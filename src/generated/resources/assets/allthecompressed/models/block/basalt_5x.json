@@ -2,8 +2,7 @@
   "parent": "minecraft:block/basalt",
   "children": {
     "solid": {
-      "parent": "minecraft:block/basalt",
-      "render_type": "minecraft:solid"
+      "parent": "minecraft:block/basalt"
     },
     "translucent": {
       "parent": "minecraft:block/cube_all",
