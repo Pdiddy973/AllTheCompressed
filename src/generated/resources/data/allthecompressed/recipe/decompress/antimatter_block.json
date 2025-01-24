@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:antimatter_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "mekanism:pellet_antimatter"
+  }
+}

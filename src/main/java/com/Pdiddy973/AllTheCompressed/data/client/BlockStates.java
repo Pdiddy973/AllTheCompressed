@@ -16,6 +16,7 @@ import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
+import java.util.Set;
 import java.util.function.Supplier;
 
 public class BlockStates extends BlockStateProvider {
@@ -27,8 +28,14 @@ public class BlockStates extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlockWithItem(ModRegistry.FLINT_BLOCK);
         columnBlockWithItem(ModRegistry.BLAZE_ROD_BLOCK);
+        simpleBlockWithItem(ModRegistry.ANTIMATTER_BLOCK);
 
         ModelFile defaultBlock = models().getExistingFile(ResourceLocation.withDefaultNamespace("block/block"));
+
+        Set<Overlays> removeTrailingBlock = Set.of(Overlays.MAGMA, Overlays.DRIED_KELP, Overlays.SNOW, Overlays.WAX);
+        Set<Overlays> columnBlocks = Set.of(Overlays.MELON, Overlays.PUMPKIN, Overlays.QUARTZ);
+        Set<Overlays> bottomTopBlocks = Set.of(Overlays.DRIED_KELP, Overlays.GRASS, Overlays.HONEY, Overlays.PODZOL, Overlays.MYCELIUM);
+        Set<Overlays> xychorium = Set.of(Overlays.BLUE_XYCHORIUM, Overlays.DARK_XYCHORIUM, Overlays.GREEN_XYCHORIUM, Overlays.LIGHT_XYCHORIUM, Overlays.RED_XYCHORIUM);
 
         for (Overlays value : Overlays.values()) {
             var parent = value.overlay.parent;
@@ -39,6 +46,8 @@ public class BlockStates extends BlockStateProvider {
                 continue;
             }
 
+            if (xychorium.contains(value)) continue;
+
             for (int i=0;i<9;i++) {
                 var each = value.overlay.xall.get(i);
                 var path = each.getId().getPath();
@@ -47,11 +56,11 @@ public class BlockStates extends BlockStateProvider {
                     .getBuilder(path);
 
                 String texture = blockTexture(parent).toString();
-                if (value == Overlays.MAGMA || value == Overlays.DRIED_KELP || value == Overlays.SNOW || value == Overlays.WAX) {
+                if (removeTrailingBlock.contains(value)) {
                     texture = texture.substring(0, texture.lastIndexOf("_block"));
                 }
 
-                if (block.get() instanceof RotatedPillarBlock || value == Overlays.MELON || value == Overlays.PUMPKIN || value == Overlays.QUARTZ) {
+                if (block.get() instanceof RotatedPillarBlock || columnBlocks.contains(value)) {
                     model.element()
                         .allFaces(((direction, faceBuilder) -> {
                             if (direction == Direction.UP || direction == Direction.DOWN) {
@@ -71,7 +80,7 @@ public class BlockStates extends BlockStateProvider {
                         model.texture("end", texture.concat("_top"));
                         model.texture("side", texture.concat("_side"));
                     }
-                } else if (value == Overlays.DRIED_KELP || value == Overlays.GRASS || value == Overlays.HONEY || value == Overlays.PODZOL || value == Overlays.MYCELIUM) {
+                } else if (bottomTopBlocks.contains(value)) {
                     model.element()
                         .allFaces(((direction, faceBuilder) -> {
                             if (direction == Direction.UP) {

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "allthecompressed:light_gray_concrete_5x"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "allthecompressed:blocks/light_gray_concrete_5x"
+}

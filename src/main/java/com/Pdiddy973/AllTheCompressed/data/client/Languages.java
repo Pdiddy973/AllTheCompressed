@@ -34,6 +34,7 @@ public class Languages {
             add(tooltip("quantity"), "Total blocks: %s");
             addBlock(ModRegistry.FLINT_BLOCK, "Flint Block");
             addBlock(ModRegistry.BLAZE_ROD_BLOCK, "Blaze Rod Block");
+            addBlock(ModRegistry.ANTIMATTER_BLOCK, "Antimatter Block");
 
             for (Overlays value : Overlays.values()) {
                 var parent = value.overlay.parent;

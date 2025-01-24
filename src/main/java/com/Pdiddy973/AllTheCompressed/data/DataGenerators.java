@@ -3,6 +3,7 @@ package com.Pdiddy973.AllTheCompressed.data;
 import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.data.client.BlockStates;
 import com.Pdiddy973.AllTheCompressed.data.client.Languages;
+import com.Pdiddy973.AllTheCompressed.data.client.XycraftBlockStates;
 import com.Pdiddy973.AllTheCompressed.data.server.BlockLoot;
 import com.Pdiddy973.AllTheCompressed.data.server.BlockTags;
 import com.Pdiddy973.AllTheCompressed.data.server.CraftingRecipes;
@@ -48,6 +49,7 @@ public final class DataGenerators {
         }
         if (event.includeClient()) {
             generator.addProvider(true, new BlockStates(packOutput, fileHelper));
+            generator.addProvider(true, new XycraftBlockStates(packOutput, fileHelper));
             generator.addProvider(true, new Languages.English(packOutput, fileHelper));
         }
 

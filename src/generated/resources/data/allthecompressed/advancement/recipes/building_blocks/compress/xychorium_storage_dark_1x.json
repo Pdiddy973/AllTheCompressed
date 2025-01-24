@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xycraft_world"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/xychorium_storage_dark_1x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_xychorium_storage_dark": {
+      "conditions": {
+        "items": [
+          {
+            "items": "xycraft_world:xychorium_storage_dark"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_xychorium_storage_dark"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/xychorium_storage_dark_1x"
+    ]
+  }
+}

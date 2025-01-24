@@ -70,6 +70,9 @@ public class ModRegistry {
     public static final DeferredBlock<Block> BLAZE_ROD_BLOCK = BLOCKS.registerBlock("blaze_rod_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.GOLD));
     public static final DeferredItem<BlockItem> BLAZE_ROD_BLOCK_ITEM = blockItem(BLAZE_ROD_BLOCK);
 
+    public static final DeferredBlock<Block> ANTIMATTER_BLOCK = BLOCKS.registerBlock("antimatter_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE));
+    public static final DeferredItem<BlockItem> ANTIMATTER_BLOCK_ITEM = blockItem(ANTIMATTER_BLOCK);
+
 
     /**
      * Register a BlockItem for a Block

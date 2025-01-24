@@ -4,6 +4,7 @@ import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
 import com.Pdiddy973.AllTheCompressed.ModRegistry;
 import com.Pdiddy973.AllTheCompressed.data.compat.EnergizingRecipeBuilder;
 import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
+import mekanism.common.registries.MekanismItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
@@ -75,6 +76,9 @@ public class CraftingRecipes extends RecipeProvider {
     protected void craftingRecipes(RecipeOutput consumer) {
         blockRecipes(ModRegistry.FLINT_BLOCK_ITEM, Items.FLINT, consumer);
         blockRecipes(ModRegistry.BLAZE_ROD_BLOCK_ITEM, Items.BLAZE_ROD, consumer);
+
+        RecipeOutput mekanism = consumer.withConditions(new ModLoadedCondition("mekanism"));
+        blockRecipes(ModRegistry.ANTIMATTER_BLOCK_ITEM, MekanismItems.ANTIMATTER_PELLET.get(), mekanism);
     }
 
     protected void energizingRecipes(RecipeOutput consumer) {

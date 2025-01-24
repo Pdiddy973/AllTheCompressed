@@ -1,0 +1,200 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#cloud"
+        },
+        "east": {
+          "cullface": "east",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#cloud"
+        },
+        "north": {
+          "cullface": "north",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#cloud"
+        },
+        "south": {
+          "cullface": "south",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#cloud"
+        },
+        "up": {
+          "cullface": "up",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#cloud"
+        },
+        "west": {
+          "cullface": "west",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#cloud"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "shade": false,
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#tex"
+        },
+        "east": {
+          "cullface": "east",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#tex"
+        },
+        "north": {
+          "cullface": "north",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#tex"
+        },
+        "south": {
+          "cullface": "south",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#tex"
+        },
+        "up": {
+          "cullface": "up",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#tex"
+        },
+        "west": {
+          "cullface": "west",
+          "neoforge_data": {
+            "ambient_occlusion": false,
+            "block_light": 15,
+            "color": "ff1164ff",
+            "sky_light": 15
+          },
+          "texture": "#tex"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "shade": false,
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#overlay"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#overlay"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#overlay"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#overlay"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#overlay"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#overlay"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cloud": "xycraft_core:block/cloudfx",
+    "overlay": "allthecompressed:block/layer_3",
+    "particle": "minecraft:block/netherite_block",
+    "tex": "xycraft_world:block/connected/xychorium_storage_single"
+  }
+}

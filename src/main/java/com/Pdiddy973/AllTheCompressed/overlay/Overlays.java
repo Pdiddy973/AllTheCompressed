@@ -14,6 +14,7 @@ public enum Overlays {
     // allthecompressed
     BLAZE(Mods.ALLTHECOMPRESSED, "blaze_rod_block"),
     FLINT(Mods.ALLTHECOMPRESSED, "flint_block"),
+    ANTIMATTER(Mods.ALLTHECOMPRESSED, "antimatter_block"),
 
     // allthemodium
     ALLTHEMODIUM(Mods.ALLTHEMODIUM, "allthemodium_block"),
@@ -177,6 +178,24 @@ public enum Overlays {
     TERRACOTTA(Mods.MINECRAFT, "terracotta"),
     TUFF(Mods.MINECRAFT, "tuff"),
 
+    // minecraft concrete
+    WHITE_CONCRETE(Mods.MINECRAFT, "white_concrete"),
+    LIGHT_GRAY_CONCRETE(Mods.MINECRAFT, "light_gray_concrete"),
+    GRAY_CONCRETE(Mods.MINECRAFT, "gray_concrete"),
+    BLACK_CONCRETE(Mods.MINECRAFT, "black_concrete"),
+    BROWN_CONCRETE(Mods.MINECRAFT, "brown_concrete"),
+    RED_CONCRETE(Mods.MINECRAFT, "red_concrete"),
+    ORANGE_CONCRETE(Mods.MINECRAFT, "orange_concrete"),
+    YELLOW_CONCRETE(Mods.MINECRAFT, "yellow_concrete"),
+    LIME_CONCRETE(Mods.MINECRAFT, "lime_concrete"),
+    GREEN_CONCRETE(Mods.MINECRAFT, "green_concrete"),
+    CYAN_CONCRETE(Mods.MINECRAFT, "cyan_concrete"),
+    LIGHT_BLUE_CONCRETE(Mods.MINECRAFT, "light_blue_concrete"),
+    BLUE_CONCRETE(Mods.MINECRAFT, "blue_concrete"),
+    PURPLE_CONCRETE(Mods.MINECRAFT, "purple_concrete"),
+    MAGENTA_CONCRETE(Mods.MINECRAFT, "magenta_concrete"),
+    PINK_CONCRETE(Mods.MINECRAFT, "pink_concrete"),
+
     // PneumaticCraft
     COMPRESSED_IRON(Mods.PNEUMATICCRAFT, "compressed_iron_block"),
 
@@ -193,6 +212,14 @@ public enum Overlays {
 
     // productivebees
     WAX(Mods.PRODUCTIVEBEES, "wax_block"),
+
+    // XyCraft
+    KIVI(Mods.XYCRAFT_WORLD, "kivi"),
+    BLUE_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_blue"),
+    GREEN_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_green"),
+    RED_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_red"),
+    DARK_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_dark"),
+    LIGHT_XYCHORIUM(Mods.XYCRAFT_WORLD, "xychorium_storage_light"),
     ;
 
     public final Mods mod;

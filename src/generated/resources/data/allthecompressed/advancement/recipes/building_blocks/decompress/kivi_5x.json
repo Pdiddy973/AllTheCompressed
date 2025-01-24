@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xycraft_world"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kivi_5x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:kivi_5x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:decompress/kivi_5x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kivi_5x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:decompress/kivi_5x"
+    ]
+  }
+}
