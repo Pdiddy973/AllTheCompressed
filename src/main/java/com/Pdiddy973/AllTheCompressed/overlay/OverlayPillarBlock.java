@@ -17,7 +17,7 @@ public class OverlayPillarBlock extends OverlayBlock {
     }
 
     @Override
-    @SuppressWarnings({"java:S1874", "deprecation"}) // deprecated in MC code
+    @SuppressWarnings({"java:S1874"}) // deprecated in MC code
     public BlockState rotate(BlockState blockState, Rotation rotation) {
         return rotatePillar(blockState, rotation);
     }

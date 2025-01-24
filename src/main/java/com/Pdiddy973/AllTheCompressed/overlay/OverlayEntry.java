@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.fml.ModList;
@@ -16,6 +17,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Locale;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class OverlayEntry {
@@ -61,18 +63,16 @@ public class OverlayEntry {
         this.parent = parent;
         String path = registryOverride == null ? parent.getPath() : registryOverride;
         Supplier<BlockBehaviour.Properties> properties = getProperties(parent);
-        boolean pillar = parent.getPath().endsWith("_log");
 
-
-        x1 = block(path, properties, 1, pillar);
-        x2 = block(path, properties, 2, pillar);
-        x3 = block(path, properties, 3, pillar);
-        x4 = block(path, properties, 4, pillar);
-        x5 = block(path, properties, 5, pillar);
-        x6 = block(path, properties, 6, pillar);
-        x7 = block(path, properties, 7, pillar);
-        x8 = block(path, properties, 8, pillar);
-        x9 = block(path, properties, 9, pillar);
+        x1 = block(path, properties, 1);
+        x2 = block(path, properties, 2);
+        x3 = block(path, properties, 3);
+        x4 = block(path, properties, 4);
+        x5 = block(path, properties, 5);
+        x6 = block(path, properties, 6);
+        x7 = block(path, properties, 7);
+        x8 = block(path, properties, 8);
+        x9 = block(path, properties, 9);
         xall = List.of(x1, x2, x3, x4, x5, x6, x7, x8, x9);
 
         i1 = blockItem(x1);
@@ -124,17 +124,21 @@ public class OverlayEntry {
      * @param path the registry path of the block this is based on
      * @param properties the block properties for the new block
      * @param level the compression level of the block
-     * @param pillar whether the block is a pillar block
      * @return the new registry entry
      */
-    private static DeferredBlock<Block> block(String path, Supplier<BlockBehaviour.Properties> properties, int level, boolean pillar) {
-        Supplier<Block> supplier;
-        if (pillar) {
-            supplier = () -> new OverlayPillarBlock(properties.get(), level);
-        } else {
-            supplier = () -> new OverlayBlock(properties.get(), level);
-        }
+    private DeferredBlock<Block> block(String path, Supplier<BlockBehaviour.Properties> properties, int level) {
+        Supplier<Block> supplier = () -> isPillar() ? new OverlayPillarBlock(properties.get(), level) : new OverlayBlock(properties.get(), level);
         return ModRegistry.OVERLAY_BLOCKS.register(generateName(path, level), supplier);
+    }
+
+    private boolean isPillar() {
+        if (ModList.get().isLoaded(parent.getNamespace())) {
+            var block = BuiltInRegistries.BLOCK.getOptional(parent);
+            if (block.isPresent()) {
+                return block.get() instanceof RotatedPillarBlock;
+            }
+        }
+        return false;
     }
 
     private static String generateName(String path, int level) {

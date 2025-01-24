@@ -151,6 +151,7 @@ public enum Overlays {
     MANGROVE_PLANKS(Mods.MINECRAFT, "mangrove_planks"),
     MELON(Mods.MINECRAFT, "melon"),
     MOSS(Mods.MINECRAFT, "moss_block"),
+    MYCELIUM(Mods.MINECRAFT, "mycelium"),
     NETHERITE(Mods.MINECRAFT, "netherite_block"),
     NETHERRACK(Mods.MINECRAFT, "netherrack"),
     OAK_LOG(Mods.MINECRAFT, "oak_log"),

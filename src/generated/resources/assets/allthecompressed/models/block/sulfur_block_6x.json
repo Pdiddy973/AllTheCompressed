@@ -1,21 +1,87 @@
 {
-  "parent": "alltheores:block/sulfur_block",
-  "children": {
-    "solid": {
-      "parent": "alltheores:block/sulfur_block",
-      "render_type": "minecraft:solid"
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#all"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#all"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#all"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#all"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#all"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#all"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
     },
-    "translucent": {
-      "parent": "minecraft:block/cube_all",
-      "render_type": "minecraft:translucent",
-      "textures": {
-        "all": "allthecompressed:block/layer_6"
-      }
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#overlay"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#overlay"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#overlay"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#overlay"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#overlay"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#overlay"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
     }
-  },
-  "item_render_order": [
-    "solid",
-    "translucent"
   ],
-  "loader": "neoforge:composite"
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "alltheores:block/sulfur_block",
+    "overlay": "allthecompressed:block/layer_6",
+    "particle": "minecraft:block/netherite_block"
+  }
 }

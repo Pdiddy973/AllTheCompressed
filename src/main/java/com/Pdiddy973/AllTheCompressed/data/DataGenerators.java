@@ -8,19 +8,17 @@ import com.Pdiddy973.AllTheCompressed.data.server.BlockTags;
 import com.Pdiddy973.AllTheCompressed.data.server.CraftingRecipes;
 import com.Pdiddy973.AllTheCompressed.data.server.DataMaps;
 import com.Pdiddy973.AllTheCompressed.data.server.ItemTags;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
+
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, modid = AllTheCompressed.MODID)
@@ -29,6 +27,8 @@ public final class DataGenerators {
 
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
+        if (!event.getModContainer().getModId().equals(AllTheCompressed.MODID)) return;
+
         DataGenerator generator = event.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper fileHelper = event.getExistingFileHelper();
