@@ -84,6 +84,13 @@ public enum Overlays {
     // appflux
     CHARGED_REDSTONE(Mods.APPFLUX, "charged_redstone_block"),
 
+    // exdeorum
+    DUST(Mods.EXDEORUM, "dust"),
+    CRUSHED_NETHERRACK(Mods.EXDEORUM, "crushed_netherrack"),
+    CRUSHED_END_STONE(Mods.EXDEORUM, "crushed_end_stone"),
+    CRUSHED_DEEPSLATE(Mods.EXDEORUM, "crushed_deepslate"),
+    CRUSHED_BLACKSTONE(Mods.EXDEORUM, "crushed_blackstone"),
+
     // extendedae
     ENTRO(Mods.EXTENDEDAE, "entro_block"),
     SILICON(Mods.EXTENDEDAE, "silicon_block"),
@@ -107,6 +114,9 @@ public enum Overlays {
     SOULARIUM(Mods.ENDERIO, "soularium_block"),
     END_STEEL(Mods.ENDERIO, "end_steel_block"),
 
+    // forbidden_arcanus
+    DARKSTONE(Mods.FORBIDDEN_ARCANUS, "darkstone"),
+
     // minecraft
     ACACIA_LOG(Mods.MINECRAFT, "acacia_log"),
     ACACIA_PLANKS(Mods.MINECRAFT, "acacia_planks"),
@@ -119,6 +129,7 @@ public enum Overlays {
     BONE(Mods.MINECRAFT, "bone_block"),
     BRICKS(Mods.MINECRAFT, "bricks"),
     CALCITE(Mods.MINECRAFT, "calcite"),
+    CHERRY_LOG(Mods.MINECRAFT, "cherry_log"),
     CLAY(Mods.MINECRAFT, "clay"),
     COAL(Mods.MINECRAFT, "coal_block"),
     COBBLED_DEEPSLATE(Mods.MINECRAFT, "cobbled_deepslate"),
@@ -206,9 +217,6 @@ public enum Overlays {
     NITRO_CRYSTAL(Mods.POWAH, "nitro_crystal_block"),
     SPIRITED_CRYSTAL(Mods.POWAH, "spirited_crystal_block"),
     URANINITE(Mods.POWAH, "uraninite_block"),
-
-    // supplementaries
-//    FLINT(Mods.SUPPLEMENTARIES, "flint_block"),
 
     // productivebees
     WAX(Mods.PRODUCTIVEBEES, "wax_block"),

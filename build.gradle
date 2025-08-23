@@ -69,7 +69,9 @@ runs {
             '--existing-mod', 'appflux',
             '--existing-mod', 'botania',
             '--existing-mod', 'enderio_base',
+            '--existing-mod', 'exdeorum',
             '--existing-mod', 'extendedae',
+            '--existing-mod', 'forbidden_arcanus',
             '--existing-mod', 'megacells',
             '--existing-mod', 'pneumaticcraft',
             '--existing-mod', 'powah',
@@ -107,6 +109,17 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'ModKit'
+                url 'https://jitpack.io'
+            }
+        }
+        filter {
+            includeGroup 'com.github.thedarkcolour'
+        }
+    }
     maven {
         url "https://maven.permutated.net/snapshots"
     }
@@ -127,12 +140,14 @@ dependencies {
     runtimeOnly "curse.maven:ex-pattern-provider-892005:5770608"
     runtimeOnly "curse.maven:applied-flux-965012:5639620"
     runtimeOnly "curse.maven:pneumaticcraft-repressurized-281849:5721690"
-//    runtimeOnly fg.deobf("curse.maven:supplementaries-412082:4591988")
-//    runtimeOnly fg.deobf("curse.maven:selene-499980:4591863") // required by supplementaries
     implementation "curse.maven:powah-rearchitected-633483:5608949"
     runtimeOnly "curse.maven:cloth-config-348521:5424576" // required by powah
     runtimeOnly "curse.maven:architectury-api-419699:5521987" // required by powah
     runtimeOnly "curse.maven:ender-io-64578:5858187"
+    runtimeOnly "curse.maven:ex-deorum-901420:6614749"
+    runtimeOnly 'com.github.thedarkcolour:ModKit:4f83c92767'
+    runtimeOnly "curse.maven:forbidden-arcanus-309858:5966516"
+    runtimeOnly "curse.maven:valhelsia-core-416935:6296775"
 //    runtimeOnly fg.deobf("curse.maven:botania-225643:4900327")
 //    runtimeOnly fg.deobf("curse.maven:curios-309927:4913335") // required by botania
 //    runtimeOnly fg.deobf("curse.maven:patchouli-306770:4892162") // required by botania
