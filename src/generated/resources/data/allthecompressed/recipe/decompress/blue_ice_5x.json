@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "allthecompressed:blue_ice_5x"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "allthecompressed:blue_ice_4x"
+  }
+}
