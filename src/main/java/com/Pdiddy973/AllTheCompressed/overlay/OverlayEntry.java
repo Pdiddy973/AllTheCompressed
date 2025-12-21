@@ -17,7 +17,6 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Locale;
-import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class OverlayEntry {

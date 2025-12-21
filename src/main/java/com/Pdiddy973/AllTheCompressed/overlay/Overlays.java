@@ -81,6 +81,22 @@ public enum Overlays {
     SKY_STONE(Mods.AE2, "sky_stone_block"),
     CERTUS_QUARTZ(Mods.AE2, "quartz_block", "certus_quartz_block"),
 
+    // aoa3
+    LIMONITE(Mods.AOA3, "limonite_block"),
+    RAW_LIMONITE(Mods.AOA3, "raw_limonite_block"),
+    JADE(Mods.AOA3, "jade_block"),
+    EMBERSTONE(Mods.AOA3, "emberstone_block"),
+    RAW_EMBERSTONE(Mods.AOA3, "raw_emberstone_block"),
+    SKELETAL_INGOT(Mods.AOA3, "skeletal_ingot_block"),
+    ANCIENT_ROCK(Mods.AOA3, "ancient_rock"),
+    PRECASIAN_COBBLESTONE(Mods.AOA3, "precasian_cobblestone"),
+    PRECASIAN_STONE(Mods.AOA3, "precasian_stone"),
+    PRECASIAN_SOIL(Mods.AOA3, "precasian_soil"),
+    BAOBAB_LOG(Mods.AOA3, "baobab_log"),
+    STRANGLEWOOD_LOG(Mods.AOA3, "stranglewood_log"),
+    BAOBAB_PLANKS(Mods.AOA3, "baobab_planks"),
+    STRANGLEWOOD_PLANKS(Mods.AOA3, "stranglewood_planks"),
+
     // appflux
     CHARGED_REDSTONE(Mods.APPFLUX, "charged_redstone_block"),
 

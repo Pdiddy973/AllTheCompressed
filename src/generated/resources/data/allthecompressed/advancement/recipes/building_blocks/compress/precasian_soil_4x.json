@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aoa3"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_precasian_soil_3x": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthecompressed:precasian_soil_3x"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "allthecompressed:compress/precasian_soil_4x"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_precasian_soil_3x"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "allthecompressed:compress/precasian_soil_4x"
+    ]
+  }
+}

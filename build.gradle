@@ -66,6 +66,7 @@ runs {
             '--existing-mod', 'allthemodium',
             '--existing-mod', 'allthetweaks',
             '--existing-mod', 'ae2',
+            '--existing-mod', 'aoa3',
             '--existing-mod', 'appflux',
             '--existing-mod', 'botania',
             '--existing-mod', 'enderio_base',
@@ -132,7 +133,7 @@ dependencies {
     runtimeOnly "curse.maven:allthemodium-364466:6117922"
 //    implementation "curse.maven:all-the-tweaks-364120:5539047"
     runtimeOnly "com.thevortex.allthetweaks:AllTheTweaks:2.4.2"
-    runtimeOnly "curse.maven:geckolib-388172:5605715" // required by allthemodium
+    runtimeOnly "curse.maven:geckolib-388172:5874016" // required by allthemodium
     runtimeOnly "curse.maven:productivebees-377897:5633300"
     runtimeOnly "curse.maven:applied-energistics-2-223794:5729094"
     runtimeOnly "curse.maven:mega-cells-622112:5662141"
@@ -148,6 +149,7 @@ dependencies {
     runtimeOnly 'com.github.thedarkcolour:ModKit:4f83c92767'
     runtimeOnly "curse.maven:forbidden-arcanus-309858:5966516"
     runtimeOnly "curse.maven:valhelsia-core-416935:6296775"
+    runtimeOnly "curse.maven:advent-of-ascension-nevermine-311054:5962976"
 //    runtimeOnly fg.deobf("curse.maven:botania-225643:4900327")
 //    runtimeOnly fg.deobf("curse.maven:curios-309927:4913335") // required by botania
 //    runtimeOnly fg.deobf("curse.maven:patchouli-306770:4892162") // required by botania

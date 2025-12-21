@@ -8,6 +8,7 @@ public enum Mods {
     ALLTHEORES,
     ALLTHETWEAKS,
     AE2,
+    AOA3,
     APPFLUX,
     BOTANIA,
     ENDERIO,
