@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "allthecompressed",
+  "ingredients": [
+    "allthecompressed:silicon_block_1x"
+  ],
+  "result": {
+    "id": "extendedae:silicon_block"
+  }
+}

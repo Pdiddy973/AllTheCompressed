@@ -144,7 +144,7 @@ dependencies {
     runtimeOnly "curse.maven:applied-energistics-2-223794:8257570"
 //    runtimeOnly "curse.maven:mega-cells-622112:5662141"
     runtimeOnly "curse.maven:glodium-957920:8196173"
-//    runtimeOnly "curse.maven:ex-pattern-provider-892005:8698967"
+    runtimeOnly "curse.maven:ex-pattern-provider-892005:8698967"
     runtimeOnly "curse.maven:applied-flux-965012:8512902"
 //    runtimeOnly "curse.maven:pneumaticcraft-repressurized-281849:5721690"
     runtimeOnly "curse.maven:powah-rearchitected-633483:8025339"

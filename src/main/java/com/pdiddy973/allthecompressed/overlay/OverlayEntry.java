@@ -120,7 +120,7 @@ public class OverlayEntry {
      * @return the new registry object
      */
     private static DeferredItem<BlockItem> blockItem(Holder<Block> holder, int level) {
-        return ModRegistry.ITEMS.registerItem(holder.unwrapKey().map(ResourceKey::identifier).map(Identifier::getPath).orElseThrow(),
+        return ModRegistry.OVERLAY_ITEMS.registerItem(holder.unwrapKey().map(ResourceKey::identifier).map(Identifier::getPath).orElseThrow(),
             properties -> new OverlayBlockItem(holder.value(), properties.useBlockDescriptionPrefix(), level));
     }
 

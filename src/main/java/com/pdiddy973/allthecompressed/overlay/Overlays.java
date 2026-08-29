@@ -108,8 +108,8 @@ public enum Overlays {
 //    CRUSHED_BLACKSTONE(Mods.EXDEORUM, "crushed_blackstone"),
 
     // extendedae
-//    ENTRO(Mods.EXTENDEDAE, "entro_block"),
-//    SILICON(Mods.EXTENDEDAE, "silicon_block"),
+    ENTRO(Mods.EXTENDEDAE, "entro_block"),
+    SILICON(Mods.EXTENDEDAE, "silicon_block"),
 
     // megacells
 //    SKY_STEEL(Mods.MEGACELLS, "sky_steel_block"),
