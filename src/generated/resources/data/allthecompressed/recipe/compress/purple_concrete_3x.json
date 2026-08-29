@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:purple_concrete_2x"
-    }
+    "#": "allthecompressed:purple_concrete_2x"
   },
   "pattern": [
     "###",
@@ -12,7 +11,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:purple_concrete_3x"
   }
 }

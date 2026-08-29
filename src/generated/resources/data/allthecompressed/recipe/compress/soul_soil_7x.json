@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:soul_soil_6x"
-    }
+    "#": "allthecompressed:soul_soil_6x"
   },
   "pattern": [
     "###",
@@ -12,7 +11,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:soul_soil_7x"
   }
 }

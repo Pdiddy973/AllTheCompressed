@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:granite_8x"
-    }
+    "#": "allthecompressed:granite_8x"
   },
   "pattern": [
     "###",
@@ -12,7 +11,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:granite_9x"
   }
 }

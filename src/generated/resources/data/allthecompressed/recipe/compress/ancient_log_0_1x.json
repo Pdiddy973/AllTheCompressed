@@ -7,10 +7,9 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthemodium:ancient_log_0"
-    }
+    "#": "allthemodium:ancient_log_0"
   },
   "pattern": [
     "###",
@@ -18,7 +17,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:ancient_log_0_1x"
   }
 }

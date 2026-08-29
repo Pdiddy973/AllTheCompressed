@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:basalt_3x"
-    }
+    "#": "allthecompressed:basalt_3x"
   },
   "pattern": [
     "###",
@@ -12,7 +11,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:basalt_4x"
   }
 }

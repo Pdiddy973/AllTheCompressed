@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "allthecompressed",
+  "key": {
+    "#": "allthecompressed:unobtainium_allthemodium_block_4x"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "allthecompressed:unobtainium_allthemodium_block_5x"
+  }
+}

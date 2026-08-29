@@ -7,10 +7,9 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:nitro_crystal_block_4x"
-    }
+    "#": "allthecompressed:nitro_crystal_block_4x"
   },
   "pattern": [
     "###",
@@ -18,7 +17,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:nitro_crystal_block_5x"
   }
 }

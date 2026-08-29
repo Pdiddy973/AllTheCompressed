@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:diorite_2x"
-    }
+    "#": "allthecompressed:diorite_2x"
   },
   "pattern": [
     "###",
@@ -12,7 +11,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:diorite_3x"
   }
 }

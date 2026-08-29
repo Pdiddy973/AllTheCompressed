@@ -7,10 +7,9 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:salt_block_6x"
-    }
+    "#": "allthecompressed:salt_block_6x"
   },
   "pattern": [
     "###",
@@ -18,7 +17,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:salt_block_7x"
   }
 }

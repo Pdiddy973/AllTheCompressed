@@ -7,10 +7,9 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "allthecompressed:greg_star_block_8x"
-    }
+    "#": "allthecompressed:greg_star_block_8x"
   },
   "pattern": [
     "###",
@@ -18,7 +17,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:greg_star_block_9x"
   }
 }

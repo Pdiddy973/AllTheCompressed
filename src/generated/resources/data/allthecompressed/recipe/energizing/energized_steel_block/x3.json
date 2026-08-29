@@ -8,12 +8,8 @@
   "type": "powah:energizing",
   "energy": 65610000,
   "ingredients": [
-    {
-      "item": "allthecompressed:iron_block_3x"
-    },
-    {
-      "item": "allthecompressed:gold_block_3x"
-    }
+    "allthecompressed:iron_block_3x",
+    "allthecompressed:gold_block_3x"
   ],
   "result": {
     "count": 2,

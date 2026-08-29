@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:red_sand_4x"
-    }
+    "allthecompressed:red_sand_4x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:red_sand_3x"
   }
 }

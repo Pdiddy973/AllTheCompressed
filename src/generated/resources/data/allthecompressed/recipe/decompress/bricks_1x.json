@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:bricks_1x"
-    }
+    "allthecompressed:bricks_1x"
   ],
   "result": {
-    "count": 9,
     "id": "minecraft:bricks"
   }
 }

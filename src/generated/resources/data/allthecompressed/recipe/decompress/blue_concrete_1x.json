@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:blue_concrete_1x"
-    }
+    "allthecompressed:blue_concrete_1x"
   ],
   "result": {
-    "count": 9,
     "id": "minecraft:blue_concrete"
   }
 }

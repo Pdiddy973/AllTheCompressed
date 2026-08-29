@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:glowstone_8x"
-    }
+    "allthecompressed:glowstone_8x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:glowstone_7x"
   }
 }

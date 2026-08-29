@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:diamond_block_1x"
-    }
+    "allthecompressed:diamond_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "minecraft:diamond_block"
   }
 }

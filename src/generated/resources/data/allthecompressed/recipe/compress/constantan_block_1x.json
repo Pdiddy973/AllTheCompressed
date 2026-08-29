@@ -7,10 +7,9 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "allthecompressed",
   "key": {
-    "#": {
-      "item": "alltheores:constantan_block"
-    }
+    "#": "alltheores:constantan_block"
   },
   "pattern": [
     "###",
@@ -18,7 +17,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:constantan_block_1x"
   }
 }

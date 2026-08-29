@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:acacia_planks_6x"
-    }
+    "allthecompressed:acacia_planks_6x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:acacia_planks_5x"
   }
 }

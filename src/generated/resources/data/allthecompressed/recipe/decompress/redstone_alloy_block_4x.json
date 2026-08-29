@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:redstone_alloy_block_4x"
-    }
+    "allthecompressed:redstone_alloy_block_4x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:redstone_alloy_block_3x"
   }
 }

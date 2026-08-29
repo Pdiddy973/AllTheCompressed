@@ -8,12 +8,9 @@
   "type": "powah:energizing",
   "energy": 2700000,
   "ingredients": [
-    {
-      "item": "minecraft:diamond_block"
-    }
+    "minecraft:diamond_block"
   ],
   "result": {
-    "count": 1,
     "id": "powah:niotic_crystal_block"
   }
 }

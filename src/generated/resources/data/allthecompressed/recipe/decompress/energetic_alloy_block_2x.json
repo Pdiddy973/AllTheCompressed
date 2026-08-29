@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:energetic_alloy_block_2x"
-    }
+    "allthecompressed:energetic_alloy_block_2x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:energetic_alloy_block_1x"
   }
 }

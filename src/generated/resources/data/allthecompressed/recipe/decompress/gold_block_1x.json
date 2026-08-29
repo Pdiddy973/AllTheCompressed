@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:gold_block_1x"
-    }
+    "allthecompressed:gold_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "minecraft:gold_block"
   }
 }

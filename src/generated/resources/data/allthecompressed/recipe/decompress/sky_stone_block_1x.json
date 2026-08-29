@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:sky_stone_block_1x"
-    }
+    "allthecompressed:sky_stone_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "ae2:sky_stone_block"
   }
 }

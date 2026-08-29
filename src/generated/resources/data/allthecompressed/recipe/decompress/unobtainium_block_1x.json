@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:unobtainium_block_1x"
-    }
+    "allthecompressed:unobtainium_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "allthemodium:unobtainium_block"
   }
 }

@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:xychorium_storage_green_4x"
-    }
+    "allthecompressed:xychorium_storage_green_4x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:xychorium_storage_green_3x"
   }
 }

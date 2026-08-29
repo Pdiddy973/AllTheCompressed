@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:cobblestone_9x"
-    }
+    "allthecompressed:cobblestone_9x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:cobblestone_8x"
   }
 }

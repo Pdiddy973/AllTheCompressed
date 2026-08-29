@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:spruce_planks_2x"
-    }
+    "allthecompressed:spruce_planks_2x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:spruce_planks_1x"
   }
 }

@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:basalt_7x"
-    }
+    "allthecompressed:basalt_7x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:basalt_6x"
   }
 }

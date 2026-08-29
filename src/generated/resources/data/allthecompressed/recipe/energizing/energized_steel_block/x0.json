@@ -8,12 +8,8 @@
   "type": "powah:energizing",
   "energy": 90000,
   "ingredients": [
-    {
-      "item": "minecraft:iron_block"
-    },
-    {
-      "item": "minecraft:gold_block"
-    }
+    "minecraft:iron_block",
+    "minecraft:gold_block"
   ],
   "result": {
     "count": 2,

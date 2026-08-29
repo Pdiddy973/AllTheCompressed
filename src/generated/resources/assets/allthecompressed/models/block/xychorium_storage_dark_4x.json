@@ -5,62 +5,26 @@
       "faces": {
         "down": {
           "cullface": "down",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
           "texture": "#cloud"
         },
         "east": {
           "cullface": "east",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
           "texture": "#cloud"
         },
         "north": {
           "cullface": "north",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
           "texture": "#cloud"
         },
         "south": {
           "cullface": "south",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
           "texture": "#cloud"
         },
         "up": {
           "cullface": "up",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
           "texture": "#cloud"
         },
         "west": {
           "cullface": "west",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
           "texture": "#cloud"
         }
       },
@@ -69,6 +33,11 @@
         0,
         0
       ],
+      "light_emission": 15,
+      "neoforge_data": {
+        "ambient_occlusion": false,
+        "color": "ff1e1e1e"
+      },
       "shade": false,
       "to": [
         16,
@@ -80,63 +49,27 @@
       "faces": {
         "down": {
           "cullface": "down",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
-          "texture": "#tex"
+          "texture": "#texture"
         },
         "east": {
           "cullface": "east",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
-          "texture": "#tex"
+          "texture": "#texture"
         },
         "north": {
           "cullface": "north",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
-          "texture": "#tex"
+          "texture": "#texture"
         },
         "south": {
           "cullface": "south",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
-          "texture": "#tex"
+          "texture": "#texture"
         },
         "up": {
           "cullface": "up",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
-          "texture": "#tex"
+          "texture": "#texture"
         },
         "west": {
           "cullface": "west",
-          "neoforge_data": {
-            "ambient_occlusion": false,
-            "block_light": 15,
-            "color": "ff1e1e1e",
-            "sky_light": 15
-          },
-          "texture": "#tex"
+          "texture": "#texture"
         }
       },
       "from": [
@@ -144,7 +77,6 @@
         0,
         0
       ],
-      "shade": false,
       "to": [
         16,
         16,
@@ -190,11 +122,10 @@
       ]
     }
   ],
-  "render_type": "minecraft:cutout",
   "textures": {
-    "cloud": "xycraft_core:block/cloudfx",
+    "cloud": "xycraft:block/cloudfx",
     "overlay": "allthecompressed:block/layer_4",
-    "particle": "minecraft:block/netherite_block",
-    "tex": "xycraft_world:block/connected/xychorium_storage_single"
+    "particle": "xycraft_world:block/connected/xychorium_storage/xychorium_storage",
+    "texture": "xycraft_world:block/connected/xychorium_storage/xychorium_storage"
   }
 }

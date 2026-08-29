@@ -8,12 +8,9 @@
   "type": "powah:energizing",
   "energy": 87480000,
   "ingredients": [
-    {
-      "item": "allthecompressed:blaze_rod_block_2x"
-    }
+    "allthecompressed:blaze_rod_block_2x"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:blazing_crystal_block_2x"
   }
 }

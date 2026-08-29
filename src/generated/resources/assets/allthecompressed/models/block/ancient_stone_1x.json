@@ -78,7 +78,6 @@
       ]
     }
   ],
-  "render_type": "minecraft:cutout",
   "textures": {
     "all": "allthemodium:block/ancient_stone",
     "overlay": "allthecompressed:block/layer_1",

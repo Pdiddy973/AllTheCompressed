@@ -8,12 +8,9 @@
   "type": "powah:energizing",
   "energy": 218700000,
   "ingredients": [
-    {
-      "item": "allthecompressed:diamond_block_2x"
-    }
+    "allthecompressed:diamond_block_2x"
   ],
   "result": {
-    "count": 1,
     "id": "allthecompressed:niotic_crystal_block_2x"
   }
 }

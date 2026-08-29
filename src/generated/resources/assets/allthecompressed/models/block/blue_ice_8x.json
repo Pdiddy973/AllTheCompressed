@@ -78,7 +78,6 @@
       ]
     }
   ],
-  "render_type": "minecraft:cutout",
   "textures": {
     "all": "minecraft:block/blue_ice",
     "overlay": "allthecompressed:block/layer_8",

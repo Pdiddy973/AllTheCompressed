@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:electrum_block_1x"
-    }
+    "allthecompressed:electrum_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "alltheores:electrum_block"
   }
 }

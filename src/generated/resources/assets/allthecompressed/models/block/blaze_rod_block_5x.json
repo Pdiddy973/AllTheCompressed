@@ -5,27 +5,27 @@
       "faces": {
         "down": {
           "cullface": "down",
-          "texture": "#all"
+          "texture": "#end"
         },
         "east": {
           "cullface": "east",
-          "texture": "#all"
+          "texture": "#side"
         },
         "north": {
           "cullface": "north",
-          "texture": "#all"
+          "texture": "#side"
         },
         "south": {
           "cullface": "south",
-          "texture": "#all"
+          "texture": "#side"
         },
         "up": {
           "cullface": "up",
-          "texture": "#all"
+          "texture": "#end"
         },
         "west": {
           "cullface": "west",
-          "texture": "#all"
+          "texture": "#side"
         }
       },
       "from": [
@@ -78,10 +78,10 @@
       ]
     }
   ],
-  "render_type": "minecraft:cutout",
   "textures": {
-    "all": "allthecompressed:block/blaze_rod_block",
+    "end": "allthecompressed:block/blaze_rod_block_top",
     "overlay": "allthecompressed:block/layer_5",
-    "particle": "minecraft:block/netherite_block"
+    "particle": "minecraft:block/netherite_block",
+    "side": "allthecompressed:block/blaze_rod_block_side"
   }
 }

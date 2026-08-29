@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:salt_block_1x"
-    }
+    "allthecompressed:salt_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "alltheores:salt_block"
   }
 }

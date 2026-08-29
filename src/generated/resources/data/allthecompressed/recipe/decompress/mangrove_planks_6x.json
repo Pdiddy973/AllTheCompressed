@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:mangrove_planks_6x"
-    }
+    "allthecompressed:mangrove_planks_6x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:mangrove_planks_5x"
   }
 }

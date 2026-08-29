@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:greg_star_block_1x"
-    }
+    "allthecompressed:greg_star_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "allthetweaks:greg_star_block"
   }
 }

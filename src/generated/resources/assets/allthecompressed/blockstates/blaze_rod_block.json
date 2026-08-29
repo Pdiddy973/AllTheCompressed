@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "allthecompressed:block/blaze_rod_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "allthecompressed:block/blaze_rod_block"
+    },
+    "axis=z": {
+      "model": "allthecompressed:block/blaze_rod_block",
+      "x": 90
     }
   }
 }

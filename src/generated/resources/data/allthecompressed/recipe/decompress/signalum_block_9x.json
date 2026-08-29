@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:signalum_block_9x"
-    }
+    "allthecompressed:signalum_block_9x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:signalum_block_8x"
   }
 }

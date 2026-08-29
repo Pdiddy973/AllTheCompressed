@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:netherrack_9x"
-    }
+    "allthecompressed:netherrack_9x"
   ],
   "result": {
-    "count": 9,
     "id": "allthecompressed:netherrack_8x"
   }
 }

@@ -7,13 +7,11 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "allthecompressed",
   "ingredients": [
-    {
-      "item": "allthecompressed:brass_block_1x"
-    }
+    "allthecompressed:brass_block_1x"
   ],
   "result": {
-    "count": 9,
     "id": "alltheores:brass_block"
   }
 }
