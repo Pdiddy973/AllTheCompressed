@@ -5,7 +5,7 @@ import com.pdiddy973.allthecompressed.overlay.Overlays;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.TagLoader;
@@ -34,8 +34,8 @@ import static net.minecraft.tags.BlockTags.SWORD_EFFICIENT;
 public class BlockTags extends BlockTagsProvider {
     private final ResourceManager serverResources;
 
-    public BlockTags(DataGenerator generator, CompletableFuture<HolderLookup.Provider> lookupProvider, ResourceManager serverResources) {
-        super(generator.getPackOutput(), lookupProvider, AllTheCompressed.MODID);
+    public BlockTags(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, ResourceManager serverResources) {
+        super(output, lookupProvider, AllTheCompressed.MODID);
         this.serverResources = serverResources;
     }
 

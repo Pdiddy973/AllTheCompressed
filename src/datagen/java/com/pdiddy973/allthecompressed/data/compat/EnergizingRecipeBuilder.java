@@ -6,7 +6,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
@@ -49,7 +48,7 @@ public class EnergizingRecipeBuilder {
 
     public void save(RecipeOutput powah) {
         for (int i = 0; i < 10; i++) {
-            ItemStack output;
+            ItemStackTemplate output;
             List<Ingredient> inputs = new ArrayList<>();
 
             long totalEnergy = energy * (long) Math.pow(9, i);
@@ -67,20 +66,20 @@ public class EnergizingRecipeBuilder {
                     continue;
                 }
 
-                output = new ItemStack(block.get(), count);
+                output = new ItemStackTemplate(block.get().asItem(), count);
                 for (Overlays ingredient : ingredients) {
                     var iblock = BuiltInRegistries.BLOCK.getOrThrow(ResourceKey.create(Registries.BLOCK, ingredient.overlay.parent));
                     inputs.add(Ingredient.of(iblock.value()));
                 }
             } else {
-                output = overlay.overlay.iall.get(i - 1).toStack().copyWithCount(count);
+                output = new ItemStackTemplate(overlay.overlay.iall.get(i - 1).asItem(), count);
                 for (Overlays ingredient : ingredients) {
                     inputs.add(Ingredient.of(ingredient.overlay.iall.get(i - 1)));
                 }
             }
 
             String path = String.format("energizing/%s/x%d", overlay.overlay.parent.getPath(), i);
-            powah.accept(ResourceKey.create(Registries.RECIPE, prefix(path)), new EnergizingRecipe(ItemStackTemplate.fromNonEmptyStack(output), totalEnergy, inputs), null);
+            powah.accept(ResourceKey.create(Registries.RECIPE, prefix(path)), new EnergizingRecipe(output, totalEnergy, inputs), null);
         }
     }
 }

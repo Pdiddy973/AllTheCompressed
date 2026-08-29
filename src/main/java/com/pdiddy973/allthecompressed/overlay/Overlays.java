@@ -23,9 +23,9 @@ public enum Overlays {
     RAW_ALLTHEMODIUM(Mods.ALLTHEMODIUM, "raw_allthemodium_block"),
     RAW_VIBRANIUM(Mods.ALLTHEMODIUM, "raw_vibranium_block"),
     RAW_UNOBTAINIUM(Mods.ALLTHEMODIUM, "raw_unobtainium_block"),
-//    UA_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_allthemodium_alloy_block"),
-//    UV_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_vibranium_alloy_block"),
-//    VA_ALLOY(Mods.ALLTHEMODIUM, "vibranium_allthemodium_alloy_block"),
+    UA_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_allthemodium_block"),
+    UV_ALLOY(Mods.ALLTHEMODIUM, "unobtainium_vibranium_block"),
+    VA_ALLOY(Mods.ALLTHEMODIUM, "vibranium_allthemodium_block"),
     ANCIENT_STONE(Mods.ALLTHEMODIUM, "ancient_stone"),
     ANCIENT_LOG(Mods.ALLTHEMODIUM, "ancient_log_0"),
     PIGLICH_HEART_BLOCK(Mods.ALLTHEMODIUM, "piglich_heart_block"),
@@ -77,9 +77,9 @@ public enum Overlays {
     NETHER_STAR(Mods.ALLTHETWEAKS, "nether_star_block"),
 
     // ae2
-//    FLUIX(Mods.AE2, "fluix_block"),
-//    SKY_STONE(Mods.AE2, "sky_stone_block"),
-//    CERTUS_QUARTZ(Mods.AE2, "quartz_block", "certus_quartz_block"),
+    FLUIX(Mods.AE2, "fluix_block"),
+    SKY_STONE(Mods.AE2, "sky_stone_block"),
+    CERTUS_QUARTZ(Mods.AE2, "quartz_block", "certus_quartz_block"),
 
     // aoa3
 //    LIMONITE(Mods.AOA3, "limonite_block"),
@@ -98,14 +98,14 @@ public enum Overlays {
 //    STRANGLEWOOD_PLANKS(Mods.AOA3, "stranglewood_planks"),
 
     // appflux
-//    CHARGED_REDSTONE(Mods.APPFLUX, "charged_redstone_block"),
+    CHARGED_REDSTONE(Mods.APPFLUX, "charged_redstone_block"),
 
     // exdeorum
-    DUST(Mods.EXDEORUM, "dust"),
-    CRUSHED_NETHERRACK(Mods.EXDEORUM, "crushed_netherrack"),
-    CRUSHED_END_STONE(Mods.EXDEORUM, "crushed_end_stone"),
-    CRUSHED_DEEPSLATE(Mods.EXDEORUM, "crushed_deepslate"),
-    CRUSHED_BLACKSTONE(Mods.EXDEORUM, "crushed_blackstone"),
+//    DUST(Mods.EXDEORUM, "dust"),
+//    CRUSHED_NETHERRACK(Mods.EXDEORUM, "crushed_netherrack"),
+//    CRUSHED_END_STONE(Mods.EXDEORUM, "crushed_end_stone"),
+//    CRUSHED_DEEPSLATE(Mods.EXDEORUM, "crushed_deepslate"),
+//    CRUSHED_BLACKSTONE(Mods.EXDEORUM, "crushed_blackstone"),
 
     // extendedae
 //    ENTRO(Mods.EXTENDEDAE, "entro_block"),
@@ -120,15 +120,14 @@ public enum Overlays {
 //    BLAZE(Mods.BOTANIA, "blaze_block"),
 
     // enderio
-//    COPPER_ALLOY(Mods.ENDERIO, "copper_alloy_block"),
-//    ENERGETIC_ALLOY(Mods.ENDERIO, "energetic_alloy_block"),
-//    VIBRANT_ALLOY(Mods.ENDERIO, "vibrant_alloy_block"),
-//    REDSTONE_ALLOY(Mods.ENDERIO, "redstone_alloy_block"),
-//    CONDUCTIVE_ALLOY(Mods.ENDERIO, "conductive_alloy_block"),
-//    PULSATING_ALLOY(Mods.ENDERIO, "pulsating_alloy_block"),
-//    DARK_STEEL(Mods.ENDERIO, "dark_steel_block"),
-//    SOULARIUM(Mods.ENDERIO, "soularium_block"),
-//    END_STEEL(Mods.ENDERIO, "end_steel_block"),
+    ENERGETIC_ALLOY(Mods.ENDERIO, "energetic_alloy_block"),
+    VIBRANT_ALLOY(Mods.ENDERIO, "vibrant_alloy_block"),
+    REDSTONE_ALLOY(Mods.ENDERIO, "redstone_alloy_block"),
+    CONDUCTIVE_ALLOY(Mods.ENDERIO, "conductive_alloy_block"),
+    PULSATING_ALLOY(Mods.ENDERIO, "pulsating_alloy_block"),
+    DARK_STEEL(Mods.ENDERIO, "dark_steel_block"),
+    SOULARIUM(Mods.ENDERIO, "soularium_block"),
+    END_STEEL(Mods.ENDERIO, "end_steel_block"),
 
     // forbidden_arcanus
     DARKSTONE(Mods.FORBIDDEN_ARCANUS, "darkstone"),

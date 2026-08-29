@@ -23,6 +23,7 @@ import tv.soaryn.xycraft.api.utils.XyCraftColors;
 import tv.soaryn.xycraft.core.content.BlockContent;
 import tv.soaryn.xycraft.core.datagen.CoreBaseModelProvider;
 import tv.soaryn.xycraft.core.datagen.CoreMaterials;
+import tv.soaryn.xycraft.core.datagen.providers.BaseModelProvider;
 import tv.soaryn.xycraft.world.content.registries.WorldContent;
 
 import java.util.EnumMap;
@@ -199,8 +200,8 @@ public class BlockModels extends ModelProvider {
         mapping.put(TextureSlot.PARTICLE, particleTexture);
         mapping.put(TextureSlot.TEXTURE, texture);
         mapping.put(OVERLAY, overlayTexture);
-        mapping.put(CoreBaseModelProvider.CloudTextureSlot, CoreMaterials.CloudFX);
-        ExtendedModelTemplateBuilder modelBuilder = CoreBaseModelProvider.CloudTemplate.extend()
+        mapping.put(BaseModelProvider.CloudTextureSlot, CoreMaterials.CloudFX);
+        ExtendedModelTemplateBuilder modelBuilder = BaseModelProvider.CloudTemplate.extend()
             .element(0, (elementBuilder) -> elementBuilder.color(content.getColor()))
             .element(element -> element.cube(OVERLAY)).requiredTextureSlot(OVERLAY);
 

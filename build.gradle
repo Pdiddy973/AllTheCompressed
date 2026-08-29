@@ -143,17 +143,16 @@ dependencies {
     runtimeOnly "curse.maven:productivebees-377897:8756739"
     runtimeOnly "curse.maven:applied-energistics-2-223794:8257570"
 //    runtimeOnly "curse.maven:mega-cells-622112:5662141"
-//    runtimeOnly "curse.maven:glodium-957920:8196173"
+    runtimeOnly "curse.maven:glodium-957920:8196173"
 //    runtimeOnly "curse.maven:ex-pattern-provider-892005:8698967"
-//    runtimeOnly "curse.maven:applied-flux-965012:8512902"
+    runtimeOnly "curse.maven:applied-flux-965012:8512902"
 //    runtimeOnly "curse.maven:pneumaticcraft-repressurized-281849:5721690"
     runtimeOnly "curse.maven:powah-rearchitected-633483:8025339"
     runtimeOnly "curse.maven:cloth-config-348521:7817583" // required by powah
     runtimeOnly "curse.maven:guideme-1173950:8204880" // required by powah
-//    runtimeOnly "curse.maven:architectury-api-419699:5521987" // required by powah
-//    runtimeOnly "curse.maven:ender-io-64578:8192909"
-    runtimeOnly "curse.maven:ex-deorum-901420:8096345"
-    runtimeOnly 'com.github.thedarkcolour:ModKit:944589c2a7'
+    runtimeOnly "curse.maven:ender-io-64578:8192909"
+//    runtimeOnly "curse.maven:ex-deorum-901420:8096345"
+//    runtimeOnly 'com.github.thedarkcolour:ModKit:944589c2a7'
     runtimeOnly "curse.maven:forbidden-arcanus-309858:8333815"
     runtimeOnly "curse.maven:valhelsia-core-416935:7916512"
 //    runtimeOnly "curse.maven:advent-of-ascension-nevermine-311054:5962976"

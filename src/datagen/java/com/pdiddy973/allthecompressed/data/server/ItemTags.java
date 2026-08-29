@@ -6,14 +6,15 @@ import com.pdiddy973.allthecompressed.overlay.Overlays;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.data.ItemTagsProvider;
 
 import java.util.concurrent.CompletableFuture;
 
 public class ItemTags extends ItemTagsProvider {
-    public ItemTags(DataGenerator generator, CompletableFuture<HolderLookup.Provider> lookupProvider) {
-        super(generator.getPackOutput(), lookupProvider, AllTheCompressed.MODID);
+    public ItemTags(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
+        super(output, lookupProvider, AllTheCompressed.MODID);
     }
 
     @Override

@@ -27,14 +27,14 @@ public final class DataGenerators {
     private DataGenerators() {}
 
     @SubscribeEvent
-    public static void gatherServer(GatherDataEvent.Server event) {
+    public static void gatherClient(GatherDataEvent.Client event) {
         DataGenerator generator = event.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
 
         ResourceManager server = event.getResourceManager(PackType.SERVER_DATA);
 
-        generator.addProvider(true, new BlockTags(generator, event.getLookupProvider(), server));
-        generator.addProvider(true, new ItemTags(generator, event.getLookupProvider()));
+        generator.addProvider(true, new BlockTags(packOutput, event.getLookupProvider(), server));
+        generator.addProvider(true, new ItemTags(packOutput, event.getLookupProvider()));
         generator.addProvider(true, new CraftingRecipes.Runner(packOutput, event.getLookupProvider()));
         generator.addProvider(true, new DataMaps(packOutput, event.getLookupProvider()));
         generator.addProvider(true, new LootTableProvider(
@@ -43,12 +43,6 @@ public final class DataGenerators {
             List.of(new LootTableProvider.SubProviderEntry(BlockLoot::new, LootContextParamSets.BLOCK)),
             event.getLookupProvider()
         ));
-    }
-
-    @SubscribeEvent
-    public static void gatherClient(GatherDataEvent.Client event) {
-        DataGenerator generator = event.getGenerator();
-        PackOutput packOutput = generator.getPackOutput();
 
         ResourceManager client = event.getResourceManager(PackType.CLIENT_RESOURCES);
 
