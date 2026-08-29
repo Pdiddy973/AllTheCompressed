@@ -1,16 +1,16 @@
-package com.Pdiddy973.AllTheCompressed.data;
+package com.pdiddy973.allthecompressed.data;
 
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.locale.Language;
 import net.minecraft.network.chat.FormattedText;
 import net.minecraft.network.chat.Style;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.PackType;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.util.FormattedCharSequence;
 import net.minecraft.util.StringDecomposer;
 import net.neoforged.fml.ModList;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -20,10 +20,10 @@ import java.util.Optional;
 public class LanguageUtil {
     private final Map<String, Language> languageMap = new HashMap<>();
     private final Map<String, String> translations = new HashMap<>();
-    private final ExistingFileHelper fileHelper;
+    private final ResourceManager clientResources;
 
-    public LanguageUtil(ExistingFileHelper fileHelper) {
-        this.fileHelper = fileHelper;
+    public LanguageUtil(ResourceManager clientResources) {
+        this.clientResources = clientResources;
         languageMap.put("minecraft", Language.getInstance());
         languageMap.put("allthecompressed", loadLanguage(translations));
     }
@@ -32,7 +32,7 @@ public class LanguageUtil {
         translations.put(key, value);
     }
 
-    public String getParentName(ResourceLocation parent) {
+    public String getParentName(Identifier parent) {
         String translationKey = String.format("block.%s.%s", parent.getNamespace(), parent.getPath());
         return getLanguage(parent.getNamespace()).getOrDefault(translationKey);
     }
@@ -57,7 +57,7 @@ public class LanguageUtil {
         String langFile = String.format("/assets/%s/lang/en_us.json", mod);
 
         try {
-            Resource resource = fileHelper.getResource(ResourceLocation.fromNamespaceAndPath(mod, "lang/en_us.json"), PackType.CLIENT_RESOURCES);
+            Resource resource = clientResources.getResourceOrThrow(Identifier.fromNamespaceAndPath(mod, "lang/en_us.json"));
             InputStream is = resource.open();
             Language.loadFromJson(is, builder::put);
         } catch (IOException e) {

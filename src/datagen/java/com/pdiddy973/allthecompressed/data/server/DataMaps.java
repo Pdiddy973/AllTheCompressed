@@ -1,6 +1,6 @@
-package com.Pdiddy973.AllTheCompressed.data.server;
+package com.pdiddy973.allthecompressed.data.server;
 
-import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
+import com.pdiddy973.allthecompressed.overlay.Overlays;
 import com.google.common.math.IntMath;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -22,7 +22,7 @@ public class DataMaps extends DataMapProvider {
     }
 
     @Override
-    protected void gather() {
+    protected void gather(HolderLookup.Provider provider) {
         final var fuels = builder(NeoForgeDataMaps.FURNACE_FUELS);
 
         fuels.add(Overlays.BLAZE.overlay.parent, new FurnaceFuel(24000), false);

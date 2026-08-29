@@ -1,34 +1,22 @@
-package com.Pdiddy973.AllTheCompressed.data.server;
+package com.pdiddy973.allthecompressed.data.server;
 
-import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
-import com.Pdiddy973.AllTheCompressed.ModRegistry;
-import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
-import com.Pdiddy973.AllTheCompressed.util.ResourceUtil;
+import com.pdiddy973.allthecompressed.AllTheCompressed;
+import com.pdiddy973.allthecompressed.overlay.Overlays;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.TagLoader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
-import javax.annotation.Nullable;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;
-import java.util.stream.Collectors;
 
 import static net.minecraft.tags.BlockTags.BEACON_BASE_BLOCKS;
 import static net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE;
@@ -44,37 +32,23 @@ import static net.minecraft.tags.BlockTags.SWORD_EFFICIENT;
 
 
 public class BlockTags extends BlockTagsProvider {
-    public BlockTags(DataGenerator generator, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(generator.getPackOutput(), lookupProvider, AllTheCompressed.MODID, existingFileHelper);
-    }
+    private final ResourceManager serverResources;
 
-    @SuppressWarnings({"java:S3011", "java:S112"}) // need reflection for this hack, avoiding mixins since this is only used for datagen
-    protected ResourceManager getManagerViaReflection() {
-        try {
-            Method method = Objects.requireNonNull(existingFileHelper).getClass().getDeclaredMethod("getManager", PackType.class);
-            method.setAccessible(true);
-            return (ResourceManager) method.invoke(existingFileHelper, PackType.SERVER_DATA);
-        } catch (NullPointerException | IllegalAccessException | NoSuchMethodException | InvocationTargetException e) {
-            throw new RuntimeException("Failed to reflect into ExistingFileHelper", e);
-        }
+    public BlockTags(DataGenerator generator, CompletableFuture<HolderLookup.Provider> lookupProvider, ResourceManager serverResources) {
+        super(generator.getPackOutput(), lookupProvider, AllTheCompressed.MODID);
+        this.serverResources = serverResources;
     }
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        TagLoader<Holder<Block>> tagLoader = new TagLoader<>(BuiltInRegistries.BLOCK::getHolder, Registries.tagsDirPath(Registries.BLOCK));
+        TagLoader.ElementLookup<Holder<Block>> elementLookup = (TagLoader.ElementLookup<Holder<Block>>) TagLoader.ElementLookup.fromFrozenRegistry(BuiltInRegistries.BLOCK);
 
-        Map<ResourceLocation, Collection<Holder<Block>>> resourceMap = tagLoader.loadAndBuild(getManagerViaReflection());
-
-        Map<TagKey<Block>, List<Holder<Block>>> tagMap = resourceMap.entrySet().stream()
-            .collect(Collectors.toUnmodifiableMap(
-                entry -> TagKey.create(Registries.BLOCK, entry.getKey()),
-                entry -> List.copyOf(entry.getValue()))
-            );
+        Map<TagKey<Block>, List<Holder<Block>>> tagMap = TagLoader.loadTagsForRegistry(serverResources, BuiltInRegistries.BLOCK.key(), elementLookup);
 
         for (Overlays value : Overlays.values()) {
             var parent = value.overlay.parent;
             var block = BuiltInRegistries.BLOCK.getOptional(parent);
-            Holder<Block> parentHolder = BuiltInRegistries.BLOCK.getHolder(parent).orElse(null);
+            Holder<Block> parentHolder = BuiltInRegistries.BLOCK.get(parent).orElse(null);
 
             if (block.isEmpty() || block.get() == Blocks.AIR) {
                 AllTheCompressed.LOGGER.error("missing block during datagen: {}", parent);

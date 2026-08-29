@@ -1,6 +1,6 @@
-package com.Pdiddy973.AllTheCompressed.data.server;
+package com.pdiddy973.allthecompressed.data.server;
 
-import com.Pdiddy973.AllTheCompressed.ModRegistry;
+import com.pdiddy973.allthecompressed.ModRegistry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.packs.VanillaBlockLoot;
 import net.minecraft.world.level.block.Block;

@@ -1,17 +1,17 @@
-package com.Pdiddy973.AllTheCompressed.data.client;
+package com.pdiddy973.allthecompressed.data.client;
 
-import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
-import com.Pdiddy973.AllTheCompressed.ModRegistry;
-import com.Pdiddy973.AllTheCompressed.data.LanguageUtil;
-import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
+import com.pdiddy973.allthecompressed.AllTheCompressed;
+import com.pdiddy973.allthecompressed.ModRegistry;
+import com.pdiddy973.allthecompressed.data.LanguageUtil;
+import com.pdiddy973.allthecompressed.overlay.Overlays;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
-import static com.Pdiddy973.AllTheCompressed.util.TranslationKey.tab;
-import static com.Pdiddy973.AllTheCompressed.util.TranslationKey.tooltip;
+import static com.pdiddy973.allthecompressed.util.TranslationKey.tab;
+import static com.pdiddy973.allthecompressed.util.TranslationKey.tooltip;
 
 
 public class Languages {
@@ -23,9 +23,9 @@ public class Languages {
 
         private final LanguageUtil languageUtil;
 
-        public English(PackOutput packOutput, ExistingFileHelper fileHelper) {
+        public English(PackOutput packOutput, ResourceManager clientResources) {
             super(packOutput, AllTheCompressed.MODID, "en_us");
-            languageUtil = new LanguageUtil(fileHelper);
+            languageUtil = new LanguageUtil(clientResources);
         }
 
         @Override

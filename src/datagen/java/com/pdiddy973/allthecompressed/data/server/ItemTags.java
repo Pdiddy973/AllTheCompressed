@@ -1,22 +1,19 @@
-package com.Pdiddy973.AllTheCompressed.data.server;
+package com.pdiddy973.allthecompressed.data.server;
 
-import com.Pdiddy973.AllTheCompressed.AllTheCompressed;
-import com.Pdiddy973.AllTheCompressed.ModRegistry;
-import com.Pdiddy973.AllTheCompressed.overlay.Overlays;
+import com.pdiddy973.allthecompressed.AllTheCompressed;
+import com.pdiddy973.allthecompressed.ModRegistry;
+import com.pdiddy973.allthecompressed.overlay.Overlays;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import org.jetbrains.annotations.Nullable;
+import net.neoforged.neoforge.common.data.ItemTagsProvider;
 
 import java.util.concurrent.CompletableFuture;
 
 public class ItemTags extends ItemTagsProvider {
-    public ItemTags(DataGenerator generator, CompletableFuture<HolderLookup.Provider> lookupProvider, CompletableFuture<TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
-        super(generator.getPackOutput(), lookupProvider, blockTags, AllTheCompressed.MODID, existingFileHelper);
+    public ItemTags(DataGenerator generator, CompletableFuture<HolderLookup.Provider> lookupProvider) {
+        super(generator.getPackOutput(), lookupProvider, AllTheCompressed.MODID);
     }
 
     @Override
