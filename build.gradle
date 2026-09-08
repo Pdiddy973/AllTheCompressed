@@ -102,12 +102,11 @@ configurations {
 }
 
 repositories {
-    mavenLocal()
     exclusiveContent {
         forRepository {
             maven {
-                name "CurseMaven"
-                url "https://www.cursemaven.com"
+                name = "CurseMaven"
+                url = "https://www.cursemaven.com"
             }
         }
         filter {
@@ -118,15 +117,12 @@ repositories {
         forRepository {
             maven {
                 name = 'ModKit'
-                url 'https://jitpack.io'
+                url = 'https://jitpack.io'
             }
         }
         filter {
             includeGroup 'com.github.thedarkcolour'
         }
-    }
-    maven {
-        url "https://maven.permutated.net/snapshots"
     }
 }
 
@@ -199,20 +195,6 @@ jar {
     // More information at https://docs.gradle.org/current/userguide/working_with_files.html#sec:reproducible_archives
     preserveFileTimestamps = false
     reproducibleFileOrder = true
-}
-
-// Example configuration to allow publishing using the maven-publish plugin
-publishing {
-    publications {
-        register('mavenJava', MavenPublication) {
-            from components.java
-        }
-    }
-    repositories {
-        maven {
-            url "file://${project.projectDir}/repo"
-        }
-    }
 }
 
 tasks.withType(JavaCompile).configureEach {
