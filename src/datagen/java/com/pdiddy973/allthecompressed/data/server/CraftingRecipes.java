@@ -56,7 +56,7 @@ public class CraftingRecipes extends RecipeProvider {
     }
 
     private void blockRecipes(DeferredItem<BlockItem> item, Item ingredient, RecipeOutput consumer) {
-        shapeless(RecipeCategory.BUILDING_BLOCKS, ingredient)
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ingredient, 9)
             .group(AllTheCompressed.MODID)
             .requires(item.get())
             .unlockedBy(getHasName(item.get()), has(item.get()))
